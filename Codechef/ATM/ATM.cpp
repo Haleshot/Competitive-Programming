@@ -10,7 +10,11 @@ int main()
     {
         cin >> N >> K;
         int L[MAX];
-        
+
+        for(int i = 0; i <= N; i++)
+        {
+            
+        }
 
 
     }
