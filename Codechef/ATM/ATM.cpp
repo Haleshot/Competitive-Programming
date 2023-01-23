@@ -32,9 +32,5 @@ int main()
 
 
     }
-    for(int i = 0; i < N; i++)
-    {
-        cout << L_2[i];
-    }
     return 0;
 }
