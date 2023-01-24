@@ -18,24 +18,19 @@ int main()
         l2[0] = A2;
         l2[1] = B2;
 
-        for (int i = 0; i < 2; i++)
+        if((A == l1[0] && B == l1[1]) || (A == l1[1] && B == l1[0]))
         {
-            if(A == l1[i] && B == l1[i])
-            {
-                cout << 1 << endl;
-            }
-            else if (A == l2[i] && B == l2[i])
-            {
-                cout << 2 << endl;
-            }
-
-            else
-            {
-                cout << 0 << endl;
-            }
+            cout << 1 << endl;
+        }
+        else if ((A == l2[0] && B == l2[1]) || (A == l2[1] && B == l2[0]))
+        {
+            cout << 2 << endl;
         }
 
-
+        else
+        {
+            cout << 0 << endl;
+        }
 
 
     }
