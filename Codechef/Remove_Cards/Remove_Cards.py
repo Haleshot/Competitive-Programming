@@ -12,5 +12,5 @@ while T:
             freq_dict[i] = 1
 
     highest_mode = max(freq_dict, key = lambda x : freq_dict[x])
-    
+print(highest_mode)
 
