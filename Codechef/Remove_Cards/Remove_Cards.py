@@ -11,6 +11,11 @@ while T:
         else:
             freq_dict[l[i]] = 1
 
-    highest_mode = max(freq_dict, key = lambda x : freq_dict[x])
-    
+    highest_mode_number = max(freq_dict, key = lambda x : freq_dict[x])
+    c = 0
+    for i in l:
+        if i != highest_mode_number:
+            c += 1
+        
+    print(c)
 
