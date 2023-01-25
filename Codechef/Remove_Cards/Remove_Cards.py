@@ -5,7 +5,7 @@ while T:
     l = list(map(int, input().split()))
 
     freq_dict = {}
-    for i in range(l):
+    for i in range(len(l)):
         if l[i] in freq_dict.keys():
             freq_dict[i] += 1
         else:
