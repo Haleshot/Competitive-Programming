@@ -7,10 +7,10 @@ while T:
     freq_dict = {}
     for i in range(len(l)):
         if l[i] in freq_dict.keys():
-            freq_dict[i] += 1
+            freq_dict[l[i]] += 1
         else:
-            freq_dict[i] = 1
+            freq_dict[l[i]] = 1
 
     highest_mode = max(freq_dict, key = lambda x : freq_dict[x])
-print(highest_mode)
+    
 
