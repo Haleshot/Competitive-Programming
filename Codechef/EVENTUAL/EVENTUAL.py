@@ -10,12 +10,13 @@ while T:
 
         for i in S:
             if i in d.keys():
-                count += 1
+                d[i] += 1
             
             else:
-                count = 1
+                d[i] = 1
 
         for i in d.values():
             if i % 2 == 0:
                 print("YES")
-            print("NO")
+            break
+        print("NO")
