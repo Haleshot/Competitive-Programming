@@ -21,21 +21,22 @@ int Count_Freq(string word, int limit)
         }
 
         int j = cf.size();
-        int l[j];     
+        int l[j - 1];     
         for (auto i : cf) // Traversing the Unordered map
         {
-            for (int k = 0; k < j; k++)
+        
+            if(j >= 0)
             {
-                l[k] = i.second;
-
+                l[j] = i.second;
+                j -= 1;
             }
             
         }
         
-        for (int i = 0; i < j; i ++)
-        {
-            cout << l[i] << endl << endl;
-        }
+        // for (int i = 0; i < j; i ++)
+        // {
+        //     cout << l[i] << endl;
+        // }
 
 
         int count = 0;
