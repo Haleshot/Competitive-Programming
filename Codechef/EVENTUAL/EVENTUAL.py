@@ -18,8 +18,5 @@ while T:
         for i in d.values():
             if i % 2 == 0:
                 print("YES")
-                count += 1
-
-            count = 0
-        if count == 0:
-            print("NO")
+            break
+        print("NO")
