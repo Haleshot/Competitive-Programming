@@ -17,6 +17,12 @@ while T:
 
         for i in d.values():
             if i % 2 == 0:
-                print("YES")
-            break
-        print("NO")
+                count += 1
+            else:
+                count = 0
+                break
+
+        if count > 0:
+            print("YES")
+        else:
+            print("NO")
