@@ -37,6 +37,7 @@ int main()
                     count += 1;
                 }
             }
+            cout << l[i] << count << endl;
         }
 
 
