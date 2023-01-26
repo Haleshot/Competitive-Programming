@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 #include <bits/stdc++.h>
 #include <string>
 using namespace std;
@@ -6,11 +7,14 @@ using namespace std;
 int Count_Freq(string word, int limit)
 {
     unordered_map<int, int> cf;
-    list<int> l[limit];
+    int l[limit];
+    char* char_array = new char[limit + 1];
+    strcpy(char_array, word.c_str());
+
 
     for (int i = 0; i < limit; i ++)
         {
-            cf[word[i]]++;
+            cf[char_array[i]]++;
         }
 
         int j = 0;
@@ -19,11 +23,12 @@ int Count_Freq(string word, int limit)
             l[j] = i.second;
             j += 1;
         }
-        l.sort();
+        
         for (int i = 0; i < limit; i ++) // Traversing the Unordered map
         {
-            cout << l[i] << endl;
+            cout << l[i] << endl << endl;
         }
+        
 
 
         int count = 0;
