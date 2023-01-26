@@ -33,7 +33,7 @@ int main()
         if(S.length() == N)
         {
 
-
+            
         }
 
 
