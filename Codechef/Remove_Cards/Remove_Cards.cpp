@@ -7,9 +7,8 @@ int main()
 {
     int T;
     cin >> T;
-    while(T)
+    while(T--)
     {
-        T -= 1;
         int N, *l;
         vector<bool> visited(N, false);
         cin >> N;
