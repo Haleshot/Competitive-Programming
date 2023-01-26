@@ -34,7 +34,16 @@ int Count_Freq(string word, int limit)
                 break;
             }
         }
-        
+
+        if (count > 0)
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
 
 }
 
