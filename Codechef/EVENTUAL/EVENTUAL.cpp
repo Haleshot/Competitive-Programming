@@ -3,21 +3,17 @@
 #include <string>
 using namespace std;
 
-int Count_Freq(int l[], int limit)
+int Count_Freq(string word, int limit)
 {
     unordered_map<int, int> cf;
+    int l[limit];
 
-    for(int i = 0; i < limit; i ++)
+    for (int i = 0; i < limit; i ++)
         {
-            cf[l[i]]++;
+            cf[word[i]]++;
         }
 
-        auto pr = max_element(cf.begin(), cf.end(), [](const auto &x, const auto &y) {
-                    return x.second < y.second;
-                });
- 
-    return pr->first;
-
+        
 
 }
 

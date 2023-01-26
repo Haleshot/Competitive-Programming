@@ -6,7 +6,7 @@ int Count_Freq(int l[], int limit)
 {
     unordered_map<int, int> cf;
 
-    for(int i = 0; i < limit; i ++)
+    for (int i = 0; i < limit; i ++)
         {
             cf[l[i]]++;
         }
@@ -31,7 +31,7 @@ int main()
         cin >> N;
         l = new int [N];
 
-        for(int i = 0;i < N; i ++)
+        for (int i = 0;i < N; i ++)
         {
             int a;
             cin >> a;
@@ -40,7 +40,7 @@ int main()
         
         max_freq = Count_Freq(l, N);
         int c = 0;
-        for(int i = 0; i < N; i++)
+        for (int i = 0; i < N; i++)
         {
             if(l[i] != max_freq)
             {
