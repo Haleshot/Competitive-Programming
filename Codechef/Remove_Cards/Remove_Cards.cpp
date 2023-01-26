@@ -23,7 +23,7 @@ int main()
         }
         for(int i = 0; i < N; i ++)
         {
-            if(visited[i] = true)
+            if(visited[i] == true)
             {
                 continue;
             }
@@ -34,7 +34,7 @@ int main()
                 if(l[i] == l[j])
                 {
                     visited[j] = true;
-                    count += 1;
+                    count++;
                 }
             }
             cout << l[i] << count << endl;
