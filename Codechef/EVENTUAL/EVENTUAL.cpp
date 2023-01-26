@@ -6,7 +6,7 @@ using namespace std;
 int Count_Freq(string word, int limit)
 {
     unordered_map<int, int> cf;
-    int l[limit];
+    list<int> l[limit];
 
     for (int i = 0; i < limit; i ++)
         {
@@ -19,7 +19,13 @@ int Count_Freq(string word, int limit)
             l[j] = i.second;
             j += 1;
         }
-        
+        l.sort();
+        for (int i = 0; i < limit; i ++) // Traversing the Unordered map
+        {
+            cout << l[i] << endl;
+        }
+
+
         int count = 0;
         for (int i = 0; i < limit; i++)
         {
