@@ -8,6 +8,8 @@ int main()
     while(T)
     {
         T -= 1;
+        int N;
+        cin >> N;
         
     }
 
