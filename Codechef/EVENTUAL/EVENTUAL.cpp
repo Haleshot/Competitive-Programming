@@ -30,10 +30,10 @@ int Count_Freq(string word, int limit)
             
         }
         
-        for (int i = 0; i < j; i ++)
-        {
-            cout << l[i] << endl;
-        }
+        // for (int i = 0; i < j; i ++)
+        // {
+        //     cout << l[i] << endl;
+        // }
 
 
         int count = 0;
