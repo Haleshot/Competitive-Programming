@@ -17,6 +17,22 @@ int Count_Freq(string word, int limit)
         for (auto i : cf) // Traversing the Unordered map
         {
             l[j] = i.second;
+            j += 1;
+        }
+        
+        int count = 0;
+        for (int i = 0; i < limit; i++)
+        {
+            if(l[i] % 2 == 0)
+            {
+                count++;
+            }
+
+            else
+            {
+                count = 0;
+                break;
+            }
         }
 
 }
