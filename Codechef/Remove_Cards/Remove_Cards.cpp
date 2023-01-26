@@ -33,7 +33,7 @@ int main()
             {
                 if(l[i] == l[j])
                 {
-                    visited[i] = true;
+                    visited[j] = true;
                     count += 1;
                 }
             }
