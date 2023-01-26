@@ -20,6 +20,7 @@ int main()
             cin >> a;
             l[i] = a;
         }
+        
         for(int i = 0; i < N; i ++)
         {
             if(visited[i] == true)
