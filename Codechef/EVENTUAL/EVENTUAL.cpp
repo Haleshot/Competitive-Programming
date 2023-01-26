@@ -66,7 +66,6 @@ int main()
             if (result)
             {
                 cout << "YES";
-
             }
             else
             {
