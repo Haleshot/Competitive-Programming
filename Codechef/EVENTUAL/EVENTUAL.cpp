@@ -13,7 +13,11 @@ int Count_Freq(string word, int limit)
             cf[word[i]]++;
         }
 
-        
+        int j = 0;
+        for (auto i : cf) // Traversing the Unordered map
+        {
+            l[j] = i.second;
+        }
 
 }
 
@@ -33,7 +37,7 @@ int main()
         if(S.length() == N)
         {
 
-            
+
         }
 
 
