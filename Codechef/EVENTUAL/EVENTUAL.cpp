@@ -24,19 +24,16 @@ int Count_Freq(string word, int limit)
         int l[j - 1];     
         for (auto i : cf) // Traversing the Unordered map
         {
-        
-            if(j >= 0)
-            {
+            for (int k = 0; k < j; k++);
                 l[j] = i.second;
-                j -= 1;
-            }
+            j -= 1;
             
         }
         
-        // for (int i = 0; i < j; i ++)
-        // {
-        //     cout << l[i] << endl;
-        // }
+        for (int i = 0; i < j; i ++)
+        {
+            cout << l[i] << endl;
+        }
 
 
         int count = 0;
