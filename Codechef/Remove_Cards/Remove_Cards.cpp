@@ -3,6 +3,8 @@
 #define MAX 100
 using namespace std;
 
+
+
 int main()
 {
     int T;
@@ -21,24 +23,7 @@ int main()
             l[i] = a;
         }
         
-        for(int i = 0; i < N; i ++)
-        {
-            if(visited[i] == true)
-            {
-                continue;
-            }
-
-            int count = 1;
-            for (int j = i + 1; j < N; j++)
-            {
-                if(l[i] == l[j])
-                {
-                    visited[j] = true;
-                    count++;
-                }
-            }
-            cout << l[i] << count << endl;
-        }
+        
 
 
     }
