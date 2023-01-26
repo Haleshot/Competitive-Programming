@@ -65,11 +65,11 @@ int main()
             int result = Count_Freq(S, N);
             if (result)
             {
-                cout << "YES";
+                cout << "YES" << endl;
             }
             else
             {
-                cout << "NO";
+                cout << "NO" << endl;
             }
 
         }
