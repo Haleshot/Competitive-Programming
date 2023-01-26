@@ -62,7 +62,16 @@ int main()
 
         if(S.length() == N)
         {
+            int result = Count_Freq(S, N);
+            if (result)
+            {
+                cout << "YES"
 
+            }
+            else
+            {
+                cout << "NO";
+            }
 
         }
 
