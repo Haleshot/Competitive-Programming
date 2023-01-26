@@ -6,7 +6,6 @@ using namespace std;
 int Count_Freq(string word, int limit)
 {
     map<int, int> cf;
-    int l[limit];
     char* char_array = new char[limit + 1];
     strcpy(char_array, word.c_str());
 
@@ -22,18 +21,21 @@ int Count_Freq(string word, int limit)
         }
 
         int j = cf.size();
-        cout << j << endl;
-
+        int l[j];     
         for (auto i : cf) // Traversing the Unordered map
         {
-            l[j - 1] = i.second;
+            for (int k = 0; k < j; k++)
+            {
+                l[k] = i.second;
+
+            }
             
         }
         
-        // for (int i = 0; i < limit; i ++)
-        // {
-        //     cout << l[i] << endl << endl;
-        // }
+        for (int i = 0; i < j; i ++)
+        {
+            cout << l[i] << endl << endl;
+        }
 
 
         int count = 0;
