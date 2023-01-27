@@ -27,8 +27,8 @@ int Count_Freq(string word, int limit)
         {
            if(k < j)
            {
-            l[k] = i.second;
-            k += 1;
+                l[k] = i.second;
+                k += 1;
            }
            
         }
