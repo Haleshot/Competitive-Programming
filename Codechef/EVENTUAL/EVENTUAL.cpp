@@ -49,18 +49,15 @@ int Count_Freq(string word, int limit)
 
         if (count > 0)
         {
-            cout << "YES" << endl;
             return true;
         }
 
         else
         {
-            cout << "NO" << endl;
             return false;
         }
 
 }
-
 
 int main()
 {
@@ -77,14 +74,14 @@ int main()
         if(S.length() == N)
         {
             int result = Count_Freq(S, S.length());
-            // if (result)
-            // {
-            //     cout << "YES" << endl;
-            // }
-            // else
-            // {
-            //     cout << "NO" << endl;
-            // }
+            if (result)
+            {
+                cout << "YES" << endl;
+            }
+            else
+            {
+                cout << "NO" << endl;
+            }
 
         }
 
