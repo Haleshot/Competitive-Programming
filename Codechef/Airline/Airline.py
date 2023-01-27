@@ -4,9 +4,9 @@ while T:
     l = []
     A, B, C, D, E = map(int, input().split())
     l = [A, B, C]
-    sorted = l.sort()
-    if sorted[0] <= E:
-        sum = sorted[1] + sorted[2]
+    l.sort()
+    if l[0] <= E:
+        sum = l[1] + l[2]
         if sum <= D:
             print("YES")
         else:
