@@ -3,13 +3,14 @@ while T:
     T -= 1
     l = []
     A, B, C, D, E = map(int, input().split())
-    l = [A, B, C]
-    l.sort()
-    if l[0] <= E:
-        sum = l[1] + l[2]
-        if sum <= D:
-            print("YES")
-        else:
-            print("NO")
+    if (A + B) <= D and C <= E:
+        print("YES")
+
+    elif (A + C) <= D and B <= E:
+        print("YES")
+
+    elif (B + C) <= D and A <= E:
+        print("YES")
+    
     else:
         print("NO")
