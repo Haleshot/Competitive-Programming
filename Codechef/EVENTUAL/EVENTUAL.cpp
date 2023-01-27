@@ -21,7 +21,7 @@ int Count_Freq(string word, int limit)
         }
 
         int j = cf.size();
-        int l[j - 1];     
+        int l[j];     
         for (auto i : cf) // Traversing the Unordered map
         {
             for (int k = 0; k < j; k++);
