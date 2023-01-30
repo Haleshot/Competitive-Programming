@@ -4,4 +4,4 @@ while T:
     X = int(input())
     if X > 100:
         X -= 10
-        print(X)
+    print(X)
