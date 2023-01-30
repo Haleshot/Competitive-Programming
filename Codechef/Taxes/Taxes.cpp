@@ -6,7 +6,7 @@ int main()
 {  
     int T;
     cin >> T;
-    
+
     while(T--)
     {
         int X;
@@ -14,8 +14,8 @@ int main()
         if( X > 100)
         {
             X -= 10;
-            cout << X << endl;
         }
+        cout << X << endl;
     }
 
 
