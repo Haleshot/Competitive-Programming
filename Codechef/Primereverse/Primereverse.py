@@ -23,7 +23,3 @@ while T:
     else:
         print("NO")
     
-    
-
-
-
