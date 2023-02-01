@@ -47,13 +47,13 @@ int Count_Freq(string X, string Y, int limit)
         
     }
 
-    int k = 0;    
+    int k1 = 0;    
     for (auto i : cf_2) // Traversing the Unordered map
     {
-        if(k < j_2)
+        if(k1 < j_2)
         {
-            l_2[k] = i.second;
-            k += 1;
+            l_2[k1] = i.second;
+            k1 += 1;
         }
         
     }
@@ -96,6 +96,16 @@ int main()
         int N;
         string A, B;
         cin >> N >> A >> B;
+
+        int result = Count_Freq(A, B, A.length());
+        if (result)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
 
     }
 
