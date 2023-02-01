@@ -31,57 +31,66 @@ int Count_Freq(string X, string Y, int limit)
     {
         cf_2[char_array_2[i]]++;
     }
-    int j_1 = cf_1.size();
-    int j_2 = cf_2.size();
-    int l_1[j_1];
-    int l_2[j_2];
 
-    int k = 0;    
-    for (auto i : cf_1) // Traversing the Unordered map
-    {
-        if(k < j_1)
-        {
-            l_1[k] = i.second;
-            k += 1;
-        }
-        
-    }
-
-    int k1 = 0;    
-    for (auto i : cf_2) // Traversing the Unordered map
-    {
-        if(k1 < j_2)
-        {
-            l_2[k1] = i.second;
-            k1 += 1;
-        }
-        
-    }
-
-    int count = 0;
-    for (int i = 0; i < j_1; i++)
-    {
-        if(l_1[i] == l_2[i])
-        {
-            count++;
-        }
-
-        else
-        {
-            count = 0;
-            break;
-        }
-    }
-
-    if (count > 0)
+    if (cf_1 == cf_2)
     {
         return true;
     }
-
     else
     {
         return false;
     }
+    // int j_1 = cf_1.size();
+    // int j_2 = cf_2.size();
+    // int l_1[j_1];
+    // int l_2[j_2];
+
+    // int k = 0;    
+    // for (auto i : cf_1) // Traversing the Unordered map
+    // {
+    //     if(k < j_1)
+    //     {
+    //         l_1[k] = i.second;
+    //         k += 1;
+    //     }
+        
+    // }
+
+    // int k1 = 0;    
+    // for (auto i : cf_2) // Traversing the Unordered map
+    // {
+    //     if(k1 < j_2)
+    //     {
+    //         l_2[k1] = i.second;
+    //         k1 += 1;
+    //     }
+        
+    // }
+
+    // int count = 0;
+    // for (int i = 0; i < j_1; i++)
+    // {
+    //     if(l_1[i] == l_2[i])
+    //     {
+    //         count++;
+    //     }
+
+    //     else
+    //     {
+    //         count = 0;
+    //         break;
+    //     }
+    // }
+
+    // if (count > 0)
+    // {
+    //     return true;
+    // }
+
+    // else
+    // {
+    //     return false;
+    // }
 
 
 }
