@@ -4,7 +4,8 @@ using namespace std;
 
 int Count_Freq(string X, string Y, int limit)
 {
-    map<int, int> cf;
+    map<int, int> cf_1;
+    map<int, int> cf_2;
     char* char_array_1 = new char[limit + 1];
     char* char_array_2 = new char[limit + 1];
 
@@ -21,6 +22,15 @@ int Count_Freq(string X, string Y, int limit)
         char_array_2[i] = Y[i];
     }
 
+    for (int i = 0; i < limit; i ++)
+    {
+        cf_1[char_array_1[i]]++;
+    }
+
+    for (int i = 0; i < limit; i ++)
+    {
+        cf_2[char_array_2[i]]++;
+    }
     
 }
 
