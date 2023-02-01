@@ -15,47 +15,49 @@ int Count_Freq(string word, int limit)
         char_array[i] = word[i];
     }
 
+
     for (int i = 0; i < limit; i ++)
-        {
-            cf[char_array[i]]++;
-        }
+    {
+        cf[char_array[i]]++;
+    }
+    
 
-        int j = cf.size();
-        int l[j];
-        int k = 0;    
-        for (auto i : cf) // Traversing the Unordered map
+    int j = cf.size();
+    int l[j];
+    int k = 0;    
+    for (auto i : cf) // Traversing the Unordered map
+    {
+        if(k < j)
         {
-           if(k < j)
-           {
-                l[k] = i.second;
-                k += 1;
-           }
-           
+            l[k] = i.second;
+            k += 1;
         }
-        int count = 0;
-        for (int i = 0; i < j; i++)
+        
+    }
+    int count = 0;
+    for (int i = 0; i < j; i++)
+    {
+        if(l[i] % 2 == 0)
         {
-            if(l[i] % 2 == 0)
-            {
-                count++;
-            }
-
-            else
-            {
-                count = 0;
-                break;
-            }
-        }
-
-        if (count > 0)
-        {
-            return true;
+            count++;
         }
 
         else
         {
-            return false;
+            count = 0;
+            break;
         }
+    }
+
+    if (count > 0)
+    {
+        return true;
+    }
+
+    else
+    {
+        return false;
+    }
 
 }
 
