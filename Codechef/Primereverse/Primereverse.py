@@ -4,4 +4,22 @@ while T:
     N = int(input())
     A = int(input())
     B = int(input())
+    mp1 = {"1" : 0, "0" : 0}
+    mp2 = {"1" : 0, "0" : 0}
+
+    for i in A:
+        if i in mp1.keys():
+            mp1[i] += 1
+        else:
+            mp1[i] = 1
     
+    for i in B:
+        if i in mp2.keys():
+            mp2[i] += 1
+        else:
+            mp2[i] = 1
+    
+    
+
+
+
