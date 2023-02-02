@@ -11,12 +11,13 @@ int main()
         int N;
         cin >> N;
         int A[2 * N];
-        for (int i = 0; i < N; i ++)
+        for (int i = 0; i < 2 * N; i ++)
         {
             cin >> A[i];
         }
         
-        
+
+
 
     }
 
