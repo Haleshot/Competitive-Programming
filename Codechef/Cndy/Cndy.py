@@ -11,7 +11,6 @@ while T:
             d[A[i]] += 1
         else:
             d[A[i]] = 1
-
     c = 0
     l = list(d.values())
     for i in l:
