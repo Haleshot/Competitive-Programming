@@ -24,11 +24,6 @@ int Count_Freq(int X[], int limit)
         }
         
     }
-    for (int i = 0; i < limit; i ++)
-    {
-        cout << l[i] << endl;
-    }
-
 
     int c = 0;
     for (int i = 0; i < limit; i ++)
@@ -49,8 +44,6 @@ int Count_Freq(int X[], int limit)
         return true;
     }
 
-
-
 }
 
 int main()
@@ -69,13 +62,13 @@ int main()
 
         int result = Count_Freq(A, 2 * N);
 
-        if (result > 0)
+        if (result)
         {
-            cout << "NO" << endl;
+            cout << "YES" << endl;
         }
         else
         {
-            cout << "YES" << endl;
+            cout << "NO" << endl;
         }
 
     }
