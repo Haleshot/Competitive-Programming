@@ -2,6 +2,11 @@
 using namespace std;
 
 
+int Count_Freq(int X[])
+{
+    
+}
+
 int main()
 {
     int T;
@@ -15,7 +20,7 @@ int main()
         {
             cin >> A[i];
         }
-        
+
 
 
 
