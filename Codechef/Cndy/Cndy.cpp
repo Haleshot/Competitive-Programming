@@ -12,27 +12,38 @@ int Count_Freq(int X[], int limit)
         cf[X[i]]++;
     }
 
-    int j = cf.size();
-    int l[j];
-    int k = 0;    
-    for (auto i : cf) // Traversing the Unordered map
-    {
-        if(k < j)
-        {
-            l[k] = i.second;
-            k += 1;
-        }
+    // int j = cf.size();
+    // int l[j];
+    // int k = 0;    
+    // for (auto i : cf) // Traversing the Unordered map
+    // {
+    //     if(k < j)
+    //     {
+    //         l[k] = i.second;
+    //         k += 1;
+    //     }
         
-    }
+    // }
+
+    // int c = 0;
+    // for (int i = 0; i < limit; i ++)
+    // {
+    //     if (l[i] > 2)
+    //     {
+    //         c += 1;
+    //         break;
+    //     }
+    // }
 
     int c = 0;
-    for (int i = 0; i < limit; i ++)
+    for (auto i : cf) // Traversing the Unordered map
     {
-        if (l[i] > 2)
+        if (i.second > 2)
         {
             c += 1;
             break;
         }
+        
     }
 
     if (c > 0)
