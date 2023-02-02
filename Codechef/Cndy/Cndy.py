@@ -12,4 +12,14 @@ while T:
         else:
             d[A[i]] = 1
 
-    print(d.values())
+    c = 0
+    l = list(d.values())
+    for i in l:
+        if i > 2:
+            c += 1
+            break
+    if c > 0:
+        print("NO")
+    
+    else:
+        print("YES")
