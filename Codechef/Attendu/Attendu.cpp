@@ -14,7 +14,7 @@ int main()
         cin >> B;
         remain = 120 - N;
         atten_perc = (remain/120) * 100;
-        if (atten_perc >= 75)
+        if (atten_perc >= 75.0)
         {
             cout << "YES" << endl;
         }
