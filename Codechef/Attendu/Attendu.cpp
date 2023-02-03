@@ -19,9 +19,8 @@ int main()
                 c += 1;
             }
         }
-        remain = 120 - N + c;
-        atten_perc = (remain/120) * 100;
-        cout << atten_perc << endl;
+        remain = float(120 - N + c);
+        atten_perc = (remain/120.0) * 100;
         if (atten_perc >= 75.0)
         {
             cout << "YES" << endl;
@@ -32,7 +31,6 @@ int main()
         }
 
     }
-
 
 
     return 0;
