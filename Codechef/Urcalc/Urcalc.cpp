@@ -1,13 +1,16 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
+
 
 
 int main()
 {
 
-    int A, B;
+    double A, B;
     char C;
-    cin >> A >> B >> C;
+    cin >> A >> B;
+    cin >> C;
     
     if (C == '+')
     {
@@ -19,11 +22,11 @@ int main()
     }
     else if (C == '*')
     {
-        cout << A * B << endl;
+        cout << fixed << setprecision(1) <<  A * B << endl;
     }
     else if (C == '/')
     {
-        cout << A / B << endl;
+        cout << fixed << setprecision(8) << A / B << endl;
     }
 
 
