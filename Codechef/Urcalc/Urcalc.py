@@ -2,4 +2,14 @@ A = int(input())
 B = int(input())
 C = input()
 
-print()
+if C == "+":
+    print(A + B)
+
+elif C == "-":
+    print(A - B)
+
+elif C == "*":
+    print(A * B)
+
+elif C == "/":
+    print(A / B)
