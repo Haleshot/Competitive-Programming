@@ -1,12 +1,8 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
-
-
 int main()
 {
-
     double A, B;
     char C;
     cin >> A >> B;
@@ -28,7 +24,5 @@ int main()
     {
         cout << fixed << setprecision(8) << A / B << endl;
     }
-
-
     return 0;
 }
