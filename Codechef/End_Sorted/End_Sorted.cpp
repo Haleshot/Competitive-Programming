@@ -25,5 +25,6 @@ int main()
             cout << index_1 + N - 2 - index_N << endl;
         }
     }
+    
     return 0; 
 }
