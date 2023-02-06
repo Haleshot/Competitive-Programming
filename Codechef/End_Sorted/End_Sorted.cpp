@@ -1,8 +1,6 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
-
 int main()
 {
     int T;
@@ -28,7 +26,7 @@ int main()
             cout << index_1 + N - 2 - index_N << endl;
         }
 
-        
+
     }
 
     return 0; 
