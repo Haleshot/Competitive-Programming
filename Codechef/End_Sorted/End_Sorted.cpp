@@ -16,7 +16,6 @@ int main()
         }
         index_1 = find(P, P + N, 1) - P;
         index_N = find(P, P + N, N) - P;
-        
         if (index_1 < index_N)
         {
             cout << index_1 + N - 1 - index_N << endl;
@@ -25,9 +24,6 @@ int main()
         {
             cout << index_1 + N - 2 - index_N << endl;
         }
-
-
     }
-
     return 0; 
 }
