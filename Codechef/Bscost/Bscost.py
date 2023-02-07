@@ -16,4 +16,3 @@ while T:
         elif l[i] == "1" and l[i + 1] == "0":
             c2 += 1
     print((X * c1) + (Y * c2))
-    
