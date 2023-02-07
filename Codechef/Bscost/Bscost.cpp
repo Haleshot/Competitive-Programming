@@ -31,6 +31,11 @@ int main()
         }
         
         
+        for (int i = 0; i < N; i++)
+        {
+            cout << L[i] << endl;
+        }
+
 
         for (int i = 0; i < N; i++)
         {
@@ -42,6 +47,7 @@ int main()
             {
                 c2 += 1;
             }
+            
 
         }
         cout << (X * c1) + (Y * c2) << endl;
