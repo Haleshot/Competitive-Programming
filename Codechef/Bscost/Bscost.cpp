@@ -28,13 +28,18 @@ int main()
         }
         for (int i = 0; i < N; i++)
         {
+            cout << L[i];
+        }
+
+        for (int i = 0; i < N; i++)
+        {
             a = S[i];
             b = S[i + 1];
             if (a == "0" && b == "1")
             {
                 c1 += 1;
             }
-            else
+            else if (a == "1" && b == "0")
             {
                 c2 += 1;
             }
