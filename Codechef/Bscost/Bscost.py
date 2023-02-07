@@ -12,10 +12,10 @@ while T:
     print(l)
     c1 = 0
     c2 = 0
-    for i in range(len(l)):
-        if l[i] == 0 and l[i + 1] == 1:
+    for i in range(len(l) - 1):
+        if l[i] == "0" and l[i + 1] == "1":
             c1 += 1
-        elif l[i] == 1 and l[i + 1] == 0:
+        elif l[i] == "1" and l[i + 1] == "0":
             c2 += 1
     print(c1, ", " , c2)
     print((X * c1) + (Y * c2))
