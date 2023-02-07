@@ -16,7 +16,7 @@ int main()
         int L[N], c1 = 0, c2 = 0;
         for (int i = 0; i < N; i++)
         {
-            L[i] = S[i];
+            L[i] =  int(S[i]);
         }
         if (X < Y)
         {
@@ -26,10 +26,7 @@ int main()
         {
             sort(L, L + N, greater<int>());
         }
-        for (int i = 0; i < N; i++)
-        {
-            cout << S[i] << endl;
-        }
+        
 
         for (int i = 0; i < N; i++)
         {
