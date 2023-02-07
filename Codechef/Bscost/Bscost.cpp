@@ -11,13 +11,20 @@ int main()
     {
         int N, X, Y;
         cin >> N >> X >> Y;
-        string S, a, b;
+        string S;
         cin >> S;
         int L[N], c1 = 0, c2 = 0;
         for (int i = 0; i < N; i++)
         {
-            L[i] =  int(S[i]);
+            L[i] =  S[i] - '0';
         }
+
+
+        for (int i = 0; i < N; i++)
+        {
+            cout << L[i] << endl;
+        }
+
         if (X < Y)
         {
             sort(L, L + N);
@@ -28,15 +35,14 @@ int main()
         }
         
 
+
         for (int i = 0; i < N; i++)
         {
-            a = S[i];
-            b = S[i + 1];
-            if (a == "0" && b == "1")
+            if (L[i] == 0 && L[i + 1] == 1)
             {
                 c1 += 1;
             }
-            else if (a == "1" && b == "0")
+            else if (L[i] == 1 && L[i + 1] == 0)
             {
                 c2 += 1;
             }
