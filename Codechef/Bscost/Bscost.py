@@ -4,12 +4,10 @@ while T:
     N, X, Y = map(int, input().split())
     S = input()
     l = [i for i in S]
-    if X > Y:
+    if X < Y:
         l.sort()
     else:
         l.sort(reverse=True) # Sorting by 1
-
-    print(l)
     c1 = 0
     c2 = 0
     for i in range(len(l) - 1):
@@ -17,5 +15,5 @@ while T:
             c1 += 1
         elif l[i] == "1" and l[i + 1] == "0":
             c2 += 1
-    print(c1, ", " , c2)
     print((X * c1) + (Y * c2))
+    
