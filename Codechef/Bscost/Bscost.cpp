@@ -10,9 +10,23 @@ int main()
     {
         int N, X, Y;
         cin >> N >> X >> Y;
-        char S;
+        string S, a, b;
         cin >> S;
-        
+        int L[N];
+        if (X > Y)
+        {
+
+        }
+        for (int i = 0; i < N; i ++)
+        {
+            a = S[i];
+            b = S[i + 1];
+            if (a == "0")
+            {
+
+            }
+
+        }
     }
 
     return 0;
