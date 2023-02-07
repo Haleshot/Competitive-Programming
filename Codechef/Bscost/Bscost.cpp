@@ -16,7 +16,7 @@ int main()
         int L[N], c1 = 0, c2 = 0;
         for (int i = 0; i < N; i++)
         {
-            cout << S[i] << endl;
+            L[i] = S[i];
         }
         if (X < Y)
         {
@@ -28,7 +28,7 @@ int main()
         }
         for (int i = 0; i < N; i++)
         {
-            cout << L[i] << endl;
+            cout << S[i] << endl;
         }
 
         for (int i = 0; i < N; i++)
