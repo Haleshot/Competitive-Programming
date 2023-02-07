@@ -15,4 +15,5 @@ while T:
             c1 += 1
         elif l[i] == "1" and l[i + 1] == "0":
             c2 += 1
+    print(c1, ",", c2)
     print((X * c1) + (Y * c2))

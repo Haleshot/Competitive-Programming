@@ -14,7 +14,7 @@ int main()
         cin >> N >> X >> Y;
         string S;
         cin >> S;
-        int L[N], c1 = 0, c2 = 0;
+        int L[N];
         for (int i = 0; i < N; i++)
         {
             L[i] =  S[i] - '0';
@@ -36,7 +36,7 @@ int main()
             cout << L[i] << endl;
         }
 
-
+        int c1 = 0, c2 = 0;
         for (int i = 0; i < N; i++)
         {
             if (L[i] == 0 && L[i + 1] == 1)
@@ -47,9 +47,9 @@ int main()
             {
                 c2 += 1;
             }
-            
 
         }
+        cout << c1 << ", " << c2 << endl;
         cout << (X * c1) + (Y * c2) << endl;
     }
 
