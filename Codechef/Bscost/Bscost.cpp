@@ -1,5 +1,6 @@
 #include <iostream>
 #include <bits/stdc++.h>
+#include <algorithm>
 using namespace std;
 
 
@@ -20,11 +21,6 @@ int main()
         }
 
 
-        for (int i = 0; i < N; i++)
-        {
-            cout << L[i] << endl;
-        }
-
         if (X < Y)
         {
             sort(L, L + N);
@@ -34,7 +30,7 @@ int main()
             sort(L, L + N, greater<int>());
         }
         
-
+        
 
         for (int i = 0; i < N; i++)
         {
@@ -46,7 +42,6 @@ int main()
             {
                 c2 += 1;
             }
-            
 
         }
         cout << (X * c1) + (Y * c2) << endl;
