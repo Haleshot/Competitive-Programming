@@ -10,6 +10,14 @@ int main()
     {
         int X, H;
         cin >> X >> H;
+        if (X >= H)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
     }
     
     
