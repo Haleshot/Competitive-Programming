@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main()
 {
     int T;
@@ -12,7 +11,5 @@ int main()
         N *= 60;
         cout << N/20 << endl;
     }
-
     return 0;
-
 }
