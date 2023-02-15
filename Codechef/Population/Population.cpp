@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int T;
@@ -10,5 +11,6 @@ int main()
         cin >> X >> Y >> Z;
         cout << X - Y + Z << endl;
     }
+    
     return 0;
 }
