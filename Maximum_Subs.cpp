@@ -9,6 +9,7 @@ int main()
     {
         int N;
         cin >> N;
+        cout << (N * 60)/30 << endl;
     }
     return 0;
 }
