@@ -18,6 +18,5 @@ int main()
             cout << Y * Z << endl;
         }
     }
-    
     return 0;
 }
