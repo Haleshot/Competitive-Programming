@@ -9,7 +9,15 @@ int main()
     {
         int X, Y, Z, limit;
         cin >> X >> Y >> Z;
-    
+        limit = 10 * X;
+        if (limit < Y)
+        {
+            cout << limit * Z << endl;
+        }
+        else
+        {
+            cout << Y * Z << endl;
+        }
     }
     return 0;
 
