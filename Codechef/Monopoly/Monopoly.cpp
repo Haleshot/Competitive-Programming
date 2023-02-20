@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main()
 {
     int T;
@@ -26,5 +25,6 @@ int main()
             cout << "NO" << endl;
         }
     }
+    
     return 0;
 }
