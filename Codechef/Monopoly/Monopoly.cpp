@@ -12,11 +12,11 @@ int main()
         {
             cout << "YES" << endl;
         }
-        if (R2 > (R1 + R3))
+        else if (R2 > (R1 + R3))
         {
             cout << "YES" << endl;
         }
-        if (R3 > (R1 + R2))
+        else if (R3 > (R1 + R2))
         {
             cout << "YES" << endl;
         }
@@ -25,6 +25,6 @@ int main()
             cout << "NO" << endl;
         }
     }
-    
+
     return 0;
 }
