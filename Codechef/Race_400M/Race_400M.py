@@ -7,9 +7,7 @@ while T:
     Z = 400/Z
     if X > Y and X > Z:
         print("ALICE")
-
     elif Y > X and Y > Z:
         print("BOB")
-
     elif Z > X and Z > Y:
         print("CHARLIE")
