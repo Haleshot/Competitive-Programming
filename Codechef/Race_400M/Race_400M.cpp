@@ -7,7 +7,7 @@ int main()
     while (T--)
     {
         int X, Y, Z;
-        cin  >> X >> Y >> Z;
+        cin >> X >> Y >> Z;
         X = 400/X;
         Y = 400/Y;
         Z = 400/Z;
