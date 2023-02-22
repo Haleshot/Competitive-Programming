@@ -8,10 +8,11 @@ int main()
     cin >> T;
     while (T--)
     {
-        int N, X, slices;
+        int N, X;
+        float slices;
         cin >> N >> X;
         slices = N * X;
-        cout << round(slices/4) << endl;
+        cout << ceil(slices/4) << endl;
     }
     return 0;
 }
