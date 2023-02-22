@@ -11,7 +11,7 @@ int main()
         int N, X, slices;
         cin >> N >> X;
         slices = N * X;
-        cout << ceil(slices/4) << endl;
+        cout << round(slices/4) << endl;
     }
     return 0;
 }
