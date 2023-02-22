@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -9,7 +10,8 @@ int main()
     {
         int N, X, slices;
         cin >> N >> X;
-
+        slices = N * X;
+        cout << ceil(slices/4) << endl;
     }
     return 0;
 }
