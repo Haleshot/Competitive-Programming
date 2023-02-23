@@ -13,5 +13,6 @@ int main()
         slices = N * X;
         cout << ceil(slices/4) << endl;
     }
+    
     return 0;
 }
