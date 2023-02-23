@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int T;
@@ -18,6 +19,6 @@ int main()
             cout << Y * Z << endl;
         }
     }
-    
+
     return 0;
 }
