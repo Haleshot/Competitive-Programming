@@ -6,6 +6,8 @@ int main()
     cin >> T;
     while (T--)
     {
+        int X;
+        cin >> X;
         cout << 100 - X << endl;
     }
 
