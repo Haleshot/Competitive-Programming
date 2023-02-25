@@ -7,7 +7,7 @@ int main()
     cin >> T;
     while (T--)
     {
-        int X;
+        float X;
         cin >> X;
         cout << ceil(X/4) << endl;
     }
