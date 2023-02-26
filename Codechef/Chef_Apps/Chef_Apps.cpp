@@ -11,7 +11,7 @@ int main()
     {
         int S, X, Y, Z, remain;
         cin >> S >> X >> Y >> Z;
-        remain = Z - (X + Y);
+        remain = S - (X + Y);
         if (Z <= remain)
         {
             cout << "0" << endl;
