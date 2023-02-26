@@ -1,12 +1,9 @@
 #include <iostream>
 using namespace std;
-
-
 int main()
 {
     int T;
     cin >> T;
-
     while (T--)
     {
         int S, X, Y, Z, remain;
@@ -24,7 +21,7 @@ int main()
         {
             cout << "2" << endl;
         }
-
     }
+
     return 0;
 }
