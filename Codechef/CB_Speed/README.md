@@ -6,3 +6,6 @@ Link to the problem - https://www.codechef.com/problems/CBSPEED
 
 
 ![image](https://user-images.githubusercontent.com/57552973/221640183-80120f41-792f-4868-a283-f2352bdfa605.png)
+
+
+![image](https://user-images.githubusercontent.com/57552973/221640228-b0ba2d44-ddd9-48ee-8141-6358efe58677.png)
