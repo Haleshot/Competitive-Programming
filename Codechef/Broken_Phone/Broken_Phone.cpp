@@ -13,7 +13,7 @@ int main()
         {
             cout << "REPAIR" << endl;
         }
-        if (X > Y)
+        else if (X > Y)
         {
             cout << "NEW PHONE" << endl;
         }
