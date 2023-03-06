@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int T;
     cin >> T;
-    
     while (T--)
     {
         int X, Y, expense;
@@ -12,12 +12,13 @@ int main()
         expense = 30 * Y;
         if (expense <= X)
         {
-            cout << "YES" << endl;
+            cout << "YES" << endl;  
         }
         else
         {
             cout << "NO" << endl;
         }
     }
+
     return 0;
 }
