@@ -8,6 +8,8 @@ int main()
     while (T--)
     {
         int A, B, C;
+        cin>> A >> B >> C;
+        
         if ((A + B)/2 > C)
         {
             cout << "YES" << endl;
