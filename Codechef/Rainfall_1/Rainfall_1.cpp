@@ -13,7 +13,7 @@ int main()
         {
             cout << "LIGHT" << endl;
         }
-        else if (X >= 3 ** X < 7)
+        else if (X >= 3 && X < 7)
         {
             cout << "MODERATE" << endl;
         }
