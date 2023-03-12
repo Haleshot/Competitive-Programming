@@ -12,13 +12,13 @@ int main()
         time = 1.07 * X;
         if (Y > time)
         {
-            cout << "YES" << endl;
+            cout << "NO" << endl;
         }
         else
         {
-            cout << "NO" << endl;
+            cout << "YES" << endl;
         }
     }
-    
+
     return 0;
 }
