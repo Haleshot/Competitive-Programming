@@ -13,15 +13,15 @@ int main()
         max_Q = max(Qa, Qb);
         if (max_P > max_Q)
         {
-            cout << "Q" << end;
+            cout << "Q" << endl;
         }
         else if (max_P < max_Q)
         {
-            cout << "P" << end;
+            cout << "P" << endl;
         }
         else
         {
-            cout << "TIE" << end;
+            cout << "TIE" << endl;
         }
         
     }
