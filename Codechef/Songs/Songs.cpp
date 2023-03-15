@@ -1,5 +1,7 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
+
 
 int main()
 {
@@ -7,9 +9,10 @@ int main()
     cin >> T;
     while (T--)
     {
-        int N, X;
+        int N, X, total;
         cin >> N >> X;
-        
+        total = X * 3;
+        cout << floor(N/total) << endl;
     }
     return 0;
 }
