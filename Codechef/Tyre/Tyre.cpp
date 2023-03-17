@@ -11,5 +11,6 @@ int main()
         cin >> N >> M;
         cout << (N * 2) + (M * 4) << endl;
     }
+    
     return 0;
 }
