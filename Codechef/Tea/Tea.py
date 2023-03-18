@@ -9,6 +9,7 @@ while T:
         while True:
             temp_Y = Y * i
             temp_Z = Z * i
-            if X <= Y:
-                print(Z)
+            i += 1
+            if X <= temp_Y:
+                print(temp_Z)
                 break
