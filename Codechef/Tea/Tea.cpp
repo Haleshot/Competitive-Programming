@@ -9,7 +9,10 @@ int main()
     {   
         int X, Y, Z;
         cin >> X >> Y >> Z;
-        
+        if (X <= Y)
+        {
+            cout << Z << endl;
+        }
     }
-    erturn 0;
+    return 0;
 }
