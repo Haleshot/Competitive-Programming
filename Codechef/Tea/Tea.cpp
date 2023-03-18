@@ -15,11 +15,13 @@ int main()
         }
         else
         {
+            int i = 2;
             while (true)
             {
-                int i = 2, temp_Y, temp_Z;
+                int temp_Y, temp_Z;
                 temp_Y = Y * i;
                 temp_Z = Z * i;
+                i += 1;
                 if (X <= temp_Y)
                 {
                     cout << temp_Z << endl;
