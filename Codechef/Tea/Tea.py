@@ -8,6 +8,6 @@ while T:
         while True:
             Y *= 2
             Z *= 2
-            if (X <= Y):
+            if X <= Y:
                 print(Z)
                 break
