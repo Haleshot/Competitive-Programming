@@ -8,7 +8,7 @@ while T:
         i = 2
         while True:
             temp_Y = Y * i
-            temp_Z = Z * 2
+            temp_Z = Z * i
             if X <= Y:
                 print(Z)
                 break
