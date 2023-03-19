@@ -11,5 +11,6 @@ int main()
         cin >> X >> Y;
         cout << (X * 4) + Y << endl;
     }
+    
     return 0;
 }
