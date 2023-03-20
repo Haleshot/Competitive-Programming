@@ -15,7 +15,7 @@ int main()
         }
         else
         {
-            
+            cout << "NotQualify" << endl;
         }
     }
     return 0;
