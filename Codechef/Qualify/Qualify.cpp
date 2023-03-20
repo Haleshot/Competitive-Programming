@@ -18,6 +18,6 @@ int main()
             cout << "NotQualify" << endl;
         }
     }
-    return 0;
 
+    return 0;
 }
