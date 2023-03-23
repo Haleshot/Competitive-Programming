@@ -14,7 +14,6 @@ int main()
         temp *= 3;
         cout << temp - X << endl;
 
-
     }
     return 0;
 }
