@@ -10,7 +10,7 @@ int main()
         float X;
         int temp;
         cin >> X;
-        temp = ceil(X/3)
+        temp = ceil(X/3);
         temp *= 3;
         cout << temp - X << endl;
 
