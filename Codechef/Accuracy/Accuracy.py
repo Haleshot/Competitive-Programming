@@ -5,4 +5,4 @@ while T:
     X = int(input())
     temp = math.ceil(X/3)
     temp *= 3
-    print(X - temp)
+    print(temp - X)
