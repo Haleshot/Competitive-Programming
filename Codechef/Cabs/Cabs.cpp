@@ -8,7 +8,7 @@ int main()
     while (T--)
     {
         int X, Y;
-        cin >> X >> y;
+        cin >> X >> Y;
         if (X < Y)
         {
             cout << "FIRST" << endl;
