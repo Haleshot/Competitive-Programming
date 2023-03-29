@@ -5,6 +5,9 @@ int main()
 {
     int T;
     cin >> T;
-    whiole (T)
+    while (T--)
+    {
+        
+    }
     return 0;
 }
