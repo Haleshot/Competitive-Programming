@@ -17,6 +17,10 @@ int main()
         {
             cout << "Bob" << endl;
         }
+        else
+        {
+            cout << "Charlie" << endl;
+        }
     }
     return 0;
 }
