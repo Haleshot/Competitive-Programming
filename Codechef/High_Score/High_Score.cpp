@@ -11,8 +11,7 @@ int main()
         int N, Na, Nb, Nc, Nd;
         cin >> N >> Na >> Nb >> Nc >> Nd;
         int l[] = {Na, Nb, Nc, Nd};
-        int n = sizeof(l) / sizeof(l[0]);
-        sort(l, l + n);
+        sort(l);
         cout << l[0] << endl;
 
         
