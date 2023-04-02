@@ -4,3 +4,7 @@ while T:
     A, X, B, Y = map(int, input().split())
     if ((A//X) > (B // Y)):
         print("ALICE")
+    elif ((A//X) < (B // Y)):
+        print("BOB")
+    else:
+        print("EQUAL")
