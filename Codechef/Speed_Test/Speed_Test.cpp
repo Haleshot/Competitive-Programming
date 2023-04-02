@@ -7,7 +7,7 @@ int main()
     cin >> T;
     while (T--)
     {
-        int A, X, B, Y;
+        float A, X, B, Y;
         cin >> A >> X >> B >> Y;
         if ((A/X) > (B/Y))
         {
