@@ -12,7 +12,6 @@ int main()
         req_1 = Xa/xa;
         req_2 = Xb/xb;
         cout << req_1 + req_2 << endl;
-
     }
     return 0;
 }
