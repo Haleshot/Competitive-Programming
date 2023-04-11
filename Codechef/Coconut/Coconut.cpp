@@ -7,7 +7,7 @@ int main()
     cin >> T;
     while (T--)
     {
-        int xa, xb, Xa, Xb;
+        int xa, xb, Xa, Xb, req_1, req_2;
         cin >> xa >> xb >> Xa >> Xb;
         
     }
