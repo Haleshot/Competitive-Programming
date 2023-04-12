@@ -12,5 +12,5 @@ int main()
         cout << prod/100 << endl;
 
     }
-    return -;
+    return 0;
 }
