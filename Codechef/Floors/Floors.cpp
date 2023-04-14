@@ -8,10 +8,10 @@ int main()
     cin >> T;
     while (T--)
     {
-        int X, Y;
+        float X, Y;
         cin >> X >> Y;
-        X = ceil(X);
-        Y = ceil(Y);
+        X = ceil(X/10);
+        Y = ceil(Y/10);
         cout << abs(X - Y) << endl;
     }
     return 0;
