@@ -5,6 +5,6 @@ while T:
     if X % 3 == 0:
         print("NORMAL")
     elif X % 3 == 1:
-        print("HIGH")
+        print("HUGE")
     else:
         print("SMALL")
