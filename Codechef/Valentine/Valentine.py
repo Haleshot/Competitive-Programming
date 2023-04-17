@@ -1,4 +1,5 @@
 T = int(input())
 while T:
     T-= 1
-    X, Y = 
+    X, Y = map(int, input().split())
+    
