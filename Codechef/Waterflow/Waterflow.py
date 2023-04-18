@@ -2,12 +2,12 @@ T = int(input())
 while T:
     T -= 1
     W, X, Y, Z = map(int, input().split())
-    initial = W + X
-    total = Y * Z
-    if total > initial:
+    c = Y * Z
+    total = W + c
+    if total > X:
         print("Overflow")
-    if total < initial:
+    if total < X:
         print("Unfilled")
-    if total == initial:
+    if total == X:
         print("Filled")
 
