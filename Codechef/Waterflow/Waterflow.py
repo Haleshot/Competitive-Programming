@@ -8,6 +8,6 @@ while T:
         print("Overflow")
     if total < initial:
         print("Unfilled")
-    if total = initial:
+    if total == initial:
         print("Filled")
 
