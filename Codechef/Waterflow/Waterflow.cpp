@@ -7,10 +7,6 @@ int main()
     cin >> T;
     while (T--)
     {
-        int T;
-        cin >> T;
-        while (T--)
-        {
             int W, X, Y, Z, c, total;
             cin >> W >> X >> Y >> Z;
             c = Y * Z;
@@ -27,8 +23,6 @@ int main()
             {
                 cout << "Filled" << endl;
             }
-            
-        }
     }
     return 0;
 }
