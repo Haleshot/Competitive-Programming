@@ -18,8 +18,7 @@ int main()
             if (total > X)
             {
                 cout << "Overflow" << endl;
-            }
-                
+            } 
             if (total < X)
             {                
                 cout << "Unfilled" << endl;
