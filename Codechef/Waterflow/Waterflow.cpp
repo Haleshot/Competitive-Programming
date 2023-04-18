@@ -11,8 +11,10 @@ int main()
         cin >> T;
         while (T--)
         {
-            int W, X, Y, Z;
+            int W, X, Y, Z, c, total;
             cin >> W >> X >> Y >> Z;
+            c = Y * Z;
+            
         }
     }
     return 0;
