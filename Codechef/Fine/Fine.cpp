@@ -13,6 +13,10 @@ int main()
         {
             cout << "500" << endl;
         }
+        else if (X >= 100)
+        {
+            cout << "2000" << endl;
+        }
     }
     return 0;
 }
