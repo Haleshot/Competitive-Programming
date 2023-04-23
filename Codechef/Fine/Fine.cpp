@@ -17,6 +17,10 @@ int main()
         {
             cout << "2000" << endl;
         }
+        else
+        {
+            cout << "0" << endl;
+        }
     }
     return 0;
 }
