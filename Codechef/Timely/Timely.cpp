@@ -11,7 +11,11 @@ int main()
         cin >> X;
         if (X >= 30)
         {
-            cout << "YES";
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
         }
     }
     return 0;
