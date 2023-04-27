@@ -7,8 +7,16 @@ int main()
     cin >> T;
     while (T--)
     {
-
-
+        int X, Y;
+        cin >> X >> Y;
+        if (X >= Y)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
     }
     return 0;
 }
