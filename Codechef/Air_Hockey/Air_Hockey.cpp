@@ -1,4 +1,5 @@
 #include <iostream>
+// #include <algorithm>
 using namespace std;
 int main()
 {
@@ -10,7 +11,7 @@ int main()
         cin >> A >> B;
         A = 7 - A;
         B = 7 - B;
-        cout << 
+        cout << min(A, B) << endl;
     }
     return 0;
 }
