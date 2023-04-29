@@ -12,6 +12,10 @@ int main()
         {
             cout << "LEFT" << endl;
         }
+        else
+        {
+            cout << "RIGHT" << endl;
+        }
     }
     return 0;
 }
