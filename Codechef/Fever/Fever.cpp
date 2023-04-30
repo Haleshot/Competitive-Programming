@@ -8,6 +8,14 @@ int main()
     {
         int X;
         cin >> X;
+        if (X > 98)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
     }
     return 0;
 }
