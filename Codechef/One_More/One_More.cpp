@@ -9,6 +9,14 @@ int main()
     {
         int X;
         cin >> X;
+        if (X - 24 > 0)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
     }
     return 0;
 }
