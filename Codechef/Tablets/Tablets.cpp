@@ -7,6 +7,11 @@ int main()
     cin >> T;
     while (T--)
     {
-        
+        int X, Y;
+        cin >> X >> Y;
+        if (3 * X <= Y)
+        {
+            cout << "YES" << endl;
+        }
     }
 }
