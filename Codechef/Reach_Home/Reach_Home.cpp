@@ -5,6 +5,10 @@ int main()
 {
     int T;
     cin >> T;
-    
+    while (T--)
+    {
+        int X, Y;
+        
+    }
     return 0;
 }
