@@ -8,6 +8,7 @@ int main()
     while (T--)
     {
         int X, Y, Z;
+        cin >> X >> Y >> Z;
         if (X > Y)
         {
             if (X > Z)
