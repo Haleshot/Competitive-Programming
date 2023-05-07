@@ -23,7 +23,7 @@ int main()
         {
             if (Y > Z)
             {
-                cout << "Tester"
+                cout << "Tester" << endl;
             }
             else
             {
