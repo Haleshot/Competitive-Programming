@@ -14,7 +14,13 @@ int main()
         {
             cin >> l[i];
         }
-        
+        for (int i = 0;i < N; i++)
+        {
+            if (l[i] > 1000)
+            {
+                
+            }
+        }
     }
     return 0;
 }
