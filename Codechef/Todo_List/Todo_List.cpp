@@ -7,7 +7,7 @@ int main()
     cin >> T;
     while (T--)
     {
-        int N;
+        int N, c = 0;
         cin >> N;
         int l[N];
         for(int i = 0; i <= N;i ++)
@@ -16,11 +16,12 @@ int main()
         }
         for (int i = 0;i < N; i++)
         {
-            if (l[i] > 1000)
+            if (l[i] >= 1000)
             {
-                
+                c += 1;
             }
         }
+        cout << c << endl;
     }
     return 0;
 }
