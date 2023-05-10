@@ -10,7 +10,7 @@ int main()
     {
         int N, X, salary;
         cin >> N >> X;
-        salary = pow(X, 2);
+        salary = pow(2, X);
         if (N == 1)
         {
             cout << (salary - 0.5 * salary) << endl;
