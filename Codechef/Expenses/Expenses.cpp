@@ -17,7 +17,12 @@ int main()
         }
         else
         {
-            
+            salary -= 0.5 * salary;
+            for (int i = 0; i < N - 1; i++)
+            {
+                salary -= 0.5*salary;
+            }
+            cout << salary << endl;
         }
     }
 
