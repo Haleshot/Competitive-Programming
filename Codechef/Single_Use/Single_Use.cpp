@@ -8,10 +8,10 @@ int main()
     cin >> T;
     while (T--)
     {
-        int H, X, Y, attacks;
+        float H, X, Y, attacks;
         cin >> H >> X >> Y;
         H -= Y;
-        cout << ceil(float(H/X)) + 1 << endl;
+        cout << ceil((H/X)) + 1 << endl;
     }
     return 0;
 }
