@@ -8,6 +8,7 @@ int main()
     while (T--)
     {
         int X, Y;
+        cin >> X >> Y;
         if (X > (10 * Y))
         {
             cout << "YES" << endl;
