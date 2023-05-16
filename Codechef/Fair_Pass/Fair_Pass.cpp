@@ -8,6 +8,7 @@ int main()
     while(T--)
     {
         int N, K, req;
+        cin >> N >> K;
         req = N + 1;
         if (K >= req)
         {
