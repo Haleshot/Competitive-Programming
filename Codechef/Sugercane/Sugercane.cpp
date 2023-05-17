@@ -9,7 +9,7 @@ int main()
     {
         int N, tot;
         cin >> N;
-        tot = 100 * N;
+        tot = 50 * N;
         cout << int(0.3 * N) << endl;
     }
     return 0;
