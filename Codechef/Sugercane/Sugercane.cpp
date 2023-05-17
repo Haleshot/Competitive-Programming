@@ -7,9 +7,9 @@ int main()
     cin >> T;
     while (T--)
     {
-        int N, tot;
+        int N, price;
         cin >> N;
-        tot = 50 * N;
+        price = 50 * N;
         cout << int(0.3 * N) << endl;
     }
     return 0;
