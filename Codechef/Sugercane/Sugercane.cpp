@@ -10,7 +10,7 @@ int main()
         int N, price;
         cin >> N;
         price = 50 * N;
-        cout << int(0.3 * N) << endl;
+        cout << int(0.3 * price) << endl;
     }
     return 0;
 }
