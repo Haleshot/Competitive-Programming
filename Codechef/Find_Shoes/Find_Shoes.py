@@ -5,4 +5,4 @@ while T:
     if N < M:
         print(M - N)
     else:
-        print(abs(M - N) + N)
+        print((N - M) + N)
