@@ -19,6 +19,10 @@ int main()
             else
             cout << num << endl;
         }
+        else
+        {
+            cout << K/X << endl;
+        }
     }
     return 0;
 }
