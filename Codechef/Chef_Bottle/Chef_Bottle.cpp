@@ -9,6 +9,16 @@ int main()
     {
         int N, X, K, num;
         cin >> N >> X >> K;
+        if (X <= K)
+        {
+            num = K/X;
+            if (num >= N)
+            {
+                cout << N << endl;
+            }
+            else
+            cout << num << endl;
+        }
     }
     return 0;
 }
