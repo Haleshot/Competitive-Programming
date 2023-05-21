@@ -8,5 +8,6 @@ while T:
             print(N)
         else:
             print(num)
+    
     else:
         print(K//X)
