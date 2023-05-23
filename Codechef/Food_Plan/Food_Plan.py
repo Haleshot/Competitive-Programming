@@ -8,5 +8,5 @@ while T:
         print("ONLINE")
     elif least == M:
         print("DINING")
-    else:
-        print("EITHER")
+    if M == N:
+        print("EITHER") 
