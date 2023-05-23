@@ -7,7 +7,7 @@ int main()
     cin >> T;
     while (T--)
     {
-        int N, M, least;
+        float N, M, least;
         cin >> N >> M;
         N -= 0.1*N;
         least = min(N, M);
