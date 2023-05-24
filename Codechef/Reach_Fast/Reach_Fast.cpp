@@ -17,7 +17,7 @@ int main()
         }
         else if (X >= Y)
         {
-            least = math.ceil((X - Y)/K);
+            least = ceil((X - Y)/K);
         }
         else
         {
