@@ -8,7 +8,7 @@ int main()
     cin >> T;
     while (T--)
     {
-        int X, Y, K;
+        float X, Y, K;
         float least;
         cin >> X >> Y >> K;
         if (X <= Y)
@@ -23,6 +23,7 @@ int main()
         {
             cout << 0 << endl;
         }
+        cout << least << endl;
 
     }
     return 0;
