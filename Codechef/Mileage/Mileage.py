@@ -2,8 +2,8 @@ T = int(input())
 while T:
     T -= 1
     N, X, Y, A, B = map(int, input().split())
-    petrol = (X * A) * N
-    diesel = (Y * B) * N
+    petrol = (N/A)* X
+    diesel = (N/B)* Y
     if petrol > diesel:
         print("DIESEL")
     elif petrol < diesel:
