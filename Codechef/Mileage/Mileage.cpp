@@ -21,7 +21,7 @@ int main()
         }
         else
         {
-            
+            cout << "ANY" << endl;
         }
     }
     return 0;
