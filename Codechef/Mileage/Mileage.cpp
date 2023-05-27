@@ -7,7 +7,7 @@ int main()
     cin >> T;
     while (T--)
     {
-        int N, X, Y, A, B, petrol, diesel;
+        float N, X, Y, A, B, petrol, diesel;
         cin >> N >> X >> Y >> A >> B;
         petrol = (N/A)* X;
         diesel = (N/B)* Y;
