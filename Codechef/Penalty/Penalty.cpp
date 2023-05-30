@@ -24,6 +24,7 @@ int main()
                 even[i] = A[i];
             }
         }
+        int odd_one_count[5], even_one_count[5];
         
     }
     return 0;
