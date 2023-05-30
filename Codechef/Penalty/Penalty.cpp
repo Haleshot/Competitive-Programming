@@ -25,7 +25,39 @@ int main()
             }
         }
         int odd_one_count[5], even_one_count[5];
-        
+        for (int i = 0; i < 5; i++)
+        {
+            if (odd[i] == 1)
+            {
+                odd_one_count[i] = A[i];
+            }
+        }
+        for (int i = 0; i < 5; i++)
+        {
+            if (even[i] == 1)
+            {
+                even_one_count[i] = A[i];
+            }
+        }
+
+
+        if (odd_one_count > even_one_count)
+        {
+            cout << 2 << endl;;
+        }
+        else if (odd_one_count < even_one_count)
+        {
+            cout << 1 << endl;;
+        }
+        else
+        {
+            cout << 0 << endl;
+        }
+
+
+
+
+
     }
     return 0;
 }
