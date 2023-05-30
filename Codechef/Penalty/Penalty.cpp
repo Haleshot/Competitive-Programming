@@ -12,48 +12,18 @@ int main()
         {
             cin >> A[i];
         }
-        int odd[5], even[5];
-        for (int i = 0; i < 10; i++)
+        if ((A[1] + A[3] + A[5] + A[7] + A[9]) > (A[2] + A[4] + A[6] + A[8] + A[10]))
         {
-            if (i % 2 == 1)
-            {
-                odd[i] = A[i];
-            }
-            else if (i % 2 == 0)
-            {
-                even[i] = A[i];
-            }
+            cout << 1 << endl;
         }
-        // int odd_one_count[5], even_one_count[5];
-        // for (int i = 0; i < 5; i++)
-        // {
-        //     if (odd[i] == 1)
-        //     {
-        //         odd_one_count[i] = A[i];
-        //     }
-        // }
-        // for (int i = 0; i < 5; i++)
-        // {
-        //     if (even[i] == 1)
-        //     {
-        //         even_one_count[i] = A[i];
-        //     }
-        // }
-
-
-        // if (odd_one_count > even_one_count)
-        // {
-        //     cout << 2 << endl;;
-        // }
-        // else if (odd_one_count < even_one_count)
-        // {
-        //     cout << 1 << endl;;
-        // }
-        // else
-        // {
-        //     cout << 0 << endl;
-        // }
-
+        if ((A[1] + A[3] + A[5] + A[7] + A[9]) < (A[2] + A[4] + A[6] + A[8] + A[10]))
+        {
+            cout << 2 << endl;
+        }
+        else
+        {
+            cout << 0 << endl;
+        }
 
 
     }
