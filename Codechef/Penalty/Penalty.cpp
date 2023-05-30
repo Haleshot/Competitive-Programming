@@ -12,6 +12,18 @@ int main()
         {
             cin >> A[i];
         }
+        int odd[5], even[5];
+        for (int i = 0; i < 10; i++)
+        {
+            if (i % 2 == 1)
+            {
+                odd[i] = A[i];
+            }
+            else if (i % 2 == 0)
+            {
+                even[i] = A[i];
+            }
+        }
         
     }
     return 0;
