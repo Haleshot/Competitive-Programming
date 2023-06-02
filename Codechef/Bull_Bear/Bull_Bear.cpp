@@ -13,7 +13,7 @@ int main()
         {
             cout << "PROFIT" << endl;
         }
-        else if (Y > X)
+        else if (Y < X)
         {
             cout << "LOSS" << endl;
         }
