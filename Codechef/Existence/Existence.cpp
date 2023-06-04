@@ -12,6 +12,14 @@ int main()
         cin  >> X >> Y;
         LHS = pow(X, 4) + (4 * pow(Y, 2));
         RHS = 4 * (pow(X, 2) * Y);
+        if (LHS == RHS)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
     }
     return 0;
 }
