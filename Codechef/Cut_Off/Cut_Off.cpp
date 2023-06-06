@@ -17,8 +17,6 @@ int main()
         }
         sort(A, A + N);
         cout << A[N - X] - 1 << endl;
-
-
     }
     return 0;
 }
