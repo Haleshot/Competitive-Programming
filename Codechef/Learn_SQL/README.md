@@ -6,3 +6,6 @@ Link to the problem - https://www.codechef.com/problems/LEARNSQL
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/00c9d90b-3c9e-451b-8d07-fd41c9748aa1)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/a935c4c0-c4e0-4148-ad98-19be8698488e)
