@@ -1,3 +1,2 @@
-T = int(input())
-while T:
-    T -= 1
+R, C, E = map(int, input().split())
+print((R * C) + (E * C))
