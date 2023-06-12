@@ -9,7 +9,7 @@ int main()
     {
         int N, X;
         cin >> N >> X;
-        if (N % X == 0)
+        if (X % N == 0)
         {
             cout << "YES" << endl;
         }
