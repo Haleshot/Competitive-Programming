@@ -1,6 +1,6 @@
-T = int(input())
-while T:
-    T -= 1
+Test = int(input())
+while Test:
+    Test -= 1
     S = input()
     T = input()
     for i in range(5):
