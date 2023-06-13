@@ -10,7 +10,7 @@ int main()
         string S, T;
         cout << endl;
         cin >> S >> T;
-        for (int i = 0; i = 5; i++)
+        for (int i = 0; i < 5; i++)
         {
             if (S[i] == T[i])
             {
