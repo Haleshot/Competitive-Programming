@@ -7,11 +7,19 @@ int main()
     cin >> Test;
     while (Test--)
     {
-        char S, T;
+        string S, T;
+        cout << endl;
         cin >> S >> T;
         for (int i = 0; i = 5; i++)
         {
-            
+            if (S[i] == T[i])
+            {
+                cout << "G";
+            }
+            else
+            {
+                cout << "B";
+            }
         }
     }
     return 0;
