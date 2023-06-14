@@ -14,7 +14,11 @@ int main()
         {
             cout << "ALICE" << endl;
         }
-        
+        else
+        {
+            cout << "BOB" << endl;
+        }
+
 
     }
     return 0;
