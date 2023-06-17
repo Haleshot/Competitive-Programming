@@ -7,7 +7,10 @@ int main()
     cin >> T;
     while (T--)
     {
-        
+        int X, Y, middle;
+        cin >> X >> Y;
+        middle = (X + Y)/2;
+        cout << max(abs(middle - X), (middle - Y)) << endl;
     }
     return 0;
 }
