@@ -10,7 +10,7 @@ int main()
         int X, Y, middle;
         cin >> X >> Y;
         middle = (X + Y)/2;
-        cout << max(abs(middle - X), (middle - Y)) << endl;
+        cout << max(abs(middle - X), abs(middle - Y)) << endl;
     }
     return 0;
 }
