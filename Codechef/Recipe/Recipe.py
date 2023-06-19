@@ -9,6 +9,6 @@ while T:
         B.append(N[i])
     gcd = B[0]
     for i in range(N[0] - 1):
-        C.append(B[j]//gcd)
+        C.append(B[i]//gcd)
     for i in range(N[0] - 1):
         print(C, end = ' ')
