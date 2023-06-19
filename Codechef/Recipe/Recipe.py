@@ -7,10 +7,11 @@ while T:
     C = []
     for i in range(1, len(N)):
         B.append(N[i])
-    gcd = B[0]
-    for i in range(1, N[0] - 1):
-        gcd = np.gcd(gcd, B[i])
-    for i in range(N[0] - 1):
-        C.append(B[i]//gcd)
-    for i in range(N[0] - 1):
-        print(C, end = ' ')
+    g = B[0]
+    for i in range(1, len(B)):
+        g = np.gcd(g, B[i])
+    for i in range(len(B)):
+        C.append(B[i]//g)
+    for i in range(len(C)):
+        print(C[i], end = ' ')
+    print()
