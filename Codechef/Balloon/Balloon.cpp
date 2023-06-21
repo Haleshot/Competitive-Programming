@@ -22,7 +22,7 @@ int main()
             }
             if (c == 7)
             {
-                cout << c + 1 << endl;
+                cout << i + 1 << endl;
                 break;
             }
         }
