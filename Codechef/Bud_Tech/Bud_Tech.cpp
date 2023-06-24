@@ -7,7 +7,10 @@ int main()
     cin >> T;
     while (T--)
     {
-        
+        int R;
+        R *= 1000;
+        R /= 2;
+        cout << R/5 << endl;
     }
     return 0;
 }
