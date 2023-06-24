@@ -4,4 +4,4 @@ while T:
     R = int(input())
     R *= 1000
     R /= 2
-    print(R/5)
+    print(int(R/5))
