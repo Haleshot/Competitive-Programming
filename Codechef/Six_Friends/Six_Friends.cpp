@@ -11,5 +11,6 @@ int main()
         cin >> X >> Y;
         cout << min((3 * X), (2 * Y)) << endl;
     }
+    
     return 0;
 }
