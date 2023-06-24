@@ -8,6 +8,7 @@ int main()
     while (T--)
     {
         int R;
+        cin >> R;
         R *= 1000;
         R /= 2;
         cout << R/5 << endl;
