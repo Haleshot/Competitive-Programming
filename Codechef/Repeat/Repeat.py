@@ -7,12 +7,14 @@ while T:
     for i in range(2 * N + 1):
         if (i % 2 == 1):
             l.append(i)
-
+    l2 = l.copy()
     for i in range(length - N):
-        temp = l[i]
-        for j in range(K - l.count(temp)):
-            l.append(temp)
-        print(l)
-        # if sum(l) == S:
-        #     print(temp)
-        #     break
+        temp = l2[i]
+        for j in range(K - l2.count(temp)):
+            l2.append(temp)
+        print(l2)
+        if sum(l2) == S:
+            print(temp)
+            break
+        else:
+            l2 = l.copy()
