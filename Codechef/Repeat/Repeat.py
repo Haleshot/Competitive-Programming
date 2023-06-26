@@ -11,7 +11,9 @@ while T:
     print(l2)
     for i in range(length):
         temp = l2[i]
+        print(temp)
         l2.extend([temp] * K)
+        print(l2)
         # for j in range(K - 1):
         #     l2.append(temp)
         if sum(l2) == S:
