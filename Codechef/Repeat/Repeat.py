@@ -11,10 +11,7 @@ while T:
     for i in range(length):
         temp = l2[i]
         l2.extend([temp] * (K- 1))
-        # for j in range(K - 1):
-        #     l2.append(temp)
         if sum(l2) == S:
             print(temp)
             break
-      
         l2 = l.copy()
