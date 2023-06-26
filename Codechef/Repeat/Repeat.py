@@ -16,5 +16,5 @@ while T:
         if sum(l2) == S:
             print(temp)
             break
-        else:
-            l2 = l.copy()
+      
+        l2 = l.copy()
