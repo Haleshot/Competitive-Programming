@@ -8,9 +8,11 @@ while T:
         if (i % 2 == 1):
             l.append(i)
     l2 = l.copy()
-    for i in range(length - N):
+    print(l2)
+    for i in range(length):
+        l2.reverse()
         temp = l2[i]
-        for j in range(K - l2.count(temp)):
+        for j in range(K - 1):
             l2.append(temp)
         print(l2)
         if sum(l2) == S:
