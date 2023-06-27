@@ -7,6 +7,8 @@ int main()
     cin >> T;
     while (T--)
     {
+        int B, LS;
+        cin >> B >> LS;
         
     }
     return 0;
