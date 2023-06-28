@@ -7,7 +7,7 @@ while T:
     for i in range(N - 1):
         l1, l2 = H[i], H[i + 1]
         # print(l1, " ", l2)
-        if ((abs(l1 - l2) <= U) or (((l1 - l2) <= D) and c1 <= 1) or ((l1 - l2) == 0)):
+        if ((abs(l1 - l2) <= U)):
             c += 1
 
         if (l1 - l2) > D and c1 == 0:
@@ -17,6 +17,7 @@ while T:
     
         elif (((l1 - l2) <= D) and c1 <= 1):
             c += 1
+
         elif ((l1 - l2) == 0):
             c += 1
 
