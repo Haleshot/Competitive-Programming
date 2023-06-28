@@ -14,7 +14,7 @@ int main()
         {
             cin >> H[i];
         }
-        for (int i = 0; i < N; i++)
+        for (int i = 0; i < N - 1; i++)
         {
             l1 = H[i];
             l2 = H[i + 1];
@@ -36,7 +36,7 @@ int main()
             else
                 break;
         }
-        
+
         cout << c << endl;
 
     }
