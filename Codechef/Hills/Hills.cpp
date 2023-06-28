@@ -9,7 +9,7 @@ int main()
     {
         int N, U, D;
         cin >> N >> U >> D;
-        int H[N], l1, l2, c = 0, c1 = 0;
+        int H[N], l1, l2, c = 1, c1 = 0;
         for (int i = 0; i < N; i++)
         {
             cin >> H[i];
