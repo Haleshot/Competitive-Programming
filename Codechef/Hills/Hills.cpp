@@ -32,6 +32,7 @@ int main()
 
             else if ((l1 - l2) == 0)
                 c += 1;
+                
             else
                 break;
         }
