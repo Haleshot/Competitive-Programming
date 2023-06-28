@@ -10,7 +10,7 @@ while T:
         if ((abs(l1 - l2) <= U)):
             c += 1
 
-        if (l1 - l2) > D and c1 == 0:
+        if ((l1 - l2) > D and c1 == 0):
             c1 += 1
             c += 1
             # print(c1)
