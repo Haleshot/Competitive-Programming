@@ -18,16 +18,16 @@ int main()
         {
             l1 = H[i];
             l2 = H[i + 1];
-            if (((l2 - l1) <= U) and ((l2 - l1) > 0))
+            if (((l2 - l1) <= U) && ((l2 - l1) > 0))
                 c += 1;
 
-            else if ((l1 - l2) > D and c1 == 0)
+            else if ((l1 - l2) > D && c1 == 0)
             {
                 c1 += 1;
                 c += 1;
             }
         
-            else if ((((l1 - l2) <= D) and c1 <= 1) and ((l1 - l2) > 0))
+            else if ((((l1 - l2) <= D) && c1 <= 1) && ((l1 - l2) > 0))
                 c += 1;
 
             else if ((l1 - l2) == 0)
