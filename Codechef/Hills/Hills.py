@@ -13,14 +13,14 @@ while T:
         if (l1 - l2) > D and c1 == 0:
             c1 += 1
             c += 1
-            print(c1)
+            # print(c1)
     
         elif (((l1 - l2) <= D) and c1 <= 1):
             c += 1
 
         elif ((l1 - l2) == 0):
             c += 1
-
-        
-    # print(c)
+            
+        else:
+            print(c)
             
