@@ -21,7 +21,8 @@ int main()
             if (((l2 - l1) <= U) and ((l2 - l1) > 0))
                 c += 1;
 
-            else if ((l1 - l2) > D and c1 == 0){
+            else if ((l1 - l2) > D and c1 == 0)
+            {
                 c1 += 1;
                 c += 1;
             }
