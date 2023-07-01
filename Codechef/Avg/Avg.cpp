@@ -27,7 +27,7 @@ int main()
         cout << result << endl;
         if (result == int(result) && result > 0)
         {
-            cout << result << endl;
+            cout << int(result) << endl;
         }
         else
         {
