@@ -21,7 +21,7 @@ int main()
         {
             cin >> A[i];
         }
-        float result;
+        double result;
         int n = sizeof(A)/sizeof(A[0]);
         result = ((V * (N + K)) - arraySum(A, n))/K;
         cout << result << endl;
