@@ -1,5 +1,12 @@
 #include <iostream>
+#include <numeric>   
 using namespace std;
+
+int arraySum(int a[], int n)
+{
+    int initial_sum = 0;
+    return accumulate(a, a+n, initial_sum);
+}
 
 int main()
 {
@@ -14,7 +21,11 @@ int main()
         {
             cin >> A[i];
         }
+        float result;
+        int n = sizeof(a)/sizeof(a[0]);
+        result = ((V * (N + K)) - arraySum(A, n))/K;
         
+
     }
     return 0;
 }
