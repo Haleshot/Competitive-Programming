@@ -24,7 +24,14 @@ int main()
         float result;
         int n = sizeof(A)/sizeof(A[0]);
         result = ((V * (N + K)) - arraySum(A, n))/K;
-
+        if (result == int(result) and result > 0)
+        {
+            cout << result << endl;
+        }
+        else
+        {
+            cout << -1 << endl;
+        }
 
     }
     return 0;
