@@ -22,9 +22,9 @@ int main()
             cin >> A[i];
         }
         float result;
-        int n = sizeof(a)/sizeof(a[0]);
+        int n = sizeof(A)/sizeof(A[0]);
         result = ((V * (N + K)) - arraySum(A, n))/K;
-        
+
 
     }
     return 0;
