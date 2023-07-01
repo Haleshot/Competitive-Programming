@@ -21,13 +21,12 @@ int main()
         {
             cin >> A[i];
         }
-        double result;
+        int result;
         int n = sizeof(A)/sizeof(A[0]);
-        result = float((V * (N + K)) - arraySum(A, n))/K;
-        cout << result << endl;
-        if (result == int(result) && result > 0)
+        result = float((V * (N + K)) - arraySum(A, n));
+        if (result % K == 0 && result > 0)
         {
-            cout << int(result) << endl;
+            cout << int(result)/K << endl;
         }
         else
         {
