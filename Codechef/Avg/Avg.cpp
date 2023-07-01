@@ -24,7 +24,8 @@ int main()
         double result;
         int n = sizeof(A)/sizeof(A[0]);
         result = ((V * (N + K)) - arraySum(A, n))/K;
-        cout << result << endl;
+        cout << arraySum(A, n) << endl;
+        // cout << result << endl;
         if (result == int(result) && result > 0)
         {
             cout << result << endl;
