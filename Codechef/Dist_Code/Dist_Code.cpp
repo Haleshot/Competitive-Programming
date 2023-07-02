@@ -11,6 +11,12 @@ int main()
     {
         char S;
         cin >> S;
+        unordered_map<char, int> d;
+        for (auto x : d)
+        {
+            cout << x.first << " " <<  x.second << endl;
+        }
+
 
     }
     return 0;
