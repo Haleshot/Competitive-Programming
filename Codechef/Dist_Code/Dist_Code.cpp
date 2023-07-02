@@ -9,16 +9,17 @@ int main()
     while (T--)
     {
         string S, st;
+        int c = 0;
         cin >> S;
         unordered_map<string, int> d;
         
-        for (int i = 0; i < S.length(); i++)
+        for (int i = 0; i < S.length() - 1; i++)
         {
             st = S.substr(i, 2);
             d[S.substr(i, 2)]++;
         }
-        // for (auto x : d)
-        // cout << x.first << " " << x.second << endl;
+        for (auto x : d)
+        cout << x.first << " " << x.second << endl;
     }
     return 0;
 }
