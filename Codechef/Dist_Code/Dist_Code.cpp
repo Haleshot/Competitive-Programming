@@ -16,12 +16,12 @@ int main()
         for (int i = 0; i < S.length() - 1; i++)
         {
             st = S.substr(i, 2);
-            d[S.substr(i, 2)]++;
+            if (d[S.substr(i, 2)] != 1)
+                d[S.substr(i, 2)]++;
         }
         for (auto x : d)
         {
-            if (x.second < 2)
-                c += x.second;
+            c += x.second;
         }
         cout << c << endl;
     }
