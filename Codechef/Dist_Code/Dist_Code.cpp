@@ -20,7 +20,8 @@ int main()
         }
         for (auto x : d)
         {
-            c += x.second;
+            if (x.second < 2)
+                c += x.second;
         }
         cout << c << endl;
     }
