@@ -20,8 +20,9 @@ int main()
         }
         for (auto x : d)
         {
-            cout << x.second << endl;
+            c += x.second;
         }
+        cout << c << endl;
     }
     return 0;
 }
