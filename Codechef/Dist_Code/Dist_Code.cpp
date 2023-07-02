@@ -17,8 +17,8 @@ int main()
             st = S.substr(i, 2);
             d[S.substr(i, 2)]++;
         }
-        for (auto x : d)
-        cout << x.first << " " << x.second << endl;
+        // for (auto x : d)
+        // cout << x.first << " " << x.second << endl;
     }
     return 0;
 }
