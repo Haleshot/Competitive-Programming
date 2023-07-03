@@ -31,11 +31,11 @@ int main()
        int result = S(A);
        for (int i = 0; i < result; i++)
        {
-            cout << "(" << endl;
+            cout << "(";
        }
        for (int i = 0; i < result; i++)
        {
-            cout << ")" << endl;
+            cout << ")";
        }
     }
     return 0;
