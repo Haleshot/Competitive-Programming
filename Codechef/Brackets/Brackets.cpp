@@ -6,7 +6,7 @@ int S(string S)
     int balance = 0, max_balance = 0;
     for (int i = 0; i < S.size(); i++)
     {
-
+        
     }
 }
 
