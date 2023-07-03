@@ -6,8 +6,17 @@ int S(string S)
     int balance = 0, max_balance = 0;
     for (int i = 0; i < S.size(); i++)
     {
-        
+        for (int i = 0; i < S.size();i++)
+        {
+            if (S[i] == '(')
+                balance += 1;
+            if (S[i] == ')')
+                balance -= 1;
+            
+            max_balance = max(max_balance, balance);
+        }
     }
+    return max_balance;
 }
 
 
