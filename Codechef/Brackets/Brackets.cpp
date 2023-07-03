@@ -28,7 +28,15 @@ int main()
     {
        string A;
        cin >> A;
-
+       int result = S(A);
+       for (int i = 0; i < result; i++)
+       {
+            cout << "(" << endl;
+       }
+       for (int i = 0; i < result; i++)
+       {
+            cout << ")" << endl;
+       }
     }
     return 0;
 }
