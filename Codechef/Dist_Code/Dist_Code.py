@@ -12,6 +12,5 @@ while T:
         if d[x] == 0:
             d[x] += 1
             c += 1
-
     print(c)
         
