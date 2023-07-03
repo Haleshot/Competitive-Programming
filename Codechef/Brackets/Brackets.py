@@ -10,5 +10,5 @@ while T:
         if A[i] == ')':
                 balance -= 1
 	    
-        max_balance = max( max_balance, balance )
+        max_balance = max(max_balance, balance)
     print("("*max_balance+")"*max_balance)
