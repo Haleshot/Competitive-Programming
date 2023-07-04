@@ -33,8 +33,8 @@ int main()
                     j += 1;
                     current -= 1;
                 }
-            
         }
+        cout << maximum << endl;
     }
     return 0;
 }
