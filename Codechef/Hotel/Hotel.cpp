@@ -22,17 +22,19 @@ int main()
         while (i < N && j < N)
         {
             if (arr[i] < dept[j])
-                {
-                    i += 1;
-                    current += 1;
-                }
+            {
+                i += 1;
+                current += 1;
+            }
+            
+            else
+            {
+                j += 1;
+                current -= 1;
+            }
+            
             if (current > maximum)
                 maximum = current;
-            else
-                {
-                    j += 1;
-                    current -= 1;
-                }
         }
         cout << maximum << endl;
     }
