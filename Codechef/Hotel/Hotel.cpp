@@ -24,21 +24,17 @@ int main()
         int current = 0, maximum = 0, i = 0, j = 0;
         while (i < N && j < N)
         {
-            if (current > maximum)
-                maximum = current;
-
             if (arr[i] < dept[j])
             {
                 i += 1;
                 current += 1;
-            }
-             
+            }             
             else
             {
                 j += 1;
                 current -= 1;
             }
-
+            maximum = max(current, maximum);
             
         }
         cout << maximum << endl;
