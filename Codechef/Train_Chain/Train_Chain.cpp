@@ -31,6 +31,14 @@ int main()
                 O += 1;
             }
         }
+        if (A >= B)
+        {
+            cout << A + AB + AB << endl;
+        }
+        else
+        {
+            cout << B + AB + AB << endl;
+        }
     }
     return 0;
 }
