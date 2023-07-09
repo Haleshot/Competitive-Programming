@@ -33,11 +33,11 @@ int main()
         }
         if (A >= B)
         {
-            cout << A + AB + AB << endl;
+            cout << A + AB + O << endl;
         }
         else
         {
-            cout << B + AB + AB << endl;
+            cout << B + AB + O << endl;
         }
     }
     return 0;
