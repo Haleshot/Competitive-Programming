@@ -6,3 +6,7 @@ Link to the problem - https://www.codechef.com/problems/TRANCHAIN
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/e5b63bbb-23df-44a7-afa2-79cd6a0bfb79)
+
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/2076ff01-1750-402f-be84-e3a7748191ff)
