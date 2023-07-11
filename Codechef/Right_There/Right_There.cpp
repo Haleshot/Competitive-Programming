@@ -9,6 +9,14 @@ int main()
     {
         int N, X;
         cin >> N >> X;
+        if (N <= X)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
 
     }
     return 0;
