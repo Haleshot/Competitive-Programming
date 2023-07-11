@@ -7,6 +7,7 @@ int main()
     cin >> T;
     while (T--)
     {
+        int N, X;
         
     }
     return 0;
