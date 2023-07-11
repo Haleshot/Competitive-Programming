@@ -8,7 +8,8 @@ int main()
     while (T--)
     {
         int N, X;
-        
+        cin >> N >> X;
+
     }
     return 0;
 }
