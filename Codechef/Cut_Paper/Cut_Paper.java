@@ -10,6 +10,7 @@ public class Cut_Paper
         T = sc.nextInt();
         while(T > 0)
         {
+            T -= 1;
             int N, K;
             N = sc.nextInt();
             K = sc.nextInt();
