@@ -16,7 +16,7 @@ public class Cut_Paper
             System.out.println((N/K) * (N/K));
         }
 
-        sc.close()
+        sc.close();
 
     }
 
