@@ -6,6 +6,7 @@ public class Rating
     {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
+        
         while (T > 0)
         {
             T -= 1;
@@ -13,6 +14,7 @@ public class Rating
             System.out.println(-S - 1);
 
         }
+
         sc.close();
     }
 }
