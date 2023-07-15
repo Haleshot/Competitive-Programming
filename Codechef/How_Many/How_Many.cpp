@@ -6,7 +6,6 @@ int main()
     int N;
     cin >> N;
     int size = to_string(N).length();
-    cout << size;
 
     if (size == 1)
     cout << ("1");
