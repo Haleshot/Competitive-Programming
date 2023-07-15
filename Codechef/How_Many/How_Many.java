@@ -15,7 +15,7 @@ class How_Many
         int size = number.length();
 
         if (size == 1)
-        System.out.println("1");
+            System.out.println("1");
         else if (size == 2)
             System.out.println("2");
         else if (size == 3)
