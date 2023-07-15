@@ -33,8 +33,17 @@ class Codechef
 
             for (int i = 1; i < N + 1; i++)
             {
-                
+                if (A.contains((i)) && B.contains(i))
+                {
+                    first += 1;
+                }
+                else if (!A.contains((i)) && !B.contains(i))
+                {
+                    second += 1;
+                }
             }
+
+            System.out.println(first + " " + second);
 
             
             
