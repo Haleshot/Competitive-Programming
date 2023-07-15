@@ -31,7 +31,7 @@ class Codechef
                 B.add(sc.nextInt());
             }
 
-            for (int i = 0; i < M; i++)
+            for (int i = 1; i < N + 1; i++)
             {
                 A.add(sc.nextInt());
             }
