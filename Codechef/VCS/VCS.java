@@ -45,9 +45,8 @@ class Codechef
 
             System.out.println(first + " " + second);
 
-            
-            
         }
+        sc.close();
 
 	}
 }
