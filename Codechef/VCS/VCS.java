@@ -14,6 +14,7 @@ class VCS
 		int T = sc.nextInt();
         while (T > 0)
         {
+            T -= 1;
             int first = 0, second = 0;
             int N = sc.nextInt();
             int M = sc.nextInt();
