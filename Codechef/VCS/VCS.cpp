@@ -28,18 +28,8 @@ int main()
                 }
             }
         }
-        for (int i = 0; i < M; i++)
-        {
-            for (int j = 0; j < K; j++)
-            {
-                if (A[i] != B[j])
-                {
-                    second += 1;
-                }
-            }
-        }
-
-        cout << first << " " << second << endl;
+       
+        cout << first << " " << N - (M + K - first) << endl;
 
 
     }
