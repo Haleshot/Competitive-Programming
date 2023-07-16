@@ -91,6 +91,27 @@ The repository is structured as follows:
 | 68            | Enspace                | [Enspace](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Enspace)              |
 | 69            | Equal_Dist             | [Equal_Dist](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Equal_Dist)        |
 | 70            | EVENTUAL               | [EVENTUAL](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/EVENTUAL)            |
+| 71            | Podium                 | [Podium](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Podium)         |
+| 72            | Poly_Bags              | [Poly_Bags](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Poly_Bags)   |
+| 73            | Population             | [Population](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Population) |
+| 74            | Prac_List              | [Prac_List](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Prac_List)   |
+| 75            | Presents               | [Presents](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Presents)     |
+| 76            | Primereverse           | [Primereverse](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Primereverse) |
+| 77            | Prize_Pool             | [Prize_Pool](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Prize_Pool) |
+| 78            | PROGLANG               | [PROGLANG](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/PROGLANG)     |
+| 79            | Qualify                | [Qualify](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Qualify)       |
+| 80            | Race_400M              | [Race_400M](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Race_400M)   |
+| 81            | Rainfall_1             | [Rainfall_1](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Rainfall_1) |
+| 82            | Rating                 | [Rating](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Rating)         |
+| 83            | Reach_Fast             | [Reach_Fast](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Reach_Fast) |
+| 84            | Reach_Home             | [Reach_Home](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Reach_Home) |
+| 85            | Reach_Target           | [Reach_Target](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Reach_Target) |
+| 86            | Read_Pages             | [Read_Pages](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Read_Pages) |
+| 87            | Recipe                 | [Recipe](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Recipe)         |
+| 88            | Remove_Cards           | [Remove_Cards](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Remove_Cards) |
+| 89            | Repeat                 | [Repeat](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Repeat)         |
+| 90            | Right_There            | [Right_There](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Right_There) |
+**
 
 
 
