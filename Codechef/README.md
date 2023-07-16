@@ -71,6 +71,26 @@ The repository is structured as follows:
 | 48            | Chef_Apps              | [Chef_Apps](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Chef_Apps)   |
 | 49            | Chef_Bottle            | [Chef_Bottle](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Chef_Bottle) |
 | 50            | Chef_On_Date           | [Chef_On_Date](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Chef_On_Date) |
+| 51            | Chess_Time             | [Chess_Time](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Chess_Time)        |
+| 52            | Cndy                   | [Cndy](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Cndy)                    |
+| 53            | Cnt_Wrd                | [Cnt_Wrd](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Cnt_Wrd)              |
+| 54            | Coconut                | [Coconut](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Coconut)              |
+| 55            | Complexity             | [Complexity](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Complexity)        |
+| 56            | Credits                | [Credits](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Credits)              |
+| 57            | Creds                  | [Creds](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Creds)                  |
+| 58            | Cred_Coins             | [Cred_Coins](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Cred_Coins)        |
+| 59            | Cred_Score             | [Cred_Score](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Cred_Score)        |
+| 60            | Cut_Off                | [Cut_Off](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Cut_Off)              |
+| 61            | Cut_Paper              | [Cut_Paper](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Cut_Paper)          |
+| 62            | Daily                  | [Daily](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Daily)                  |
+| 63            | Detscore               | [Detscore](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Detscore)            |
+| 64            | Dist_Code              | [Dist_Code](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Dist_Code)          |
+| 65            | Dominant               | [Dominant](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Dominant)            |
+| 66            | Email_Rem              | [Email_Rem](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Email_Rem)          |
+| 67            | End_Sorted             | [End_Sorted](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/End_Sorted)        |
+| 68            | Enspace                | [Enspace](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Enspace)              |
+| 69            | Equal_Dist             | [Equal_Dist](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Equal_Dist)        |
+| 70            | EVENTUAL               | [EVENTUAL](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/EVENTUAL)            |
 
 
 
