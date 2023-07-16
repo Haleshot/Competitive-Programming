@@ -111,6 +111,17 @@ The repository is structured as follows:
 | 88            | Remove_Cards           | [Remove_Cards](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Remove_Cards) |
 | 89            | Repeat                 | [Repeat](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Repeat)         |
 | 90            | Right_There            | [Right_There](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Right_There) |
+| 91            | Sub_Task               | [Sub_Task](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Sub_Task)     |
+| 92            | Sugercane              | [Sugercane](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Sugercane)   |
+| 93            | Sunday                 | [Sunday](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Sunday)         |
+| 94            | Tablets                | [Tablets](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Tablets)       |
+| 95            | Taller                 | [Taller](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Taller)         |
+| 96            | Taste_Dec              | [Taste_Dec](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Taste_Dec)   |
+| 97            | Taxes                  | [Taxes](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Taxes)           |
+| 98            | Tax_Saving             | [Tax_Saving](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Tax_Saving) |
+| 99            | Tckt_Fine              | [Tckt_Fine](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Tckt_Fine)   |
+| 100           | Tea                    | [Tea](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Tea)               |
+
 **
 
 
