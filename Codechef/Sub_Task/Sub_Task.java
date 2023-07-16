@@ -20,6 +20,11 @@ class Sub_Task
             int K = sc.nextInt();
             ArrayList <Integer> A = new ArrayList<>();
 
+            for (int i = 0; i < M; i++)
+            {
+                A.add(sc.nextInt());
+            }
+
 	    }    
     }
 }
