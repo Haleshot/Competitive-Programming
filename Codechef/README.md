@@ -31,7 +31,48 @@ The repository is structured as follows:
 | 8             | Airlines               | [Airlines](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Airlines)     |
 | 9             | Air_Hockey             | [Air_Hockey](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Air_Hockey) |
 | 10            | Apple_Orange           | [Apple_Orange](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Apple_Orange) |
-| ...           | ...                    | ...                                                                                                |
+                                                                                |
+| ------------- | ---------------------- | ------------------------------------------------------------------------------------------------- |
+| 11            | Acs                    | [Acs](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Acs)               |
+| 12            | AC_Temp                | [AC_Temp](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/AC_Temp)       |
+| 13            | Advance                | [Advance](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Advance)       |
+| 14            | Ageing                 | [Ageing](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Ageing)         |
+| 15            | Age_Limit              | [Age_Limit](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Age_Limit)   |
+| 16            | Airline                | [Airline](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Airline)       |
+| 17            | Airlines               | [Airlines](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Airlines)     |
+| 18            | Air_Hockey             | [Air_Hockey](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Air_Hockey) |
+| 19            | Apple_Orange           | [Apple_Orange](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Apple_Orange) |
+| 20            | ATM                    | [ATM](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/ATM)               |
+| 21            | Attendu                | [Attendu](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Attendu)       |
+| 22            | Auction                | [Auction](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Auction)       |
+| 23            | Audible                | [Audible](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Audible)       |
+| 24            | Avg                    | [Avg](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Avg)               |
+| 25            | Avg_Problem            | [Avg_Problem](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Avg_Problem) |
+| 26            | Badminton              | [Badminton](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Badminton)   |
+| 27            | Balloon                | [Balloon](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Balloon)       |
+| 28            | Battery_Low            | [Battery_Low](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Battery_Low) |
+| 29            | Black_Jack             | [Black_Jack](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Black_Jack) |
+| 30            | Bottom                 | [Bottom](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Bottom)         |
+| 31            | Brackets               | [Brackets](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Brackets)     |
+| 32            | Breadstick             | [Breadstick](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Breadstick) |
+| 33            | Broken_Phone           | [Broken_Phone](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Broken_Phone) |
+| 34            | Bscost                 | [Bscost](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Bscost)         |
+| 35            | Btry_Hlth              | [Btry_Hlth](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Btry_Hlth)   |
+| 36            | Budget_                | [Budget_](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Budget_)       |
+| 37            | Bud_Tech               | [Bud_Tech](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Bud_Tech)     |
+| 38            | Bullet                 | [Bullet](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Bullet)         |
+| 39            | Bull_Bear              | [Bull_Bear](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Bull_Bear)   |
+| 40            | Burgers                | [Burgers](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Burgers)       |
+| 41            | Cabs                   | [Cabs](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Cabs)             |
+| 42            | Can_Chef               | [Can_Chef](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Can_Chef)     |
+| 43            | Can_Divide             | [Can_Divide](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Can_Divide) |
+| 44            | Car_Trip               | [Car_Trip](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Car_Trip)     |
+| 45            | CB_Speed               | [CB_Speed](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/CB_Speed)     |
+| 46            | Cheap_Food             | [Cheap_Food](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Cheap_Food) |
+| 47            | Chefstud               | [Chefstud](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Chefstud)     |
+| 48            | Chef_Apps              | [Chef_Apps](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Chef_Apps)   |
+| 49            | Chef_Bottle            | [Chef_Bottle](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Chef_Bottle) |
+| 50            | Chef_On_Date           | [Chef_On_Date](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Chef_On_Date) |
 
 
 
