@@ -5,4 +5,5 @@ while T:
     A = list(map(int, input().split()))
     one_count = A.count(1)
     zero_count = A.count(0)
-    
+    if (one_count == N):
+        print(100)
