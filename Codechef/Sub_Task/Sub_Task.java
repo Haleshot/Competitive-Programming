@@ -14,7 +14,7 @@ class Sub_Task
         while (T > 0)
         {
             T -= 1;
-            int first = 0, second = 0;
+            int one_count = 0;
             int N = sc.nextInt();
             int M = sc.nextInt();
             int K = sc.nextInt();
@@ -24,6 +24,18 @@ class Sub_Task
             {
                 A.add(sc.nextInt());
             }
+            for (int i = 0; i < M; i++)
+            {
+                if (A.get(i) == 1)
+                {
+                    one_count += 1;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
             
 
 	    }    
