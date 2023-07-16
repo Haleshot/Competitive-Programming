@@ -24,6 +24,7 @@ class Sub_Task
             {
                 A.add(sc.nextInt());
             }
+            A.
 
 	    }    
     }
