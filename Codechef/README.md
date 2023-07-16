@@ -11,6 +11,10 @@ Welcome to the Competitive Programming repository! This repository contains vari
 
 The repository is structured as follows:
 
+## Structure of the Repository
+
+The repository is structured as follows:
+
 | Serial Number | Problem Statement Title | Tools Used                           | Repository Link                                      |
 | ------------- | ---------------------- | ------------------------------------ | ---------------------------------------------------- |
 | 1             | Accuracy               | Python, C++                          | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Accuracy) |
@@ -19,6 +23,7 @@ The repository is structured as follows:
 | ...           | ...                    | ...                                  | ...                                                  |
 | 98            | VCS                    | Python, C++, Java (VCS only)         | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/VCS)      |
 | 99            | Sub_Task               | Python, C++, Java (Sub_Task only)    | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Sub_Task) |
+
 
 ## Platforms for Training
 
