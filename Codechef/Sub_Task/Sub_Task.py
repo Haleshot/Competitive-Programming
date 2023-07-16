@@ -3,4 +3,6 @@ while T:
     T -= 1
     N, M, K = map(int, input().split())
     A = list(map(int, input().split()))
+    one_count = A.count(1)
+    zero_count = A.count(0)
     
