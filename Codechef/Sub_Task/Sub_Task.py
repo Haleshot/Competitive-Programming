@@ -7,10 +7,11 @@ while T:
     for i in A:
         if i == 1:
             one_count += 1      
-        elif i == 0:
             if (one_count == N):
                 print(100)
-            elif (one_count >= M):
+        elif i == 0:
+            if (one_count >= M):
                 print(K)
             else:
                 print(0)
+        
