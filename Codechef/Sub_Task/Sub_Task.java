@@ -19,6 +19,7 @@ class Sub_Task
             int M = sc.nextInt();
             int K = sc.nextInt();
             ArrayList <Integer> A = new ArrayList<>();
-            
-	}
+
+	    }    
+    }
 }
