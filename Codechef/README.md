@@ -11,7 +11,6 @@ Welcome to the Competitive Programming repository! This repository contains vari
 
 The repository is structured as follows:
 
-Apologies for the confusion. Here are the first 50 entries with the added "CodeChef Solution Link" column:
 
 | Serial Number | Problem Statement Title | Tools Used          | Repository Link                                                                                                            | CodeChef Solution Link                                                                                   |
 |---------------|------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
