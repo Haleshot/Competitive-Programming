@@ -14,13 +14,11 @@ int main()
         for (int i = 0; i < N; i++)
         {
             cin >> A[i];
-            if (A[i] == 1)
-                one_count += 1;
         }
         for (int i = 0; i < N; i++)
         {
             if (i == 1)
-            one_count += 1;       
+                one_count += 1;       
             else
                 break; 
         }
