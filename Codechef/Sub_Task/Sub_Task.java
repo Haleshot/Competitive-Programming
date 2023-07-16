@@ -42,8 +42,6 @@ class Sub_Task
             else
                 System.out.println(0);
 
-            
-
 	    }
     }
 }
