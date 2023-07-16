@@ -38,7 +38,6 @@ Apologies for the confusion. Here are the first 50 entries with the added "CodeC
 | 21            | Bottom                 | Python, Java, C++   | [Bottom](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Bottom)                                 | [CodeChef Solution Link](https://www.codechef.com/problems/BOTTOM)                                         |
 | 22            | Brackets               | Python, Java, C++   | [Brackets](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Brackets)                             | [CodeChef Solution Link](https://www.codechef.com/problems/BRACKETS)                                       |
 | 23            | Breadstick             | Python, Java, C++   | [Breadstick](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Breadstick)                         | [CodeChef Solution Link](https://www.codechef.com/problems/BREADSTICK)                                
- |
 | 24            | Broken_Phone           | Python, Java, C++   | [Broken_Phone](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Broken_Phone)                     | [CodeChef Solution Link](https://www.codechef.com/problems/BROKENPHONE)                                   |
 | 25            | Bscost                 | Python, Java, C++   | [Bscost](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Bscost)                                 | [CodeChef Solution Link](https://www.codechef.com/problems/BSCOST)                                         |
 | 26            | Btry_Hlth              | Python, Java, C++   | [Btry_Hlth](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Btry_Hlth)                           | [CodeChef Solution Link](https://www.codechef.com/problems/BTRYHLTH)                                      |
@@ -180,7 +179,7 @@ I hope this completes the table with the additional column for the CodeChef solu
 ## Platforms for Training
 
 - [![Hackerrank](https://img.shields.io/badge/-hackerrank-7cfc00?style=flat&labelColor=7cfc00&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/hari_leo03)
-- [![GeeksForGeeks](https://img.shields.io/badge/geeksforfeeks-green)](https://auth.geeksforgeeks.org/user/Haleshot/practice/)
+- [![GeeksForGeeks](https://img.shields.io/badge/geeksforfeeks-davidepollicino-green)](https://auth.geeksforgeeks.org/user/Haleshot/practice/)
 - [![LeetCode](https://img.shields.io/badge/-LeetCode-ff8c00?style=flat&labelColor=ff8c00&logo=LeetCode&logoColor=white)](https://leetcode.com/Haleshot/)
 - [![Codechef](https://img.shields.io/badge/-Codechef-909090?style=flat&labelColor=909090&logo=Codechef&logoColor=white)](https://www.codechef.com/users/haleshot)
 - [![CodeForces](https://img.shields.io/badge/-CodeForces-ec6161?style=flat&labelColor=ec6161&logo=CodeForces&logoColor=white)](https://codeforces.com/profile/Haleshot)
