@@ -9,7 +9,12 @@ int main()
     {
         int N, M, K;
         cin >> N >> M >> K;
+        int A[N];
         int one_count = 0;
+        for (int i = 0; i < N; i++)
+        {
+            cin >> A[i];
+        }
         for (int i = 0; i < N; i++)
         {
             if (i == 1)
