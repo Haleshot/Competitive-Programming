@@ -13,12 +13,12 @@ The repository is structured as follows:
 
 | Serial Number | Problem Statement Title | Tools Used                           | Repository Link                                      |
 | ------------- | ---------------------- | ------------------------------------ | ---------------------------------------------------- |
-| 1             | Accuracy               | Python, C++                          | [Repository](https://github.com/your-username/Accuracy) |
-| 2             | Acs                    | Python, C++                          | [Repository](https://github.com/your-username/Acs)      |
-| 3             | AC_Temp                | Python, C++                          | [Repository](https://github.com/your-username/AC_Temp)  |
+| 1             | Accuracy               | Python, C++                          | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Accuracy) |
+| 2             | Acs                    | Python, C++                          | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Acs)      |
+| 3             | AC_Temp                | Python, C++                          | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/AC_Temp)  |
 | ...           | ...                    | ...                                  | ...                                                  |
-| 98            | VCS                    | Python, C++, Java (VCS only)         | [Repository](https://github.com/your-username/VCS)      |
-| 99            | Sub_Task               | Python, C++, Java (Sub_Task only)    | [Repository](https://github.com/your-username/Sub_Task) |
+| 98            | VCS                    | Python, C++, Java (VCS only)         | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/VCS)      |
+| 99            | Sub_Task               | Python, C++, Java (Sub_Task only)    | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Sub_Task) |
 
 ## Platforms for Training
 
