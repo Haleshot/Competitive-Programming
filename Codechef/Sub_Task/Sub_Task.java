@@ -35,6 +35,12 @@ class Sub_Task
                     break;
                 }
             }
+            if (one_count == N)
+                System.out.println(100);
+            else if (one_count >= M)
+                System.out.println(K);
+            else
+                System.out.println(0);
 
             
 
