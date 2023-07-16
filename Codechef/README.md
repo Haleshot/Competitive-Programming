@@ -15,14 +15,24 @@ The repository is structured as follows:
 
 The repository is structured as follows:
 
-| Serial Number | Problem Statement Title | Tools Used                           | Repository Link                                      |
-| ------------- | ---------------------- | ------------------------------------ | ---------------------------------------------------- |
-| 1             | Accuracy               | Python, C++                          | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Accuracy) |
-| 2             | Acs                    | Python, C++                          | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Acs)      |
-| 3             | AC_Temp                | Python, C++                          | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/AC_Temp)  |
-| ...           | ...                    | ...                                  | ...                                                  |
-| 98            | VCS                    | Python, C++, Java (VCS only)         | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/VCS)      |
-| 99            | Sub_Task               | Python, C++, Java (Sub_Task only)    | [Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Sub_Task) |
+## Structure of the Repository
+
+The repository is structured as follows:
+
+| Serial Number | Problem Statement Title | Repository Link                                                                                    |
+| ------------- | ---------------------- | -------------------------------------------------------------------------------------------------- |
+| 1             | Accuracy               | [Accuracy](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Accuracy)     |
+| 2             | Acs                    | [Acs](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Acs)               |
+| 3             | AC_Temp                | [AC_Temp](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/AC_Temp)       |
+| 4             | Advance                | [Advance](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Advance)       |
+| 5             | Ageing                 | [Ageing](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Ageing)         |
+| 6             | Age_Limit              | [Age_Limit](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Age_Limit)   |
+| 7             | Airline                | [Airline](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Airline)       |
+| 8             | Airlines               | [Airlines](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Airlines)     |
+| 9             | Air_Hockey             | [Air_Hockey](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Air_Hockey) |
+| 10            | Apple_Orange           | [Apple_Orange](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Apple_Orange) |
+| ...           | ...                    | ...                                                                                                |
+
 
 
 ## Platforms for Training
