@@ -11,14 +11,6 @@ Welcome to the Competitive Programming repository! This repository contains vari
 
 The repository is structured as follows:
 
-## Structure of the Repository
-
-The repository is structured as follows:
-
-## Structure of the Repository
-
-The repository is structured as follows:
-
 | Serial Number | Problem Statement Title | Repository Link                                                                                    |
 | ------------- | ---------------------- | -------------------------------------------------------------------------------------------------- |
 | 1             | Accuracy               | [Accuracy](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Accuracy)     |
