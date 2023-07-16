@@ -31,7 +31,7 @@ The repository is structured as follows:
 | 8             | Airlines               | [Airlines](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Airlines)     |
 | 9             | Air_Hockey             | [Air_Hockey](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Air_Hockey) |
 | 10            | Apple_Orange           | [Apple_Orange](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Apple_Orange) |
-                                                                                |
+                                                                                
 | ------------- | ---------------------- | ------------------------------------------------------------------------------------------------- |
 | 11            | Acs                    | [Acs](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/Acs)               |
 | 12            | AC_Temp                | [AC_Temp](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef/AC_Temp)       |
