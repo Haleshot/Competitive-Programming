@@ -7,3 +7,7 @@ while T:
     zero_count = A.count(0)
     if (one_count == N):
         print(100)
+    elif (one_count == M):
+        print(K)
+    else:
+        print(0)
