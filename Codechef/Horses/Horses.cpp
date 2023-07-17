@@ -15,16 +15,16 @@ int main()
         {
             cin >> S[i];
         }
-        int diff = 100000;
+        long int min = 100000;
         sort(S, S + N);
         for (int i = 1; i < N; i++)
         {
-            if (S[i] - S[i - 1] < diff)
+            if (S[i] - S[i - 1] < min)
             {
-                diff = S[i] - S[i - 1];
+                min = S[i] - S[i - 1];
             }
         }
-        cout << diff << endl;
+        cout << min << endl;
 
     }
     return 0;
