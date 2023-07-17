@@ -14,6 +14,8 @@ int main()
         {
             cin >> S[i];
         }
+        int minimum[N];
+        
     }
     return 0;
 }
