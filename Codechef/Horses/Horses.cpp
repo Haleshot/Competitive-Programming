@@ -17,7 +17,7 @@ int main()
         }
         int diff = 10;
         sort(S, S + N);
-        for (int i = 1; i < N; i++)
+        for (int i = 1; i < N - 1; i++)
         {
             if (S[i] - S[i - 1] < diff)
             {
