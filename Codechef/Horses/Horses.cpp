@@ -10,18 +10,18 @@ int main()
     {
         int N;
         cin >> N;
-        int S[N];
+        long int S[N];
         for (int i = 0; i < N; i++)
         {
             cin >> S[i];
         }
-        long long diff = 100000;
         sort(S, S + N);
-        for (int i = 0; i < N - 1; i++)
+        long int diff = 10000000;
+        for (int i = 1; i < N; i++)
         {
-            if (S[i + 1] - S[i] < diff)
+            if (S[i] - S[i - 1] < diff)
             {
-                diff = S[i + 1] - S[i];
+                diff = S[i] - S[i - 1];
             }
         }
         cout << diff << endl;
