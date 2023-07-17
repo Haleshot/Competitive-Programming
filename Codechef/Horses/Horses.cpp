@@ -15,7 +15,7 @@ int main()
         {
             cin >> S[i];
         }
-        int diff = 10;
+        int diff = 100000;
         sort(S, S + N);
         for (int i = 1; i < N; i++)
         {
