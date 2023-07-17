@@ -18,7 +18,7 @@ int main()
 	    }
 	    sort(nums, nums+N);
 	    long long diff = 100000000000;
-	    for(int i = 0; i < N-1; i++) 
+	    for(int i = 0; i < N - 1; i++) 
         {
 	        if(nums[i+1] - nums[i] < diff)
             {
