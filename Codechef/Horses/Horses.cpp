@@ -1,31 +1,31 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <cmath>
 using namespace std;
 
-int main()
+int main() 
 {
-    int T;
-    cin >> T;
-    while (T--)
+	int T;
+	cin >> T;
+	while(T--) 
     {
-        int N;
-        cin >> N;
-        long int S[N];
-        for (int i = 0; i < N; i++)
+	    int N;
+	    cin >> N;
+	    long long nums[N];
+	    for(int i = 0; i < N; i++) 
         {
-            cin >> S[i];
-        }
-        sort(S, S + N);
-        long int diff = 10000000;
-        for (int i = 1; i < N; i++)
+	        cin >> nums[i];
+	    }
+	    sort(nums, nums+N);
+	    long long diff = 100000000000;
+	    for(int i = 0; i < N-1; i++) 
         {
-            if (S[i] - S[i - 1] < diff)
+	        if(nums[i+1] - nums[i] < diff)
             {
-                diff = S[i] - S[i - 1];
-            }
-        }
-        cout << diff << endl;
-
-    }
-    return 0;
+	            diff = nums[i+1] - nums[i];
+	        }
+	    }
+	    cout << diff << '\n';
+	}
+	return 0;
 }
