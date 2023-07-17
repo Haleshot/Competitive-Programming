@@ -12,14 +12,17 @@ class Horses
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
-		while(T > 0){
+		while(T > 0)
+        {
+            T -= 1;
 		    int N = sc.nextInt();    
 		    int S[] = new int[N]; 
 		    for (int i = 0 ; i < N ; i++ ) 
                 S[i] = sc.nextInt();
 		    Arrays.sort(S);
 		    int min = Integer.MAX_VALUE;
-		    for ( int i = 0  ; i < N - 1 ; i++ ) {
+		    for ( int i = 0  ; i < N - 1 ; i++ ) 
+            {
 		        min = Math.min( min , S[i + 1] - S[i] );
 		    }
 		    System.out.println( min );
