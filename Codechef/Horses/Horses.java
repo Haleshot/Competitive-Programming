@@ -14,9 +14,9 @@ class Horses
         while (T > 0)
         {
             T -= 1;
-            int N;
+            int N = sc.nextInt();
             int S[] = new int[N];
-            for(int i = 0; i < N-1; i++) 
+            for(int i = 0; i < N - 1; i++) 
             {
                 S[i] = sc.nextInt();
             }
