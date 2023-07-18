@@ -12,14 +12,14 @@ while T:
             else:
                 points += 300
         
-        if ("TOP" in all_inputs):
+        if ("TOP" in all_inputs[0]):
             points += 300
 
         if "BUG" in all_inputs[0]:
             if (int(all_inputs[1]) >= 50 and int(all_inputs[1]) <= 1000):
                 points += int(all_inputs[1])
 
-        if "HOSTED" in all_inputs:
+        if "HOSTED" in all_inputs[0]:
             points += 50
 
     if (activities[1] == "INDIAN"):
