@@ -5,3 +5,6 @@ Link to the problem - https://www.codechef.com/problems/LADDU
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/a3b81287-469b-414e-9efa-3ed63414a102)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/ac46e765-89e1-4257-a060-d38a03e086e7)
