@@ -13,9 +13,9 @@ The repository is organized with the following table, showcasing the problem sol
 
 | Serial Number | Coding Platform Title                                          | Tools Used   | Repository Link                                                                                            |
 | ------------- | ------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------- |
-| 1             | [Codechef](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef)                 | Python, Java, C++ | [Link to Codechef Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef) |
-| 2             | [Hackerrank](https://github.com/Haleshot/Competitive-Programming/tree/master/Hackerrank)             | Python, Java, C++ | [Link to Hackerrank Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Hackerrank) |
-| 3             | [Leetcode](https://github.com/Haleshot/Competitive-Programming/tree/master/Leetcode)                 | Python, Java, C++ | [Link to Leetcode Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Leetcode) |
+| 1             | [Codechef](https://codechef.com/)                 | Python, Java, C++ | [Link to Codechef Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef)   |
+| 2             | [Hackerrank](https://hackerrank.com/)             | Python, Java, C++ | [Link to Hackerrank Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Hackerrank) |
+| 3             | [Leetcode](https://leetcode.com/)                 | Python, Java, C++ | [Link to Leetcode Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Leetcode) |
 
 ## Platforms for Training
 
