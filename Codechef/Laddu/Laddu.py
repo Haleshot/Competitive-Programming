@@ -2,28 +2,25 @@ T = int(input())
 while T:
     T -= 1
     activities = list(map(str, input().split()))
-    contest_won = list(map(str, input().split()))
-    top_contrib = input()
-    bug_found = list(map(str, input().split()))
-    contest_host = input()
     points = 0
     for i in range(int(activities[0])):
-        if ("WON" in contest_won[0]):
-            if (int(contest_won[1]) <= 20):
-                points += 300 + (20 - int(contest_won[1]))
+        all_inputs= list(input().split())
+        
+        if ("WON" in all_inputs[0]):
+            if (int(all_inputs[1]) <= 20):
+                points += 300 + (20 - int(all_inputs[1]))
             else:
                 points += 300
         
-        if ("TOP" in top_contrib):
+        if ("TOP" in all_inputs):
             points += 300
 
-        if "BUG" in bug_found[0]:
-            if (int(bug_found[1]) >= 50 and int(bug_found[1]) <= 1000):
-                points += int(bug_found[1])
+        if "BUG" in all_inputs[0]:
+            if (int(all_inputs[1]) >= 50 and int(all_inputs[1]) <= 1000):
+                points += int(all_inputs[1])
 
-        if "HOSTED" in contest_host:
+        if "HOSTED" in all_inputs:
             points += 50
-
 
     if (activities[1] == "INDIAN"):
         print(points)
