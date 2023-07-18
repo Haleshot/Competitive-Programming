@@ -31,6 +31,10 @@ int main()
                 points += 50;
 
         }
+        if(ori == "INDIAN")
+            cout << points/200 << endl;
+        else
+            cout << points/400 << endl;
     }
     return 0;
 }
