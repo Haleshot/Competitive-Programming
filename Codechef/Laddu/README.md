@@ -2,3 +2,6 @@ Link to the problem - https://www.codechef.com/problems/LADDU
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/b19744ff-4b5c-4417-869d-d45d36d623f3)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/a3b81287-469b-414e-9efa-3ed63414a102)
