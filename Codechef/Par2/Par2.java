@@ -19,7 +19,9 @@ class Par2
                 System.out.println("YES");
             }
             else
+            {
                 System.out.println("NO");
+            }
         }
 	}
 }
