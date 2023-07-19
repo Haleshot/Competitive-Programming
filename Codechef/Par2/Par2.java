@@ -13,7 +13,13 @@ class Par2
         int T = sc.nextInt();
         while (T-- > 0)
         {
-            
+            int N = sc.nextInt();
+            if (N % 2 == 0)
+            {
+                System.out.println("YES");
+            }
+            else
+                System.out.println("NO");
         }
 	}
 }
