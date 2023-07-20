@@ -14,7 +14,7 @@ class Bath
         while (T-- > 0)
         {
             int X = sc.nextInt();
-            int y = sc.nextInt();
+            int Y = sc.nextInt();
             System.out.println((X/(2 * Y)));
         }
 	}
