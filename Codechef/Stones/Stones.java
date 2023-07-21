@@ -16,7 +16,13 @@ class Codechef
             String J = sc.next();
             String S = sc.next();
             HashMap<Character, Integer> m = new HashMap<>();
-            
+            for (char ch:J.toCharArray())
+                m.put(ch, m.getOrDefault(ch, 0) + 1);
+            int count = 0;
+            for (int i = 0; i < S.length(); i++)
+            {
+                
+            }
 
         }
 	}
