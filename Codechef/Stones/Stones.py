@@ -4,8 +4,8 @@ while T:
     J = set(input())
     S = input()
     c = 0
-    for i in J:
-        if i in S:
+    for i in S:
+        if i in J:
             c += 1
 
     print(c)
