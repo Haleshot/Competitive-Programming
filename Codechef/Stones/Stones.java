@@ -25,8 +25,10 @@ class Codechef
                 if (m.containsKey(temp))
                     count += 1;
             }
-
-
+        System.out.println(count);
+        
         }
+        
+
 	}
 }
