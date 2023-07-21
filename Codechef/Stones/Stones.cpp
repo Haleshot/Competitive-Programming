@@ -11,6 +11,12 @@ int main()
         string J, S;
         cin >> J >> S;
         set<char> m;
+        int count = 0;
+        for (int i = 0;  i < S.length(); i++)
+        {
+            char temp = J[i];
+            m.insert(temp);
+        }
         
 
 
