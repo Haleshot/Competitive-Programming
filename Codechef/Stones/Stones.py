@@ -4,5 +4,5 @@ while T:
     J = input()
     S = input()
     c = [i for i in J if i in S]
-    print([*set(c)])
-    # print(len([*set(c)]))
+    c1 = []
+    print(len([c1.append(i) for i in c if i not in c1]))
