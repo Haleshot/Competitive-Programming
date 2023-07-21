@@ -17,8 +17,8 @@ int main()
             char temp = J[i];
             m.insert(temp);
         }
-        auto it = J.begin();
-        for (auto it = J.begin(); it != J.end(); it++)
+        auto it = m.begin();
+        for (auto it = m.begin(); it != m.end(); it++)
         {
             for (int i = 0;  i < S.length(); i++)
             {
