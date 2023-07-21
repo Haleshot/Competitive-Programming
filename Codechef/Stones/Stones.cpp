@@ -17,8 +17,15 @@ int main()
             char temp = J[i];
             m.insert(temp);
         }
-        
-
+        for (auto it = J.begin(); it != J.end(); it++)
+        {
+            for (int i = 0;  i < S.length(); i++)
+            {
+                if ((*it) == S[i])
+                    count += 1;
+            }
+        }
+    cout << count << endl;
 
     }
     return 0;
