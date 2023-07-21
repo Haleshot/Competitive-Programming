@@ -21,8 +21,11 @@ class Codechef
             int count = 0;
             for (int i = 0; i < S.length(); i++)
             {
-                
+                char temp = S.charAt(i);
+                if (m.containsKey(temp))
+                    count += 1;
             }
+
 
         }
 	}
