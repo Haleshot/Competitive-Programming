@@ -20,7 +20,7 @@ int main()
         auto it = m.begin();
         for (auto it = m.begin(); it != m.end(); it++)
         {
-            for (int i = 0;  i < S.length(); i++)
+            for (int i = 0; i < S.size(); i++)
             {
                 if ((*it) == S[i])
                     count += 1;
