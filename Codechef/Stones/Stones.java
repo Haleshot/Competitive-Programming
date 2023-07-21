@@ -15,7 +15,9 @@ class Codechef
         {
             String J = sc.next();
             String S = sc.next();
+            HashMap<Character, Integer> m = new HashMap<>();
             
+
         }
 	}
 }
