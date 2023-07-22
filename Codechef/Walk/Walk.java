@@ -20,7 +20,6 @@ class Walk
             {
                 W[i] = sc.nextInt();
             }
-            System.out.println(W);
             for (int i = 0; i < N; i++)
             {
                 W[i] += i;
