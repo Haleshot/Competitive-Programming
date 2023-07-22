@@ -13,6 +13,12 @@ class Waslk
         int T = sc.nextInt();
         while (T-- > 0)
         {
+            int N = sc.nextInt();
+            int W[];
+            for (int i = 0; i < N; i++)
+            {
+                W[i] = sc.nextInt();
+            }
             
         }
 	}
