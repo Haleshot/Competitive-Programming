@@ -15,7 +15,7 @@ class Waslk
         while (T-- > 0)
         {
             int N = sc.nextInt();
-            int W[];
+            int W[] = new int[N];
             for (int i = 0; i < N; i++)
             {
                 W[i] = sc.nextInt();
