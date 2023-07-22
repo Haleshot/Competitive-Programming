@@ -15,11 +15,12 @@ class Walk
         while (T-- > 0)
         {
             int N = sc.nextInt();
-            int W[] = new int[N];
+            int[] W = new int[N];
             for (int i = 0; i < N; i++)
             {
                 W[i] = sc.nextInt();
             }
+            System.out.println(W);
             for (int i = 0; i < N; i++)
             {
                 W[i] += i;
