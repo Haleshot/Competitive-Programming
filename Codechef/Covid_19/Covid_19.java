@@ -27,15 +27,12 @@ class Covid_19
             for (int i = 0; i < N - 1; i++)
             {
                 if (Math.abs(X[i + 1] - X[i]) <= 2)
-                {
-                    c += 1;
-                }
+                    c++;
                 else
                 {
                     if (c > max)
                         max = c;
                     if (c < min)
-                    
                         min = c;   
                         c = 1;
                     
@@ -44,7 +41,6 @@ class Covid_19
             if (c > max)
                 max = c;
             if (c < min)
-            
                 min = c;   
                 c = 1;
             
