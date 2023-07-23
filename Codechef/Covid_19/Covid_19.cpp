@@ -18,7 +18,7 @@ int main()
             cin >> i;
         }
         int c = 1, minimum = INT_MAX, maximum = INT_MIN;
-        for (int i = 0; i < N; i++)
+        for (int i = 0; i < N - 1; i++)
         {
             if (X[i + 1] - X[i] <= 2)
             {
