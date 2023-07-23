@@ -12,12 +12,12 @@ int main()
     {
         int N;
         cin >> N;
-        vector<int> X(N), new_X(N);
-        int c = 1, minimum = INT_MAX, maximum = INT_MIN;
+        vector<int> X(N), new_X(N);  
         for (auto &i : X)
         {
             cin >> i;
         }
+        int c = 1, minimum = INT_MAX, maximum = INT_MIN;
         for (int i = 0; i < N; i++)
         {
             if (X[i + 1] - X[i] <= 2)
