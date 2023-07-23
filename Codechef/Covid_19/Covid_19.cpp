@@ -12,7 +12,7 @@ int main()
     {
         int N;
         cin >> N;
-        int X[N], c = 0, new_X[N];
+        int X[N], c = 1, new_X[N];
         for (int i = 0; i < N; i++)
         {
             cin >> X[i];
