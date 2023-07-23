@@ -5,3 +5,6 @@ Link to the problem - https://www.codechef.com/problems/COVID19
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/6c9c711f-e659-43af-97f7-eacfe430eaee)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/372461eb-4604-45a0-92f4-4a289f0da4a4)
