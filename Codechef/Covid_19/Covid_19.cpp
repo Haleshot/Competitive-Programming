@@ -33,7 +33,7 @@ int main()
         } 
         minimum = min(minimum, c);
         maximum = min(maximum, c);
-        cout << minimum << maximum << endl;        
+        cout << minimum << " " << maximum << endl;        
 
     }
     return 0;
