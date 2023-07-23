@@ -15,11 +15,12 @@ class Covid_19
 	{
 		Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
-        int c = 1, min = 100, max = 1;
+        
         while (T-- > 0)
         {
             int N = sc.nextInt();
             int X[] = new int[N];
+            int c = 1, min = 100, max = 1;
             for (int i = 0; i < N; i++)
             {
                 X[i] = sc.nextInt();
