@@ -15,7 +15,7 @@ class Covid_19
 	{
 		Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
-        int c = 1, minimum = 100, maximum = 1;
+        int c = 1, min = 100, max = 1;
         while (T-- > 0)
         {
             int N = sc.nextInt();
@@ -32,23 +32,23 @@ class Covid_19
                 }
                 else
                 {
-                    if (c > maximum)
-                        maximum = c;
-                    if (c < minimum)
+                    if (c > max)
+                        max = c;
+                    if (c < min)
                     
-                        minimum = c;   
+                        min = c;   
                         c = 1;
                     
                 }
             }
-            if (c > maximum)
-                maximum = c;
-            if (c < minimum)
+            if (c > max)
+                max = c;
+            if (c < min)
             
-                minimum = c;   
+                min = c;   
                 c = 1;
             
-            System.out.println(minimum + " " + maximum);
+            System.out.println(min + " " + max);
 
         }
 	}
