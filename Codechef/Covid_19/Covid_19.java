@@ -15,7 +15,7 @@ class Covid_19
 	{
 		Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
-        int c = 1, minimum = 1000, maximum = 1;
+        int c = 1, minimum = 100, maximum = 1;
         while (T-- > 0)
         {
             int N = sc.nextInt();
