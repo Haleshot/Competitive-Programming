@@ -48,7 +48,7 @@ class Covid_19
                 minimum = c;   
                 c = 1;
             }
-            System.out.println(minimum+ ""+ maximum);
+            System.out.println(minimum + " " + maximum);
 
         }
 	}
