@@ -35,19 +35,19 @@ class Covid_19
                     if (c > maximum)
                         maximum = c;
                     if (c < minimum)
-                    {
+                    
                         minimum = c;   
                         c = 1;
-                    }
+                    
                 }
             }
             if (c > maximum)
                 maximum = c;
             if (c < minimum)
-            {
+            
                 minimum = c;   
                 c = 1;
-            }
+            
             System.out.println(minimum + " " + maximum);
 
         }
