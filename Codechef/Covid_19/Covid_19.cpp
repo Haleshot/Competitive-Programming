@@ -18,9 +18,9 @@ int main()
         {
             cin >> i;
         }
-        for (int i = 0; i < N - 1; i++)
+        for (int i = 0; i < N - 1; ++i)
         {
-            if (X[i + 1] - X[i] <= 2)
+            if (abs(X[i + 1] - X[i] <= 2))
             {
                 ++c;
             }
