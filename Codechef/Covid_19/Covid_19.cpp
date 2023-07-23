@@ -12,7 +12,7 @@ int main()
     {
         int N;
         cin >> N;
-        vector<int> X(N), new_X(N);  
+        vector<int> X(N);  
         int c = 1, minimum = INT_MAX, maximum = INT_MIN;
         for (auto &i : X)
         {
