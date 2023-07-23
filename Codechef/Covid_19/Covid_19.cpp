@@ -1,6 +1,6 @@
 #include <iostream>
 #include <bits/stdc++.h>
-#include <list>
+#include <vector>
 #include <algorithm>
 using namespace std;
 
@@ -12,25 +12,28 @@ int main()
     {
         int N;
         cin >> N;
-        int X[N], c = 1, new_X[N];
-        for (int i = 0; i < N; i++)
+        vector<int> X(N), new_X(N);
+        int c = 1, minimum = INT_MIN, maximum = INT_MAX;
+        for (auto &i : X)
         {
-            cin >> X[i];
+            cin >> i;
         }
         for (int i = 0; i < N; i++)
         {
             if (X[i + 1] - X[i] <= 2)
             {
-                c += 1;
+                ++c;
             }
             else
             {
-                new_X[i] = c;
+                minimum = min(minimum, c);
+                maximum = min(maximum, c);
                 c = 1;
             }
         } 
-        new_X[sizeof(new_X)] = c;
-        cout << (*min_element(new_X, new_X + N)) << endl;
+        minimum = min(minimum, c);
+        maximum = min(maximum, c);
+        cout << minimum << maximum << endl;        
 
     }
     return 0;
