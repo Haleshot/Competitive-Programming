@@ -27,12 +27,12 @@ int main()
             else
             {
                 minimum = min(minimum, c);
-                maximum = min(maximum, c);
+                maximum = max(maximum, c);
                 c = 1;
             }
         } 
         minimum = min(minimum, c);
-        maximum = min(maximum, c);
+        maximum = max(maximum, c);
         cout << minimum << " " << maximum << endl;        
 
     }
