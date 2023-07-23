@@ -13,6 +13,7 @@ class Covid_19
         int T = sc.nextInt();
         while (T-- > 0)
         {
+            int N = sc.nextInt();
             
         }
 	}
