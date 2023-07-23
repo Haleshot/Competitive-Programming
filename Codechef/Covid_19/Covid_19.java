@@ -24,7 +24,7 @@ class Covid_19
             {
                 X[i] = sc.nextInt();
             }
-            for (int i = 0; i < N; i++)
+            for (int i = 0; i < N - 1; i++)
             {
                 if (Math.abs(X[i + 1] - X[i]) <= 2)
                 {
