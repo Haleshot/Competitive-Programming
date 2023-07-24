@@ -14,8 +14,12 @@ int main()
         vector <int> m(1440, 0);
         for (int i = 0; i < 2 * N; i++)
         {
-            
+            int temp;
+            cin >> temp;
+            m[temp]++;
         }
+        sort(m.begin(), m.end(), greater<int>());
+
 
     }
     return 0;
