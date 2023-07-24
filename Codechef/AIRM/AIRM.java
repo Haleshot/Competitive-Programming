@@ -19,7 +19,10 @@ class AIRM
                 A[i] = sc.nextInt();
 
             Arrays.sort(A);
-            
+            for (int i = 0; i < 2 * N; i++)
+            {
+                
+            }
         }
 	}
 }
