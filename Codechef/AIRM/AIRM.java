@@ -17,6 +17,9 @@ class AIRM
             int A[] = new int[2 * N];
             for (int i = 0; i < 2 * N; i++)
                 A[i] = sc.nextInt();
+
+            Arrays.sort(A);
+            
         }
 	}
 }
