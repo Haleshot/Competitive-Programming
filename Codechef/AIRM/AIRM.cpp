@@ -19,7 +19,7 @@ int main()
             m[temp]++;
         }
         sort(m.begin(), m.end(), greater<int>());
-
+        cout << m[0] << endl;
 
     }
     return 0;
