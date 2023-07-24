@@ -19,10 +19,19 @@ class AIRM
                 A[i] = sc.nextInt();
 
             Arrays.sort(A);
-            for (int i = 0; i < 2 * N; i++)
+            int c = 1, maximum = 0;
+            for (int i = 0; i < 2 * N - 1; i++)
             {
-                
+                if (A[i] == A[i + 1])
+                    c += 1;
+                else
+                {
+                    maximum = Math.max(maximum, c);
+                    c = 1;
+                }
             }
+            maximum = Math.max(maximum, c);
+            System.out.println(maximum);
         }
 	}
 }
