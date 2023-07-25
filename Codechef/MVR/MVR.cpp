@@ -17,6 +17,10 @@ int main()
         {
             cout << "RONALDO" << endl;
         }
+        else
+        {
+            cout << "EQUAL" << endl;
+        }
     }
     return 0;
 }
