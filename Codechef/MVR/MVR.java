@@ -15,6 +15,17 @@ class MVR
         int X = sc.nextInt();
         int Y = sc.nextInt();
 
-        
+        if (((2 * A) + B) > ((2 * X) + Y))
+        {
+           System.out.println("MESSI");
+        }
+        else if (((2 * A) + B) < ((2 * X) + Y))
+        {
+           System.out.println("RONALDO");
+        }
+        else
+        {
+           System.out.println("EQUAL");
+        }
 	}
 }
