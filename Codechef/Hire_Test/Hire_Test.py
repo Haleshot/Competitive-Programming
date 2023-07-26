@@ -7,4 +7,9 @@ while T:
     for i in range(N):
         ele = input()
         inp.append(ele)
-    U_Count, P_Count, F_Count = 0, 0, 0
+    s = ''
+    U_Count, P_Count, F_Count = ele.count("U"), ele.count("O"), ele.count("F")
+    if ((F_Count >= X or F_Count >= X - 1) and P_Count >= Y):
+        s += '1'
+    else:
+        s += '0'
