@@ -20,7 +20,16 @@ int main()
         {
             int F_Count = count(inp[i].begin(), inp[i].end(), "F");
             int P_Count = count(inp[i].begin(), inp[i].end(), "P");
+            if (F_Count >= X or (F_Count >= (X - 1) and P_Count >= Y))
+            {
+                cout << "1";
+            }
+            else
+            {
+                cout << "0";
+            }
         }
+
     }
     return 0;
 }
