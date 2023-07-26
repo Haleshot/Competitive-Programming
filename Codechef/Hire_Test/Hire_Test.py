@@ -8,7 +8,7 @@ while T:
         inp.append(input())
     s = ''
     for i in inp:
-        if ((i.count("P") >= X or i.count("P") >= (X - 1)) and i.count("F") >= Y):
+        if ((i.count("F") >= X or i.count("F") >= (X - 1)) and i.count("P") >= Y):
             s += '1'
         else:
             s += '0'
