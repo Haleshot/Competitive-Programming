@@ -13,3 +13,4 @@ while T:
         s += '1'
     else:
         s += '0'
+    print(s)
