@@ -7,9 +7,10 @@ while T:
     for i in range(N):
         inp.append(input())
     s = ''
-    P_Count, F_Count = inp.count("P"), inp.count("F")
-    if ((F_Count >= X or F_Count >= X - 1) and P_Count >= Y):
-        s += '1'
-    else:
-        s += '0'
-    print(s)
+    for i in inp:
+
+        if ((i.count("F") >= X or i.count("F") >= X - 1) and i.count("P") >= Y):
+            s += '1'
+        else:
+            s += '0'
+    print(inp)
