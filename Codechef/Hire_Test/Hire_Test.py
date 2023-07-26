@@ -8,7 +8,7 @@ while T:
         ele = input()
         inp.append(ele)
     s = ''
-    U_Count, P_Count, F_Count = inp.count("U"), inp.count("P"), inp.count("F")
+    P_Count, F_Count = inp.count("P"), inp.count("F")
     if ((F_Count >= X or F_Count >= X - 1) and P_Count >= Y):
         s += '1'
     else:
