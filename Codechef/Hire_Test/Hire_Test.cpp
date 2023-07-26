@@ -8,7 +8,13 @@ int main()
     cin >> T;
     while (T--)
     {
-        
+        int N, M, X, Y;
+        cin >> N >> M >> X >> Y;
+        int inp[N];
+        for (int i = 0; i < N; i++)
+        {
+            
+        }
     }
     return 0;
 }
