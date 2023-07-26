@@ -22,7 +22,29 @@ class Hire_Test
             {
                 inp[i] = sc.next();
             }
-            
+            for (int i = 0; i < N; i++)
+            {
+                int F_Count = 0, P_Count = 0;
+                for (int j = 0; j < M; j++)
+                {
+                    if (inp[i].charAt(j) == 'P')
+                    {
+                        P_Count += 1;
+                    }
+                    else if ((inp[i].charAt(j) == 'F'))
+                    {
+                        F_Count += 1;
+                    }
+                }
+                if (F_Count >= X || (F_Count >= (X - 1) && P_Count >= Y))
+                {
+                    System.out.println("1");
+                }
+                else
+                {
+                    System.out.println("0");
+                }
+            }
 
         }
 	}
