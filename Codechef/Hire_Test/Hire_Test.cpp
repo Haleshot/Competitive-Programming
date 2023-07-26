@@ -15,6 +15,7 @@ int main()
         {
             cin >> inp[i];
         }
+        
     }
     return 0;
 }
