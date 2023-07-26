@@ -13,7 +13,12 @@ class Hire_Test
         int T = sc.nextInt();
         while (T-- > 0)
         {
+            int N = sc.nextInt();
+            int M = sc.nextInt();
+            int X = sc.nextInt();
+            int Y = sc.nextInt();
             
+
         }
 	}
 }
