@@ -7,3 +7,4 @@ while T:
     for i in range(N):
         ele = input()
         inp.append(ele)
+    U_Count, P_Count, F_Count = 0, 0, 0
