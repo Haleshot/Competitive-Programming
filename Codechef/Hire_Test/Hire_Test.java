@@ -17,7 +17,11 @@ class Hire_Test
             int M = sc.nextInt();
             int X = sc.nextInt();
             int Y = sc.nextInt();
-            
+            String[] inp = new String[N];
+            for (int i = 0; i< N; i++)
+            {
+                
+            }
 
         }
 	}
