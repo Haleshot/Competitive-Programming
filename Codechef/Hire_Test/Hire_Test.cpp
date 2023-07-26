@@ -14,8 +14,8 @@ int main()
         for (int i = 0; i < N; i++)
         {
             cin >> inp[i];
-            int F_Count = count(inp[i].begin(), inp[i].end(), "F");
-            int P_Count = count(inp[i].begin(), inp[i].end(), "P");
+            int F_Count = count(inp[i].begin(), inp[i].end(), 'F');
+            int P_Count = count(inp[i].begin(), inp[i].end(), 'P');
             if (F_Count >= X or (F_Count >= (X - 1) and P_Count >= Y))
             {
                 cout << "1";
