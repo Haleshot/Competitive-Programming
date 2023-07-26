@@ -38,11 +38,11 @@ class Hire_Test
                 }
                 if (F_Count >= X || (F_Count >= (X - 1) && P_Count >= Y))
                 {
-                    System.out.println("1");
+                    System.out.print("1");
                 }
                 else
                 {
-                    System.out.println("0");
+                    System.out.print("0");
                 }
             }
 
