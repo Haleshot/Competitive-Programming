@@ -13,7 +13,7 @@ int main()
         int inp[N];
         for (int i = 0; i < N; i++)
         {
-            
+            cin >> inp[i];
         }
     }
     return 0;
