@@ -20,8 +20,9 @@ class Hire_Test
             String[] inp = new String[N];
             for (int i = 0; i< N; i++)
             {
-                
+                inp[i] = sc.next();
             }
+            
 
         }
 	}
