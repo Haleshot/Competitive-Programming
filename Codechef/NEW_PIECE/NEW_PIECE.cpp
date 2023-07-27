@@ -13,6 +13,8 @@ int main()
             cout << 0 << endl;
         else if ((A + B) % 2 == (P + Q) % 2)
             cout << 2 << endl;
+        else
+            cout << 1 << endl;
     }
     
     return 0;
