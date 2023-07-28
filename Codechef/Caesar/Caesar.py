@@ -24,5 +24,8 @@ while Q:
                 rotK_U += chr((ord(U[i]) - cipher)) + 26
             else:
                 rotK_U += chr((ord(U[i]) - cipher))
+    
+    else:
+        print(U)
     print()
     # print(rotK_U)
