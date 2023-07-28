@@ -1,3 +1,6 @@
+import numpy as np
+alp = np.arange(chr(0), chr(123))
+
 Q = int(input())
 while Q:
     Q -= 1
