@@ -9,12 +9,20 @@ while Q:
     T = input()
     U = input()
     cipher = abs(ord(S[0]) - ord(T[0]))
-    rotK_U = []
-    for i in range(N):
-        # rotK_U[i] = chr(ord(U[i]) + cipher)
-        if (chr(ord(U[i]) + cipher)) > 122:
-            pass
-        else:
-            print(chr(ord(U[i]) + cipher), end = "")
+    rotK_U = ""
+    if (S[0] > N[0]):
+        for i in range(N):
+            # rotK_U[i] = chr(ord(U[i]) + cipher)
+            if (ord(U[i]) + cipher) > 122:
+                rotK_U += chr((ord(U[i]) + cipher)) - 26
+            else:
+                rotK_U += chr((ord(U[i]) + cipher))
+    elif (S[0] > N[0]):
+        for i in range(N):
+            # rotK_U[i] = chr(ord(U[i]) + cipher)
+            if (ord(U[i]) + cipher) > 122:
+                rotK_U += chr((ord(U[i]) - cipher)) + 26
+            else:
+                rotK_U += chr((ord(U[i]) - cipher))
     print()
     # print(rotK_U)
