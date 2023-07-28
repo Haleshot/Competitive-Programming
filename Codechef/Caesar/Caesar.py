@@ -1,4 +1,3 @@
-T = int(input())
-while T:
-    T -= 1
-    
+U = int(input())
+while U:
+    U -= 1
