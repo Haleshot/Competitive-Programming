@@ -5,7 +5,6 @@ while Q:
     S = input()
     T = input()
     U = input()
-    
     rotK_U = ""
     if (T[0] > S[0]):
         cipher = ord(T[0]) - ord(S[0])
