@@ -9,5 +9,9 @@ while Q:
     rotK_U = []
     for i in range(N):
         # rotK_U[i] = chr(ord(U[i]) + cipher)
-        print(chr(ord(U[i]) + cipher))
+        if (chr(ord(U[i]) + cipher)) > 122:
+            pass
+        else:
+            print(chr(ord(U[i]) + cipher), end = "")
+    print()
     # print(rotK_U)
