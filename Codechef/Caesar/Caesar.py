@@ -1,6 +1,3 @@
-import numpy as np
-alp = np.arange(chr(0), chr(123))
-
 Q = int(input())
 while Q:
     Q -= 1
@@ -10,22 +7,22 @@ while Q:
     U = input()
     cipher = abs(ord(S[0]) - ord(T[0]))
     rotK_U = ""
-    if (S[0] > N[0]):
+    if (T[0] > S[0]):
         for i in range(N):
             # rotK_U[i] = chr(ord(U[i]) + cipher)
             if (ord(U[i]) + cipher) > 122:
                 rotK_U += chr((ord(U[i]) + cipher)) - 26
             else:
                 rotK_U += chr((ord(U[i]) + cipher))
-    elif (S[0] > N[0]):
+    elif (T[0] > S[0]):
         for i in range(N):
             # rotK_U[i] = chr(ord(U[i]) + cipher)
-            if (ord(U[i]) + cipher) > 122:
+            if (ord(U[i]) - cipher) < 97:
                 rotK_U += chr((ord(U[i]) - cipher)) + 26
             else:
                 rotK_U += chr((ord(U[i]) - cipher))
     
     else:
         print(U)
-    print()
+    print(rotK_U)
     # print(rotK_U)
