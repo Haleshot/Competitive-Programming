@@ -22,7 +22,7 @@ The repository is organized with the following table, showcasing the problem sol
 Here are some of the best platforms for training in Competitive Programming:
 
 - [![Hackerrank](https://img.shields.io/badge/-hackerrank-7cfc00?style=flat&labelColor=7cfc00&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/hari_leo03)	
-- [![GeeksForGeeks](https://img.shields.io/badge/geeksforfeeks)](https://auth.geeksforgeeks.org/user/Haleshot/practice/)	
+- [![GeeksForGeeks](https://img.shields.io/badge/geeksforfeeks&style=flat&labelColor=7cfc00)](https://auth.geeksforgeeks.org/user/Haleshot/practice/)	
 - [![LeetCode](https://img.shields.io/badge/-LeetCode-ff8c00?style=flat&labelColor=ff8c00&logo=LeetCode&logoColor=white)](https://leetcode.com/Haleshot/)
 - [![Codechef](https://img.shields.io/badge/-Codechef-909090?style=flat&labelColor=909090&logo=Codechef&logoColor=white)](https://www.codechef.com/users/haleshot)
 - [![CodeForces](https://img.shields.io/badge/-CodeForces-ec6161?style=flat&labelColor=ec6161&logo=CodeForces&logoColor=white)](https://codeforces.com/profile/Haleshot)	
