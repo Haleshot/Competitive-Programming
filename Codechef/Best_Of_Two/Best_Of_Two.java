@@ -1,5 +1,8 @@
-import java.util.*;
+/* package codechef; // don't place package name! */
 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 public class Best_Of_Two 
 {
     public static void main(String args[]) 
