@@ -11,5 +11,6 @@ int main()
         cin >> X >> Y;
         cout << max(X, Y) << endl;
     }
+    
     return 0;
 }
