@@ -13,7 +13,15 @@ class Seat_Number
         int T = sc.nextInt();
         while (T-- > 0)
         {
-            
+            int N = sc.nextInt();
+            if (N <= 10)
+                System.out.println(("LOWER DOUBLE"));
+            else if (N >= 11 && N <= 15)
+                System.out.println(("LOWER SINGLE"));
+            else if (N >= 16 && N <= 25)
+                System.out.println(("UPPER DOUBLE"));
+            else
+                System.out.println(("UPPER SINGLE"));
         }
 	}
 }
