@@ -9,4 +9,7 @@ while T:
     for j in range(N//2, N):
         l2.append(S[j])
 
-    
+    if (l1 == l2):
+        print("YES")
+    else:
+        print("NO")
