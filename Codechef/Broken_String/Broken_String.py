@@ -1,7 +1,7 @@
 T = int(input())
 while T:
     T -= 1 
-    N = int(input().split())
+    N = int(input())
     S = input()
     l1 = [], l2 = []
     for k in range(0, N//2):
