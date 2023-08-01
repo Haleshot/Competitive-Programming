@@ -7,3 +7,7 @@ Link to the problem - https://www.codechef.com/problems/BROKENSTRING
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/8507b8f1-3c06-4466-82ed-13b4cbc17ec6)
+
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/3241f1ff-6cf4-466c-83c9-b125522ae986)
