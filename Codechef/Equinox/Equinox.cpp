@@ -9,11 +9,11 @@ int main()
     {
         int N, A, B, c1 = 0, c2 = 0;
         cin >> N >> A >> B;
-        string S[N];
+        char S[N];
         for (int i = 0; i < N; i++)
         {
             cin >> S[i];
-            if (S[0] == "E" || S[0] == "Q" || S[0] == "U" ||  S[0] == "I" || S[0] == "N" || S[0] == "O" || S[0] == "X" )
+            if(S[0] == 'E' || S[0] == 'Q' || S[0] == 'U'|| S[0] == 'I'|| S[0] == 'N'|| S[0] == 'O'|| S[0] == 'X')
                 c1 += A;
             else
                 c2 += B;
