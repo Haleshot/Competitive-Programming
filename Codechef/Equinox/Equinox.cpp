@@ -7,7 +7,7 @@ int main()
     cin >> T;
     while (T--)
     {
-        int N, A, B, c1 = 0, c2 = 0;
+        long long int N, A, B, c1 = 0, c2 = 0;
         cin >> N >> A >> B;
         
         for (int i = 0; i < N; i++)
