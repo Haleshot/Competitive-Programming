@@ -34,9 +34,6 @@ class Equinox
                 System.out.println("ANURADHA" );
             else
                 System.out.println("DRAW" );
-            
-
-
         }
 	}
 }
