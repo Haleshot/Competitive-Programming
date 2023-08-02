@@ -17,6 +17,10 @@ class Equinox
             int A = sc.nextInt();
             int B = sc.nextInt();
             String[] S= new String[N];
+            for (int i = 0; i < N; i++)
+            {
+                S[i] = sc.next();
+            }
             
 
         }
