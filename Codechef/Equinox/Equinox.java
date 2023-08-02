@@ -18,10 +18,11 @@ class Equinox
             int B = sc.nextInt();
             int c1 = 0, c2 = 0;
             String S;
+            String Contains = "EQUINOX";
             for (int i = 0; i < N; i++)
             {
                 S = sc.next();
-                if(S.charAt(0) == 'E' || S.charAt(0) == 'Q' || S.charAt(0) == 'U'|| S.charAt(0) == 'I'|| S.charAt(0) == 'N'|| S.charAt(0) == 'O'|| S.charAt(0) == 'X')
+                if(Contains.contains(Character.toString(S.charAt(0))))
                     c1 += A;
                 else
                     c2 += B;
