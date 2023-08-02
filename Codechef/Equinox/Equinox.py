@@ -7,7 +7,7 @@ while T:
     for i in range(N):
         S.append(input())
     for i in S:
-        if i in "EQUINOX":
+        if i[0] in "EQUINOX":
             c1 += A
         else:
             c2 += B
