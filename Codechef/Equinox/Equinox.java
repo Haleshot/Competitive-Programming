@@ -16,12 +16,18 @@ class Equinox
             int N = sc.nextInt();
             int A = sc.nextInt();
             int B = sc.nextInt();
-            String[] S= new String[N];
+            int c1 = 0, c2 = 0;
+            String S;
             for (int i = 0; i < N; i++)
             {
-                S[i] = sc.next();
+                S = sc.next();
+                if(S.charAt(0) == 'E' || S.charAt(0) == 'Q' || S.charAt(0) == 'U'|| S.charAt(0) == 'I'|| S.charAt(0) == 'N'|| S.charAt(0) == 'O'|| S.charAt(0) == 'X')
+                    c1 += A;
+                else
+                    c2 += B;
             }
             
+
 
         }
 	}
