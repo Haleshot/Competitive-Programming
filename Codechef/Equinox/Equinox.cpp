@@ -14,9 +14,9 @@ int main()
         {
             cin >> S[i];
             if (S[0] == "E" || S[0] == "Q" || S[0] == "U" ||  S[0] == "I" || S[0] == "N" || S[0] == "O" || S[0] == "X" )
-                c1 += 1;
+                c1 += A;
             else
-                c2 += 1;
+                c2 += B;
         }
         if (c1 > c2)
             cout << "SARTHAK" << endl;
