@@ -16,7 +16,7 @@ class Equinox
             int N = sc.nextInt();
             int A = sc.nextInt();
             int B = sc.nextInt();
-            int c1 = 0, c2 = 0;
+            long c1 = 0, c2 = 0;
             String S;
             String Contains = "EQUINOX";
             for (int i = 0; i < N; i++)
@@ -29,11 +29,11 @@ class Equinox
             }
             
             if (c1 > c2)
-                System.out.println("SARTHAK" );
+                System.out.println("SARTHAK");
             else if (c1 < c2)
-                System.out.println("ANURADHA" );
+                System.out.println("ANURADHA");
             else
-                System.out.println("DRAW" );
+                System.out.println("DRAW");
         }
 	}
 }
