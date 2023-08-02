@@ -27,6 +27,13 @@ class Equinox
                     c2 += B;
             }
             
+            if (c1 > c2)
+                System.out.println("SARTHAK" );
+            else if (c1 < c2)
+                System.out.println("ANURADHA" );
+            else
+                System.out.println("DRAW" );
+            
 
 
         }
