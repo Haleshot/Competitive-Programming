@@ -23,8 +23,19 @@ class Sticks
 		    int l = 0, b = 0;
             for (int i  = N - 1; i >= 0; i--)
             {
-                
+                if(l == 0 && A[i] == A[i - 1])
+                {
+		            l = A[i];
+		            i--;
+		            continue;
+		        }
+		        else if(A[i] == A[i - 1])
+                {
+		            b = A[i];
+		            break;
+		        }
             }
+            
         }
 	}
 }
