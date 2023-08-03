@@ -5,9 +5,10 @@ while T:
     A = list(map(int, input().split()))
     s = set(A)
     l = []
-    flag = False
     for i in s:
-        if (A.count(i) >= 2 and A.count(i) >= 2):
+        if (A.count(i) >= 2):
+            l.append(i)
+        if (A.count(i) >= 4):
             l.append(i)
     l.sort()
     if (len(l) >= 2):
