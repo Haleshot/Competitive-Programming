@@ -3,17 +3,14 @@ while T:
     T -= 1
     N = int(input())
     A = list(map(int, input().split()))
-    totalArea = 0
+    s = set(A)
+    l = []
     flag = False
-    for i in range(N - 1):
-        l = A[i]
-        b = A[i + 1]
-        if (A.count(l) == 2 and A.count(b) == 2):
-            flag = True
-            area = l * b
-            if (area > totalArea):
-                totalArea = area
-    if (flag):
-        print(totalArea)
+    for i in s:
+        if (A.count(i) >= 2 and A.count(i) >= 2):
+            l.append(i)
+    l.sort()
+    if (len(l) >= 2):
+        print(l[-1] * l[-2])
     else:
         print(-1)
