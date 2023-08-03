@@ -29,7 +29,7 @@ int main()
         }
 
         if (y < 2)
-            cout << "-1" << endl;
+            cout << -1 << endl;
         else
             cout << e << endl;
 
