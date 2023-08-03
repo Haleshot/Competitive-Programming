@@ -35,7 +35,10 @@ class Sticks
 		            break;
 		        }
             }
-            
+            if (l * b)
+                System.out.println(l * b);
+            else
+                System.out.println(-1);
         }
 	}
 }
