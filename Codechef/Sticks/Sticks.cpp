@@ -18,7 +18,7 @@ int main()
         int e = 1, y = 0;
         sort(A, A + N, greater<int>());
 
-        for (int i = 0; i , N; i++)
+        for (int i = 0; i < N; i++)
         {
             if (A[i] == A[i + 1]  && y < 2)
             {
