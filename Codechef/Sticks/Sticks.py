@@ -7,7 +7,7 @@ while T:
     flag = False
     for i in range(N - 1):
         l = A[i]
-        b = l[i + 1]
+        b = A[i + 1]
         if (A.count(l) == 2 and A.count(b) == 2):
             flag = True
             area = l * b
