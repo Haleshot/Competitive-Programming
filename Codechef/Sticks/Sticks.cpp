@@ -1,4 +1,5 @@
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -14,7 +15,9 @@ int main()
         {
             cin >> A[i];
         }
-        
+        int e = 1, y = 0;
+        sort(A, A + N, greater<int>());
+
     }
     return 0;
 }
