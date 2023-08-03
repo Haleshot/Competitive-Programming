@@ -20,8 +20,11 @@ class Sticks
 		        A[i] = sc.nextInt();
 		    }
 		    Arrays.sort(A);
-		    int l=0;
-		    int b=0;
+		    int l = 0, b = 0;
+            for (int i  = N - 1; i >= 0; i--)
+            {
+                
+            }
         }
 	}
 }
