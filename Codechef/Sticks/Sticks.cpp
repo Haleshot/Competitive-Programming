@@ -20,7 +20,7 @@ int main()
 
         for (int i = 0; i < N; i++)
         {
-            if (A[i] == A[i + 1]  && y < 2)
+            if (A[i] == A[i + 1] && y < 2)
             {
                 e = e * A[i];
                 i++;
