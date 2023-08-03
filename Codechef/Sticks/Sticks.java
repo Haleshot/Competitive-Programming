@@ -21,7 +21,7 @@ class Sticks
 		    }
 		    Arrays.sort(A);
 		    int l = 0, b = 0;
-            for (int i  = N - 1; i >= 0; i--)
+            for (int i  = N - 1; i > 0; i--)
             {
                 if(l == 0 && A[i] == A[i - 1])
                 {
@@ -35,7 +35,7 @@ class Sticks
 		            break;
 		        }
             }
-            if (l * b)
+            if (l * b > 0)
                 System.out.println(l * b);
             else
                 System.out.println(-1);
