@@ -13,8 +13,6 @@ while T:
             area = l * b
             if (area > totalArea):
                 totalArea = area
-        else:
-            flag = False
     if (flag):
         print(totalArea)
     else:
