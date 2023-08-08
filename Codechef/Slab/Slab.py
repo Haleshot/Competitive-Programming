@@ -7,7 +7,7 @@ while T:
         net_total = N
 
     elif (N > 250000 and N <= 500000):
-        net_total = N - ((N - 250000) * 0.05 )   
+        net_total = N - ((N - 250000) * 0.05)   
     
     elif (N > 500000 and N <= 750000):
         net_total = N - ((250000 * 0.05) + (N - 500000) * 0.1) 
