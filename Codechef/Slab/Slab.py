@@ -2,6 +2,7 @@ T = int(input())
 while T:
     T -= 1
     N = int(input())
+    
     if (N <= 250000):
         net_total = N
 
