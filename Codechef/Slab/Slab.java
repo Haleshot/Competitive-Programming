@@ -36,7 +36,8 @@ class Slab
             else if (N > 1500000)
                 net_total = N - ((250000 * 0.05) + (250000 * 0.1) + (250000 * 0.15) + (250000 * 0.2) + (250000 * 0.25) + (N - 1500000) * 0.3);      
             
-            System.out.println(net_total);
+            System.out.println((int)(net_total));
         }
+        sc.close();
 	}
 }
