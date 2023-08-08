@@ -10,6 +10,7 @@ int main()
         int N;
         cin >> N;
         int net_total = 0;
+        
         if (N <= 250000)
             net_total = N;
 
