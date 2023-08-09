@@ -9,14 +9,15 @@ int main()
     while (T--)
     {
         int N, M;
+        long long int total = 0;
         cin >> N >> M;
-        if ((N * M) % 2 == 0)
+        if ((total) % 2 == 0)
         {
             cout << "1/2" << endl;
         }
         else
         {
-            cout << floor((N * M) / 2) << "/" << (N * M) << endl;
+            cout << floor((total) / 2) << "/" << (total) << endl;
         }
     }
     return 0;
