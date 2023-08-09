@@ -19,7 +19,7 @@ class Guess
                 System.out.println("1/2");
             
             else
-                System.out.println((int)Math.floor((N * M) / 2) + "/" + (N * M));
+                System.out.println((N * M) / 2 + "/" + (N * M));
             
         }
         sc.close();
