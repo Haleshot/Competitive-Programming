@@ -17,7 +17,7 @@ int main()
         }
         else
         {
-            cout << floor((total) / 2) << "/" << (total) << endl;
+            cout << (total) / 2 << "/" << total << endl;
         }
     }
     return 0;
