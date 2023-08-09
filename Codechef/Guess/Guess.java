@@ -15,11 +15,12 @@ class Guess
         {
             int N = sc.nextInt();
             int M = sc.nextInt();
-            if ((N * M) % 2 == 0)
+            long total = N * M;
+            if ((total) % 2 == 0)
                 System.out.println("1/2");
             
             else
-                System.out.println((N * M) / 2 + "/" + (N * M));
+                System.out.println((total) / 2 + "/" + (total));
             
         }
         sc.close();
