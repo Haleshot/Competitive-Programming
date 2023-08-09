@@ -9,8 +9,8 @@ int main()
     while (T--)
     {
         long long int N, M;
-        long long int total = N * M;
         cin >> N >> M;
+        long long int total = N * M;
         
         if (N == 1 && M == 1)
             cout << "0/1" << endl;
