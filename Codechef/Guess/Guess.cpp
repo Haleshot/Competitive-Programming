@@ -8,16 +8,19 @@ int main()
     cin >> T;
     while (T--)
     {
-        int N, M;
-        long long int total = 0;
+        long long int N, M;
+        long long int total;
         cin >> N >> M;
         if ((total) % 2 == 0)
         {
             cout << "1/2" << endl;
         }
+        else if (N == 1 && M == 1)
+            cout << "0/1" << endl;
         else
         {
-            cout << (total) / 2 << "/" << total << endl;
+            long long int temp = total / 2;
+            cout << temp << "/" << total << endl;
         }
     }
     return 0;
