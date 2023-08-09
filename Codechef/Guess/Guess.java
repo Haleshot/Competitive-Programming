@@ -16,13 +16,11 @@ class Guess
             int N = sc.nextInt();
             int M = sc.nextInt();
             if ((N * M) % 2 == 0)
-            {
                 System.out.println("1/2");
-            }
+            
             else
-            {
                 System.out.println(Math.floor((N * M) / 2) + "/" + (N * M));
-            }
+            
         }
         sc.close();
 	}
