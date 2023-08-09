@@ -15,7 +15,7 @@ int main()
         }
         else
         {
-            cout << (N/2) << "/" << (N) << endl;
+            cout << ((N * M)/2) << "/" << (N * M) << endl;
         }
     }
     return 0;
