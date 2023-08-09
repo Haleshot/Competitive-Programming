@@ -16,13 +16,21 @@ class Guess
             int N = sc.nextInt();
             int M = sc.nextInt();
             long total = N * M;
-            if ((total) % 2 == 0)
-                System.out.println("1/2");
-            
+            if (N == 1 && M == 1)
+                System.out.println("0/1");
+
+            else if (N % 2 == 0 || M % 2 == 0)
+            {
+                System.out.println("1/2" );
+            }
+
             else
-                System.out.println((total) / 2 + "/" + (total));
-            
-        }
+            {
+                long temp = total / 2;
+                System.out.println(temp + "/" + total);
+            }
+                
+            }
         sc.close();
 	}
 }
