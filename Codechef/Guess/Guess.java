@@ -21,7 +21,7 @@ class Guess
             }
             else
             {
-                System.out.println(((N * M)/2) + "/" + (N * M));
+                System.out.println(Math.floor((N * M) / 2) + "/" + (N * M));
             }
         }
         sc.close();
