@@ -9,14 +9,17 @@ int main()
     while (T--)
     {
         long long int N, M;
-        long long int total;
+        long long int total = N * M;
         cin >> N >> M;
-        if ((total) % 2 == 0)
+        
+        if (N == 1 && M == 1)
+            cout << "0/1" << endl;
+            
+        else if ((total) % 2 == 0)
         {
             cout << "1/2" << endl;
         }
-        else if (N == 1 && M == 1)
-            cout << "0/1" << endl;
+
         else
         {
             long long int temp = total / 2;
