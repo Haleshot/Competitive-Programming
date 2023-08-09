@@ -14,8 +14,8 @@ int main()
         
         if (N == 1 && M == 1)
             cout << "0/1" << endl;
-            
-        else if ((total) % 2 == 0)
+
+        else if (N % 2 == 0 || M % 2 == 0)
         {
             cout << "1/2" << endl;
         }
