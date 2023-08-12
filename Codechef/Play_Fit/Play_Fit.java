@@ -15,7 +15,22 @@ class Play_Fit
         {
             int N = sc.nextInt();
             int[] L = new int[N];
-            
+            for (int i = 0; i < N; i++)
+            {
+                L[i] = sc.nextInt();
+            }
+            int minimum = L[0], maximum = 0;
+            for (int i = 0; i < N; i++)
+            {
+                if (L[i] < minimum)
+                    minimum = L[i];
+                else if (L[i] - minimum > maximum)
+                    maximum = L[i] - minimum;
+            }
+            if (maximum > 0)
+                System.out.println(maximum);
+            else
+                System.out.println("UNFIT");
 
         }
 	}
