@@ -14,7 +14,9 @@ class Play_Fit
         while (T-- > 0)
         {
             int N = sc.nextInt();
+            int[] L = new int[N];
             
+
         }
 	}
 }
