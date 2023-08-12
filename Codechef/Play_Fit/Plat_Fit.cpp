@@ -14,6 +14,7 @@ int main()
         {
             cin >> L[i];
         }
+        int minimum = L[0], maximum = 0;
         
     }
     return 0;
