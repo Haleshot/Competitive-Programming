@@ -7,6 +7,8 @@ int main()
     cin >> T;
     while (T--)
     {
+        long long D, d, P, Q;
+        cin >> D >> d >> P >> Q;
         
     }
     return 0;
