@@ -13,7 +13,12 @@ class CHF_Heist
 		int T = sc.nextInt();
 		while (T-- > 0)
 		{
-			
+			long D, d, P, Q;
+			D = sc.nextLong();
+			d = sc.nextLong();
+			P = sc.nextLong();
+			Q = sc.nextLong();
 		}
+		sc.close();
 	}
 }
