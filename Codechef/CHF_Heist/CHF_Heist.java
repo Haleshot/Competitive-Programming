@@ -18,6 +18,8 @@ class CHF_Heist
 			d = sc.nextLong();
 			P = sc.nextLong();
 			Q = sc.nextLong();
+			long res = ((d * (D / d) * (2 * P + ((D / d) - 1) * Q)) / 2) + ((D % d) * (P + (D / d) * Q));
+			System.out.println(res);
 		}
 		sc.close();
 	}
