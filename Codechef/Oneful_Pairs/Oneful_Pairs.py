@@ -1,4 +1,5 @@
-T = int(input())
-while T:
-    T -= 1
-    
+A, B = map(int, input().split())
+if ((A + B) + (A * B) == 111):
+    print("YES")
+else:
+    print("NO")
