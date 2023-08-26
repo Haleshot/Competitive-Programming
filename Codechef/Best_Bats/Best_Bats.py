@@ -4,11 +4,10 @@ while T:
     T -= 1
     L = list(map(int, input().split()))
     K = int(input())
-
-    m = L[11 - K]
-    c1 = L.count(m)
+    g = L[11 - K]
+    c1 = L.count(g)
     c = 0
     for i in range(11 - K, 11):
-        if L[i] == m:
+        if L[i] == g:
             c += 1
     print(math.comb(c1,c))
