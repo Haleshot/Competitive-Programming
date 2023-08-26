@@ -4,6 +4,7 @@ while T:
     T -= 1
     L = list(map(int, input().split()))
     K = int(input())
+    L.sort()
     g = L[11 - K]
     c1 = L.count(g)
     c = 0
@@ -12,4 +13,4 @@ while T:
             c += 1
         else:
             break
-    print(math.comb(c1,c))
+    print(math.comb(c1, c))
