@@ -11,6 +11,4 @@ while T:
     for i in range(11 - K, 11):
         if L[i] == g:
             c += 1
-        else:
-            break
     print(math.comb(c1, c))
