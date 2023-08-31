@@ -8,3 +8,7 @@ Link to the problem - https://www.codechef.com/practice/INTARR01/problems/EQUALE
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/40a4efeb-cab2-4346-90c9-27bd6810c889)
+
+
+
+![Uploading image.png…]()
