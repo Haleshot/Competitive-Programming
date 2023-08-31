@@ -11,4 +11,4 @@ Link to the problem - https://www.codechef.com/practice/INTARR01/problems/EQUALE
 
 
 
-![Uploading image.png…]()
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/8f5dc2ed-8795-4608-a55f-21c5c811e79d)
