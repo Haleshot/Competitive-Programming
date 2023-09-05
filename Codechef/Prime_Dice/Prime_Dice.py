@@ -1,6 +1,6 @@
 def isPrime(X):
     c = 1
-    for i in range(2, X):
+    for i in range(2, X + 1):
         if (X % i == 0):
             c += 1
     if (c == 2):
