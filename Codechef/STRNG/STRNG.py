@@ -17,13 +17,13 @@ for _ in range(int(input())):
         if(i > 0 and i < n - 1):
             if(gcd(a[i - 1], b[n - 2 - i]) != 1):
                 count += 1
-        if(i==0):
-            if(b[n-2]!=1):
-                count+=1
-        if(i==n-1):
-            if(a[n-2]!=1):
-                count+=1
-    if(ans==1):
+        if(i == 0):
+            if(b[n - 2] != 1):
+                count += 1
+        if(i == n - 1):
+            if(a[n - 2] != 1):
+                count += 1
+    if(ans == 1):
         print(count)
     else:
         print(n)
