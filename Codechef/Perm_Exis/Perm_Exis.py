@@ -7,9 +7,9 @@ while T:
     c = 0
     for i in range(N - 1):
         j = i + 1
-        if abs(A[j] - A[i]) <= 1:
+        if A[j] - A[i] > 1:
             c += 1
     if c > 0:
-        print("YES")
-    else:
         print("NO")
+    else:
+        print("YES")
