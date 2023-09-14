@@ -1,1 +1,5 @@
 Link to the problem - https://www.codechef.com/practice/INTBINS01/problems/WAV2
+
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/3e7b12da-1e64-46dd-8e86-4c30bb8d3ae6)
