@@ -6,3 +6,6 @@ Link to the problem - https://www.codechef.com/practice/INTBINS01/problems/WAV2
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/f5454b56-16a1-4bf5-ab70-8649d99abc4f)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/326eabd5-cbf6-46f9-ba86-bceddbdfcff6)
