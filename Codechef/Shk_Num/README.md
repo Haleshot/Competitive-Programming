@@ -6,3 +6,6 @@ Link to the problem - https://www.codechef.com/practice/INTBINS01/problems/SHKNU
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/7df64329-0577-4319-88ba-43e5bfb08e23)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/2970c071-c377-4774-af0e-8fa7e33e37fd)
