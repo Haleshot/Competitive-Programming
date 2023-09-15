@@ -10,5 +10,5 @@ while T:
     N = int(input())
     i = 0 
     while(L[i] < N):
-        i+=1 
+        i += 1 
     print(min(abs(L[i] - N), abs(N - L[i - 1])))
