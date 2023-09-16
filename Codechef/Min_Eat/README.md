@@ -8,3 +8,6 @@ Link to the problem - https://www.codechef.com/practice/INTBINS01/problems/MINEA
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/04ae4acf-0e2f-4b5b-8692-c6bd25861b8c)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/862fdc5b-6d9e-40d7-8cd9-810f1f6c0fc8)
