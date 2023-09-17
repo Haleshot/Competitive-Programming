@@ -5,3 +5,6 @@ Link to the problem - https://www.codechef.com/practice/INTBINS01/problems/SNAKE
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/1027d7e9-fd1b-4278-b22a-556ec0aebbbf)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/1512f8d8-b3b3-4480-b7d2-edca26bf7d2c)
