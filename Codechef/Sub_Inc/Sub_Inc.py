@@ -12,5 +12,5 @@ while T:
             ans += count * (count + 1) // 2
             count = 1
         last = i
-    ans += count*(count + 1) // 2
+    ans += count * (count + 1) // 2
     print(ans)
