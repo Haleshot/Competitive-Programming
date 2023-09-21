@@ -6,6 +6,7 @@ while T:
     maximum_list = [0] * 49
     for i in range(1, N + 1):
         S, E, C = list(map(int, input().split()))
+        V[S][E] = max(V[S][E], C)
     for end in range(49):
         for begin in range(end):
             maximum_list[end] = max(maximum_list[end], V[begin][end] + maximum_list[begin])
