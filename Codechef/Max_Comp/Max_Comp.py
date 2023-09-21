@@ -4,7 +4,7 @@ while T:
     N = int(input())
     V = [[0 for i in range(49)] for j in range(49)]
     maximum_list = [0] * 49
-    for i in range(N):
+    for i in range(1, N + 1):
         S, E, C = list(map(int, input().split()))
     for end in range(49):
         for begin in range(end):
