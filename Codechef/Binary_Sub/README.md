@@ -6,3 +6,6 @@ Link to the problem - https://www.codechef.com/practice/INTDP01/problems/BINARYS
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/141d9d72-1bc4-45a2-b8db-67e7f560d73c)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/3321a78d-882e-4e71-a658-482349a2ebfa)
