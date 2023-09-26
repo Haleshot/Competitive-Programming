@@ -5,3 +5,6 @@ Link to the problem - https://www.codechef.com/practice/INTDP01/problems/ZCO1400
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/6653b9a6-0a8d-4ac7-bbb5-b7d2ccf88065)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/b2cc83b5-a4f1-40c2-bd5e-c3917cd303ae)
