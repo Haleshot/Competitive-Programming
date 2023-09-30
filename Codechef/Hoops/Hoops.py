@@ -2,4 +2,4 @@ T = int(input())
 while T:
     T -= 1
     N = int(input())
-    print((N + 1) / 2)
+    print((N + 1) // 2)
