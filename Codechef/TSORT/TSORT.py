@@ -4,4 +4,5 @@ for i in range(N):
     ele = int(input())
     L.append(ele)
 L.sort()
-print(L)
+for i in L:
+    print(i)
