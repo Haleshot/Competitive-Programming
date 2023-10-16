@@ -6,9 +6,9 @@ while T:
     P.sort()
     c = 0
     for i in range(-1 , -len(P) - 1 , -1):
-        m = m - P[i]
+        M -= P[i]
         c = c + 1
-        if m <= 0:
+        if M <= 0:
             print(c)
             break
     else:
