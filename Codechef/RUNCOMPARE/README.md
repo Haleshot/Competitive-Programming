@@ -2,3 +2,6 @@ Link to the problem - https://www.codechef.com/practice/PPYAR01/problems/RUNCOMP
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/f5d8fbaa-a747-4426-990a-5bccae6bc30c)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/2626fe1c-ae7a-4070-b957-514d7d6baf6d)
