@@ -8,3 +8,6 @@ Link to the problem - https://www.codechef.com/practice/PPYAR01/problems/RUNCOMP
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/bf7f14e2-d025-43a8-b0cd-ed87504bd286)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/3e2f647f-a9a8-4986-a23f-3c12a4898b5d)
