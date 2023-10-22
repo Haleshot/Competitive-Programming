@@ -5,3 +5,6 @@ Link to the problem - https://www.codechef.com/practice/PPYST01/problems/DNASTOR
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/cd4572bb-d0e5-460a-a5a6-b16a082e71f5)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/a4cc2551-b733-4fd2-b899-1f221ec4b756)
