@@ -15,4 +15,4 @@ while T:
             bob += 1
         else:
             server = 0
-    print(alice, '', bob)
+    print(alice, "", bob)
