@@ -8,3 +8,6 @@ Link to the problem - https://www.codechef.com/practice/PPYST01/problems/BLOBBYV
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/4407d8c3-14f1-4442-b8e0-6b56efe81244)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/a1846813-55c2-4ee6-bc8e-4c04b6c09e4c)
