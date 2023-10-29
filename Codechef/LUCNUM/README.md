@@ -1,1 +1,4 @@
 Link to the problem - https://www.codechef.com/practice/DSAPREP_01/problems/LUCNUM
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/3c576f48-dacb-407e-a40d-319ffe60bc77)
