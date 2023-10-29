@@ -5,3 +5,6 @@ Link to the problem - https://www.codechef.com/practice/DSAPREP_01/problems/LUCN
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/ac08715e-65bb-43e1-b326-c76764742f40)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/dc95fcdf-d3c2-4f3f-a63c-38d6f266d681)
