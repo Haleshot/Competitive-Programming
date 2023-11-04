@@ -8,6 +8,6 @@ while T:
         numNew += str(d ** M % 10)
     revNum = numNew[::-1]
     if int(revNum) % 7 == 0:
-        print("yes")
+        print("Yes")
     else:
-        print("no")
+        print("No")
