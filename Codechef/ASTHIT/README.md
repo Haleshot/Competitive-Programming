@@ -5,3 +5,5 @@ Link to the problem - https://www.codechef.com/practice/course/interview-dsa/DSA
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/77b30a1e-0838-4624-aa1a-1402a31a39df)
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/a71f6d26-7446-4e78-ae8a-8884ff082874)
