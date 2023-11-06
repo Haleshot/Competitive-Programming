@@ -8,7 +8,6 @@ while T:
         ele1, ele2 = list(map(int, input().split()))
         dir.append(ele1)
         pow.append(ele2)
-        
     stack = []
     a = []
     for i in range(n):
@@ -18,7 +17,6 @@ while T:
             while stack and pow[i] > pow[stack[-1]]:
                 pow[i] += pow[stack[-1]]
                 stack.pop()
- 
             if stack:
                 if pow[i] == pow[stack[-1]]:
                     stack.pop()
