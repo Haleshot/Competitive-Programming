@@ -6,4 +6,4 @@ while T:
     B = set(A)
     B = list(B)
     B.sort()
-    print(*B)
+    print(*B)   
