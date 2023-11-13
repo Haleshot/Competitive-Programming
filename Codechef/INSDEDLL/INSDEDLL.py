@@ -27,3 +27,30 @@ def insertNode(head, position, value):
     new_node.prev = current
 
     return head
+
+def deleteNode(head, position):
+    if not head:
+        return None
+
+    if position == 1:
+        new_head = head.next
+        if new_head:
+            new_head.prev = None
+        return new_head
+
+    current = head
+    count = 1
+
+    while count < position and current.next:
+        current = current.next
+        count += 1
+
+    prev_node = current.prev
+    prev_node.next = current.next
+
+    if current.next:
+        current.next.prev = prev_node
+
+    return head
+
+    
