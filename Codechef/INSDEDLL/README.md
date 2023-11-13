@@ -10,3 +10,5 @@ Link to the problem - https://www.codechef.com/practice/course/interview-dsa/DSA
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/e83e084f-7950-46a8-9570-61e8e28bb17b)
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/5f9dcd6e-a04c-4236-9a89-9fc341e34d1c)
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/9cbc1c02-d03d-4fd4-8376-532c3711034b)
