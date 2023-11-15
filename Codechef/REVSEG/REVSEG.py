@@ -1,9 +1,15 @@
-t = None
 """
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+"""
+
 def reverseSegment(head, L, R):
     if L==R:
         return head
     dummy = Node(0)
+    
     dummy.next = head
     prev = dummy
     i = 1 
@@ -16,4 +22,11 @@ def reverseSegment(head, L, R):
         tmp = nx.next
         nx.next=cur
         cur=nx
-       
+        nx = tmp
+        i+=1 
+    prev.next.next=nx 
+    prev.next=cur
+    return dummy.next
+    
+
+    
