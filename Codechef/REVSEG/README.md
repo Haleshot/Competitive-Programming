@@ -2,3 +2,6 @@ Link to the problem - https://www.codechef.com/practice/course/interview-dsa/DSA
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/8ea3cdfd-5bc4-435a-9159-b30f5e1c67b7)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/0d1ec4b0-72d4-4849-98a6-9285146432c8)
