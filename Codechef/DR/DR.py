@@ -11,3 +11,9 @@ while T:
         else:
             B.append(Y[j])
     
+    for k in A:
+        if k in B:
+            B.remove(k)
+    C = str(B)[1 : -1]
+    D = C.replace(',', '')
+    print(D)
