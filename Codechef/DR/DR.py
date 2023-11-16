@@ -1,6 +1,5 @@
 T = int(input())
-while T:
-    T -= 1
+for i in range(T):
     X = int(input())
     Y = list(map(int,input().split()))
     A = []
