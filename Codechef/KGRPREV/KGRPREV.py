@@ -7,4 +7,3 @@ while T:
         temp =Li[i : i + B]
         res += temp[::-1]
     print(*res)
-    
