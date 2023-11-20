@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Internet_Downloads/Programming_Languages/Programs/Competitive Programming/Codechef",
-      "program": "d:/Internet_Downloads/Programming_Languages/Programs/Competitive Programming/Codechef/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
