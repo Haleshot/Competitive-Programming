@@ -8,3 +8,5 @@ Link to the problem - https://www.codechef.com/practice/course/interview-dsa/DSA
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/0f5559f0-4956-4a18-855f-180d915da770)
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/170b37d1-88ee-4b5c-88f2-a8af13ed10db)
