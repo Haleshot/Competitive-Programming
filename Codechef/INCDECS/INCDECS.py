@@ -7,3 +7,11 @@ while T:
     A = list(map(int, input().split()))
     D = []
     S = []
+    B = reversed(A)
+    for i in B:
+        p = bisect_left(D ,i)
+        if p == len(D):
+            D.append(i)
+        else:
+            D[p] = i
+        S.append(len(D))
