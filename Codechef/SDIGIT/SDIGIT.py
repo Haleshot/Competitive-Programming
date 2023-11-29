@@ -3,7 +3,6 @@ while T:
     T -= 1
     D, N = map(int, input().split())
     A = input().split()
-
     ans = []
     if D == 1:
         ans = A[0] * N
@@ -13,6 +12,4 @@ while T:
                 N -= 1
             N, i = divmod(N, D)
             ans.insert(0, A[i])
-
-
     print(''.join(ans))
