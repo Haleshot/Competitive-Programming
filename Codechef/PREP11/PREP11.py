@@ -11,7 +11,6 @@ def is_allocation_possible(books, students, max_pages):
         else:
             students_needed += 1
             pages_allocated = pages
-
     return students_needed <= students
 
 def allocate_books(books, students):
@@ -26,7 +25,6 @@ def allocate_books(books, students):
             high = mid - 1
         else:
             low = mid + 1
-
     return result
 
 T = int(input())
