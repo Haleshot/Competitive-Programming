@@ -28,3 +28,12 @@ def allocate_books(books, students):
             low = mid + 1
 
     return result
+
+T = int(input())
+for _ in range(T):
+    N, A = map(int, input().split())
+    books = list(map(int, input().split()))
+
+    # Find the minimum value for the maximum sum of pages
+    result = allocate_books(books, A)
+    print(result)
