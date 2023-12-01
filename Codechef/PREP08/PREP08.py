@@ -28,3 +28,12 @@ def minimum_painting_time(walls, painters, time_per_unit):
             low = mid + 1
 
     return result
+
+T = int(input())
+for _ in range(T):
+    N, A, B = map(int, input().split())
+    walls = list(map(int, input().split()))
+
+    # Find the minimum time required to paint N walls
+    result = minimum_painting_time(walls, A, B)
+    print(result)
