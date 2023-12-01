@@ -11,7 +11,6 @@ def is_painting_possible(walls, painters, time_per_unit, max_time):
         else:
             painters_needed += 1
             total_time = wall * time_per_unit
-
     return painters_needed <= painters
 
 def minimum_painting_time(walls, painters, time_per_unit):
@@ -26,7 +25,6 @@ def minimum_painting_time(walls, painters, time_per_unit):
             high = mid - 1
         else:
             low = mid + 1
-
     return result
 
 T = int(input())
