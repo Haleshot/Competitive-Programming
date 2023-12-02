@@ -31,13 +31,13 @@ def find_ending_position(arr, x):
     return end_pos
 
 def process_queries(N, Q, arr, queries):
-    updated_arr = list(arr)  # Create a copy of the original array
+    updated_arr = list(arr)
 
     for query in queries:
         if query[0] == 0:
             i, X = query[1], query[2]
-            updated_arr.pop(i - 1)  # Remove the element at index i - 1
-            updated_arr.insert(i - 1, X)  # Insert X at index i - 1
+            updated_arr.pop(i - 1)
+            updated_arr.insert(i - 1, X)
         else:
             Y = query[1]
             start_pos = find_starting_position(updated_arr, Y)
