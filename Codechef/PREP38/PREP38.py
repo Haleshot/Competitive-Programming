@@ -50,7 +50,6 @@ def process_queries(N, Q, arr, queries):
             else:
                 print(start_pos + 1, end_pos + 1)
 
-# Input
 T = int(input())
 for _ in range(T):
     N, Q = map(int, input().split())
