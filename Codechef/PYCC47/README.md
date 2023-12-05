@@ -8,3 +8,6 @@ Link to the problem - https://www.codechef.com/practice/course/python-dsa-beginn
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/1d2161dc-6b55-405b-b250-f3e37df1f79d)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/c9c4972b-b24c-46aa-a05b-5f7665d10abf)
