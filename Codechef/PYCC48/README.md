@@ -5,3 +5,6 @@ Link to the problem - https://www.codechef.com/practice/course/python-dsa-beginn
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/a44aa33b-e6a3-4971-acbf-48df98ef475e)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/2d4134b5-334c-4bb4-b65d-bd229eb2f852)
