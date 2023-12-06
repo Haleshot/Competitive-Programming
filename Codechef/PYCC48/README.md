@@ -2,3 +2,6 @@ Link to the problem - https://www.codechef.com/practice/course/python-dsa-beginn
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/dc6621ef-4acb-465f-a506-9abf8a160e6f)
+
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/a44aa33b-e6a3-4971-acbf-48df98ef475e)
