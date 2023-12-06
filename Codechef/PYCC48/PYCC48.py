@@ -6,4 +6,3 @@ while T:
     ans2 = (500 - (X + Y) * 2) + 1000 - (Y * 4)    
     A = max(ans1, ans2)
     print(A)
-    
