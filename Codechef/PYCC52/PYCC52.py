@@ -1,2 +1,2 @@
 N = int(input())
-print(4 * N)
+print((N * N) / 2)
