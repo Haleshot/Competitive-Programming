@@ -5,4 +5,8 @@ while T:
     if (S - X - Y) >= Z:
         print(0)
     else:
-        pass
+        if (S - min(X, Y)) >= Z:
+            print(1)
+        else:
+            print(2)
+    
