@@ -1,5 +1,5 @@
 T = int(input())
 while T:
     T -= 1
-    DSA, TOC, DM = map(int, input().split())
-    
+    DDSA, DTOC, DDM = map(int, input().split())
+    SDSA, STOC, SDM = map(int, input().split())
