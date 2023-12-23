@@ -9,7 +9,7 @@ while T:
     if (D_tot > S_tot):
         print("Dragon")
     elif (S_tot > D_tot):
-        print("Sloth")
+        print("Sloth")  
     elif (D_tot == S_tot and DDSA > SDSA):
         print("Dragon")
     elif (D_tot == S_tot and SDSA > DDSA):
