@@ -14,5 +14,9 @@ while T:
         print("Dragon")
     elif (D_tot == S_tot and SDSA > DDSA):
         print("Sloth")
+    elif (D_tot == S_tot and DTOC > STOC):
+        print("Dragon")
+    elif (D_tot == S_tot and STOC > DTOC):
+        print("Sloth")
     elif (D_tot == S_tot and SDSA == DDSA):
         print("TIE")
