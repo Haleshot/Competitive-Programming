@@ -5,7 +5,6 @@ while T:
     SDSA, STOC, SDM = map(int, input().split())
     D_tot = DDSA + DTOC + DDM
     S_tot = SDSA + STOC + SDM
-
     if (D_tot > S_tot):
         print("Dragon")
     elif (S_tot > D_tot):
