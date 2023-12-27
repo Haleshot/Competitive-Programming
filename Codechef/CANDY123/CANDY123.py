@@ -14,4 +14,3 @@ while T:
             if(B < 0):
                 print("Limak")
                 break
-            
