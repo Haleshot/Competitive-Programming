@@ -3,6 +3,10 @@ while T:
     T -= 1
     S1 = input()
     S2 = input()
-    q1 = S1.count("?")
-    q2 = S2.count("?")
-    print(len(S2) - max(q1, q2), " ", len(S1))
+    N, M = 0, 0
+    for j in range(len(S1)):
+        if (S1[j] =='?' or S2[j] =='?'):
+            N += 1
+        elif (S1[j] != S2[j]):
+            M += 1
+    print(M, (M + N))
