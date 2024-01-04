@@ -4,4 +4,4 @@ while T:
     N = int(input())
     S = input()
 
-        
+    
