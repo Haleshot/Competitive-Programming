@@ -2,4 +2,5 @@ T = int(input())
 while T:
     T -= 1
     N, X, S = map(int, input().split())
+    A, B = map(int, input().split())
     
