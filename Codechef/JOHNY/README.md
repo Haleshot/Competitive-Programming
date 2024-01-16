@@ -2,3 +2,5 @@ Link to the problem - https://www.codechef.com/practice/course/1-star-difficulty
 
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/e89fff3a-97bf-4455-b913-77d04cdd2f05)
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/c3cf131b-3c8c-4c97-9d7b-2ad086c8f2b2)
