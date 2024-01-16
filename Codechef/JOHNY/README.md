@@ -6,3 +6,5 @@ Link to the problem - https://www.codechef.com/practice/course/1-star-difficulty
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/c3cf131b-3c8c-4c97-9d7b-2ad086c8f2b2)
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/70e1180a-90cb-4d66-b577-2d9acb0f2a9b)
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/d3c5e2d9-1bb2-4de7-aaaa-8b1e0a9ec4cf)
