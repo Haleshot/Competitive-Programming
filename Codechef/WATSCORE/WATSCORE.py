@@ -6,5 +6,5 @@ while T:
     for j in range(N):
         X, Y = map(int, input().split())
         if X <= 8:
-            S[X - 1] = max(S[S - 1], Y)
+            S[X - 1] = max(S[X - 1], Y)
     print(sum(S))
