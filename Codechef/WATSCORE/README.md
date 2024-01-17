@@ -4,3 +4,5 @@ Link to the problem - https://www.codechef.com/practice/course/1-star-difficulty
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/e85a9bd1-9848-4f6f-aeb7-af6dab076691)
 
 ![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/bd98e760-2b2d-4184-bfc8-a3c296472d2c)
+
+![image](https://github.com/Haleshot/Competitive-Programming/assets/57552973/1b8b8b14-05de-437f-ba39-3544ad099353)
