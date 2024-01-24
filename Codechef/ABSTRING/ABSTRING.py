@@ -7,7 +7,7 @@ while T:
     c = 0
     freq = collections.Counter(S)
     for i in freq.values():
-        if i == 1:
+        if i % 2 == 1:
             c += 1
     if c > 0:
         print("NO")
