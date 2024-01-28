@@ -28,7 +28,6 @@ for _ in range(int(input())):
     #     print("CONFUSED")
     # else:
     #     print(end[0])
-
     if most_rec_value == end[1]:
         print("CONFUSED")
     else:
