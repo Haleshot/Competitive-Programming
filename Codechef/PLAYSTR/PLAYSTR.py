@@ -6,3 +6,4 @@ while T:
     R = input()
     # if <insert condition>:
         # do something
+    
