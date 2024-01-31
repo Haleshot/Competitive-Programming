@@ -4,4 +4,5 @@ while T:
     N = int(input())
     S = input()
     R = input()
-    
+    # if <insert condition>:
+        # do something
