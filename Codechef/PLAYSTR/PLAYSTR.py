@@ -5,5 +5,5 @@ while T:
     S = input()
     R = input()
     # if <insert condition>:
-        # do something
+        # foo
     
