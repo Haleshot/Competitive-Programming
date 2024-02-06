@@ -4,9 +4,7 @@ while T:
     N = int(input())
     S = list(input())
     R = list(input())
-    c = 0
-    if S == R:
-        print("NO")
+    if ((S.count(1) == R.count(1)) and (S.count(1) == R.count(1))):
+        print("YES")
     else:
-        # one_count = list(S).count("1")
-        # print(one_count)
+        print("NO")
