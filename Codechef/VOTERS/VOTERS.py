@@ -26,6 +26,5 @@ for i in range(N3):
     if c in N1_vot or c in N2_vot:
         final_l.append(c)
 print(len(set(final_l)))
-# print([i, "\n" for i in set(final_l)])
 for i in set(final_l):
     print(i)
