@@ -16,7 +16,7 @@ def calculateTime(N, B, M):
             s += B
             return calculateTime(N - N // 2, B, 2 * M)
 
-        elif N % 2 == 1:
+        else:
             s += (N + 1) // 2 * M
             s += B
             return calculateTime(N - (N + 1) // 2, B, 2 * M)
@@ -26,4 +26,5 @@ T = int(input())
 while T:
     T -= 1
     N, B, M = map(int, input().split())
+    s = 0
     print(calculateTime(N, B, M))
