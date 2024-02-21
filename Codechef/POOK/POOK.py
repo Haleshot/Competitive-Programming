@@ -1,7 +1,6 @@
 def pookQueens(N):
     L = [ [0] ] * N
     # print(L)
-    
     return _
 
 
