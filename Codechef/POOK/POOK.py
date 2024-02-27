@@ -6,3 +6,4 @@ def pookQueens(N):
 for _ in range(int(input())):
     N = int(input())
     print(pookQueens(N))
+
