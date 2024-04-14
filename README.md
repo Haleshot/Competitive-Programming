@@ -1,6 +1,6 @@
 # Competitive Programming Repository
 
-Welcome to the Competitive Programming repository! This repository contains problem solutions related to Competitive Programming from various coding platforms such as Codechef, Hackerrank, and Leetcode. The solutions are implemented in different programming languages such as Python, Java, and C++.
+Welcome to the Competitive Programming repository! This repository contains problem solutions related to Competitive Programming from various coding platforms such as Codechef (mostly), Hackerrank, and Leetcode. The solutions are implemented in different programming languages such as Python, Java, and C++.
 
 ## Table of Contents
 - [Structure of the Repository](#structure-of-the-repository)
