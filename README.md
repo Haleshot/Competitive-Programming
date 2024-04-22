@@ -34,7 +34,7 @@ Here are some of the best platforms for training in Competitive Programming:
 
 If you would like to contribute to this repository, follow these steps:
 
-1. Fork the repository
+1. Fork this repository
 2. Make the desired changes (add/delete/modify)
 3. Create a pull request
 
