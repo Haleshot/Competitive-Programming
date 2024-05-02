@@ -21,7 +21,7 @@ The repository is organized with the following table, showcasing the problem sol
 
 ## Platforms for Training
 
-Here are some of the best platforms for training in Competitive Programming:
+Here are my profiles in some of the best platforms for training in Competitive Programming:
 
 - [![Hackerrank](https://img.shields.io/badge/-hackerrank-7cfc00?style=flat&labelColor=7cfc00&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/hari_leo03)	
 - [![GeeksForGeeks](https://img.shields.io/badge/geekforgeeks-blue)](https://auth.geeksforgeeks.org/user/Haleshot/practice/)	
