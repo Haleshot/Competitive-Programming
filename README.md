@@ -7,7 +7,6 @@ Welcome to the Competitive Programming repository! This repository contains prob
 - [Platforms for Training](#platforms-for-training)
 - [How to Contribute](#how-to-contribute)
 
-
 ## Structure of the Repository
 
 The repository is organized with the following table, showcasing the problem solutions and their respective coding platforms:
