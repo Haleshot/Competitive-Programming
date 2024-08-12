@@ -102,5 +102,5 @@ The space complexity is O(N) in the worst case, where we might need to store all
 - [YouTube Explanation](https://www.youtube.com/watch?v=dLlKA5DQKYs)
 - [GitHub - Other Leetcode Solutions](https://github.com/gahogg/Leetcode-Solutions/blob/main/Find%20Closest%20Number%20to%20Zero%20-%20Leetcode%202239)
 
-> [!NOTE] This problem is part of a collection following the roadmap on [algomap.io](https://algomap.io/). 
-> This README is part of the AlgoMap-guided problem-solving series in the CP repo.
+> [!NOTE]
+> This problem is part of a larger collection following the roadmap on [algomap.io](https://algomap.io/). For more details and related problems, please refer to the AlgoMap website.
