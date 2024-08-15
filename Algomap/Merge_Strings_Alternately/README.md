@@ -136,9 +136,11 @@ For Solution 1 (the active solution):
 
 ## Additional Resources
 
+- [Solution on LeetCode](https://leetcode.com/problems/merge-strings-alternately/submissions/1354495470)
+- [Explanation of Solution on LeetCode](https://leetcode.com/problems/merge-strings-alternately/solutions/5632004/merge-strings-alternately-solution/)
+- [Personal submissions detail](https://leetcode.com/submissions/detail/1354495470/)
 - [YouTube Explanation](https://youtu.be/qq-AqEPKsI8?si=Cg-NzjPzwucfsrd4)
 - [GitHub Solution](https://github.com/gahogg/Leetcode-Solutions/blob/main/Merge%20Strings%20Alternately%20-%20Leetcode%201768)
-- [LeetCode Submission](https://leetcode.com/problems/merge-strings-alternately/submissions/1354495470)
 
 > [!NOTE]
 > This problem is part of a larger collection following the roadmap on [algomap.io](https://algomap.io/). For more details and related problems, please refer to the AlgoMap website.
