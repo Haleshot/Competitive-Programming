@@ -99,6 +99,9 @@ The space complexity is O(N) in the worst case, where we might need to store all
 
 ## Additional Resources
 
+- [Solution on LeetCode](https://leetcode.com/problems/find-closest-number-to-zero/submissions/1353355243/)
+- [Explanation of Solution on LeetCode](https://leetcode.com/discuss/topic/5627456/find-closest-number-to-zero-solution/)
+- [Personal submissions detail](https://leetcode.com/submissions/detail/1353355243/)
 - [YouTube Explanation](https://www.youtube.com/watch?v=dLlKA5DQKYs)
 - [GitHub - Other Leetcode Solutions](https://github.com/gahogg/Leetcode-Solutions/blob/main/Find%20Closest%20Number%20to%20Zero%20-%20Leetcode%202239)
 
