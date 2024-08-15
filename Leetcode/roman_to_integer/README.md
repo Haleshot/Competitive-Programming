@@ -133,4 +133,5 @@ This solution efficiently handles the subtraction cases (IV, IX, XL, XC, CD, CM)
 - [YouTube Explanation](https://www.youtube.com/watch?v=JlVOzbOJiv0)
 - [GitHub Repository with More Solutions](https://github.com/gahogg/Leetcode-Solutions/blob/main/Is%20Subsequence%20-%20Leetcode%20392)
 
-Note: This problem is part of the algorithm roadmap on [AlgoMap.io](https://algomap.io). Visit the website for more details on the problem-solving roadmap and related concepts.
+> [!NOTE]
+> This problem is part of a larger collection following the roadmap on [algomap.io](https://algomap.io/). For more details and related problems, please refer to the AlgoMap website.
