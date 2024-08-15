@@ -25,7 +25,7 @@ class Solution(object):
 
         for i in range(len(s)):
             print(d[s[i + 1]])
-            if d[s[i]] > d[s[i + 1]]:
+            if d[s[i]] < d[s[i + 1]]:
                 sum += d[s[i + 1]] - d[s[i]]
             sum += d[s[i]]
         return sum
