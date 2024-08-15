@@ -15,18 +15,12 @@ class Solution(object):
             }
         # print(d.keys(), "\n", d.values())
         sum = 0
-        # for i in s:
-        #     temp =  s.index(i) + 1
-        #     print(temp)
-        #     next = s[temp]
-        #     if d[i] > d[next]:
-        #         sum += d[next] - d[i]
-        #     sum += d[i]
-
-        for i in range(len(s) - 1):
-            print(d[s[i + 1]])
-            if d[s[i]] < d[s[i + 1]]:
+        i = 0
+        while i < len(s):
+            if i < len(s) - 1 and d[s[i]] < d[s[i + 1]]:
                 sum += d[s[i + 1]] - d[s[i]]
-            sum += d[s[i]]
+                i += 2
+            else:
+                sum += d[s[i]]
+                i += 1
         return sum
-        
