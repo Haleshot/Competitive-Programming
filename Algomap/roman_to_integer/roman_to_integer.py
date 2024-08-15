@@ -24,3 +24,4 @@ class Solution(object):
                 sum += d[s[i]]
                 i += 1
         return sum
+    
