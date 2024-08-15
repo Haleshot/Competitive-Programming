@@ -131,6 +131,7 @@ This solution efficiently handles the subtraction cases (IV, IX, XL, XC, CD, CM)
 
 - [Solution on LeetCode](https://leetcode.com/problems/roman-to-integer/submissions/1356676550/)
 - [Explanation of Solution on LeetCode](https://leetcode.com/problems/roman-to-integer/solutions/5640909/roman-to-integer-solution)
+- [Personal submissions detail](https://leetcode.com/submissions/detail/1356676550/)
 - [YouTube Explanation](https://www.youtube.com/watch?v=JlVOzbOJiv0)
 - [GitHub Repository with More Solutions](https://github.com/gahogg/Leetcode-Solutions/blob/main/Is%20Subsequence%20-%20Leetcode%20392)
 
