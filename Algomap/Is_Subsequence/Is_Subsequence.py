@@ -14,9 +14,9 @@ class Solution(object):
             if s[i] == t[j]:
                 i += 1
             j += 1
-            
+
         return i == len(s)
-    
+
         # # Step 2:
         # if s == "": return True
         # if len(s) > len(t): return False
