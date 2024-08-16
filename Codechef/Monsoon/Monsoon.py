@@ -1,6 +1,6 @@
 T = int(input())
 while T:
-    T  -= 1
+    T -= 1
     N, M, H = map(int, input().split())
     X = list(map(int, input().split()))
     Y = list(map(int, input().split()))
@@ -15,5 +15,5 @@ while T:
         if X[i] < (Y[i] * H):
             c = c + X[i]
         else:
-            c = c+( Y[i] * H)
+            c = c + (Y[i] * H)
     print(c)

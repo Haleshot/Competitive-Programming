@@ -4,6 +4,7 @@ class Node:
         self.next = None
         self.prev = None
 
+
 def insertNode(head, position, value):
     new_node = Node(value)
     if position == 1:
@@ -27,6 +28,7 @@ def insertNode(head, position, value):
     new_node.prev = current
 
     return head
+
 
 def deleteNode(head, position):
     if not head:
@@ -52,5 +54,3 @@ def deleteNode(head, position):
         current.next.prev = prev_node
 
     return head
-
-    

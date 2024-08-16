@@ -6,12 +6,12 @@ while T:
     s = set(A)
     l = []
     for i in s:
-        if (A.count(i) >= 2):
+        if A.count(i) >= 2:
             l.append(i)
-        if (A.count(i) >= 4):
+        if A.count(i) >= 4:
             l.append(i)
     l.sort()
-    if (len(l) >= 2):
+    if len(l) >= 2:
         print(l[-1] * l[-2])
     else:
         print(-1)

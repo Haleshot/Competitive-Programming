@@ -14,5 +14,5 @@ while T > 0:
             else:
                 l_2.append(0)
         for i in l_2:
-            print(i, end = "")
+            print(i, end="")
         print()

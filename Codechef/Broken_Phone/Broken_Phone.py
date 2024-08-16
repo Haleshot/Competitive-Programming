@@ -4,7 +4,7 @@ while T:
     X, Y = map(int, input().split())
     if X < Y:
         print("REPAIR")
-    elif (X > Y):
+    elif X > Y:
         print("NEW PHONE")
     else:
         print("ANY")

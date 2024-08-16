@@ -1,4 +1,5 @@
 import numpy as np
+
 T = int(input())
 while T:
     T -= 1
@@ -11,7 +12,7 @@ while T:
     for i in range(1, len(B)):
         g = np.gcd(g, B[i])
     for i in range(len(B)):
-        C.append(B[i]//g)
+        C.append(B[i] // g)
     for i in range(len(C)):
-        print(C[i], end = ' ')
+        print(C[i], end=" ")
     print()

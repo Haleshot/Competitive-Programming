@@ -6,6 +6,6 @@ while T:
     for i in range(B):
         b1 = int(input())
         if b1 in A1:
-            print('Found')
+            print("Found")
         else:
-            print('Not Found')  
+            print("Not Found")

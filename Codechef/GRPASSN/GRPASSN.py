@@ -6,7 +6,7 @@ while T:
     groups = set(P)
     for g in groups:
         if P.count(g) % g != 0:
-            print('NO')
+            print("NO")
             break
     else:
-        print('YES')
+        print("YES")

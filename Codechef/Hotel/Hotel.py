@@ -17,5 +17,5 @@ while T:
             current -= 1
         if current > maximum:
             maximum = current
-            
+
     print(maximum)

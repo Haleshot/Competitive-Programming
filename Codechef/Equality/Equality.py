@@ -5,5 +5,5 @@ while T:
     A = list(map(int, input().split()))
     S = sum(A) // (N - 1)
     for i in A:
-        print(S - i, end = " ")
+        print(S - i, end=" ")
     print()

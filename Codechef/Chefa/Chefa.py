@@ -6,6 +6,6 @@ while T:
     L.sort(reverse=True)
     s = 0
     for i in range(N):
-        if (i % 2 == 0):
+        if i % 2 == 0:
             s += L[i]
     print(s)

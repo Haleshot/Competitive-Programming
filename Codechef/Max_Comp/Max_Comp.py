@@ -9,5 +9,7 @@ while T:
         V[S][E] = max(V[S][E], C)
     for end in range(49):
         for begin in range(end):
-            maximum_list[end] = max(maximum_list[end], V[begin][end] + maximum_list[begin])
+            maximum_list[end] = max(
+                maximum_list[end], V[begin][end] + maximum_list[begin]
+            )
     print(maximum_list[48])

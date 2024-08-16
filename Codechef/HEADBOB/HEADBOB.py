@@ -11,9 +11,9 @@ while T:
             c2 += 1
         elif S[i] == "I":
             c3 += 1
-    if (c2 == N):
+    if c2 == N:
         print("NOT SURE")
-    elif (c1 > 0):
+    elif c1 > 0:
         print("NOT INDIAN")
-    elif (c3 > 0):
+    elif c3 > 0:
         print("INDIAN")

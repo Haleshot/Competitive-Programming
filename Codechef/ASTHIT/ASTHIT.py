@@ -3,7 +3,7 @@ while T:
     T -= 1
     n = int(input())
     dir = []
-    pow = [] 
+    pow = []
     for i in range(n):
         ele1, ele2 = list(map(int, input().split()))
         dir.append(ele1)
@@ -23,11 +23,11 @@ while T:
                 else:
                     pow[stack[-1]] += pow[i]
             else:
-                a.append(i)         
+                a.append(i)
     while stack:
         a.append(stack.pop())
     a.sort()
     print(len(a))
     if len(a) > 0:
         for i in a:
-            print(i + 1, end = " ")
+            print(i + 1, end=" ")

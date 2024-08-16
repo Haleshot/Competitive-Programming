@@ -1,4 +1,5 @@
 from collections import Counter
+
 T = int(input())
 while T:
     T -= 1
@@ -8,7 +9,7 @@ while T:
     L1 = [i for i in L.values()]
     # print(L1)
     m = max(L1)
-    if (L1.count(m) == 1):
+    if L1.count(m) == 1:
         print("YES")
     else:
         print("NO")

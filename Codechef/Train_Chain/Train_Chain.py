@@ -7,7 +7,7 @@ while T:
     B = l.count("B")
     AB = l.count("AB")
     O = l.count("O")
-    if (A >= B):
+    if A >= B:
         print(A + AB + O)
     else:
         print(B + AB + O)

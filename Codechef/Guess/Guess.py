@@ -19,4 +19,4 @@ while T:
     if l % 2 == 0:
         print("1/2")
     else:
-        print(str(l // 2), "/", str(l), sep='')
+        print(str(l // 2), "/", str(l), sep="")

@@ -11,6 +11,6 @@ while T:
 
     elif (B + C) <= D and A <= E:
         print("YES")
-    
+
     else:
         print("NO")

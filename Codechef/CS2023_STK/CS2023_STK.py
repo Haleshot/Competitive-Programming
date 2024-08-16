@@ -13,14 +13,14 @@ while T:
             om_count += 1
         else:
             om_count = 0
-            
+
         if B[i] != 0:
             addy_count += 1
         else:
             addy_count = 0
         om_streak = max(om_count, om_streak)
         addy_streak = max(addy_count, addy_streak)
-        
+
     if om_streak > addy_streak:
         print("Om")
     elif om_streak < addy_streak:

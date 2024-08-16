@@ -10,11 +10,11 @@ while T:
             f = False
         if L[i] > G[N - i - 1]:
             b = False
-    if (f and b):
+    if f and b:
         print("both")
-    elif (f):
+    elif f:
         print("front")
-    elif (b):
+    elif b:
         print("back")
     else:
         print("none")

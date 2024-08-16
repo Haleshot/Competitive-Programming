@@ -1,6 +1,6 @@
 T = int(input())
 while T:
-    T-= 1
+    T -= 1
     N = int(input())
     if N % 5 == 0:
         temp = int(N / 5)

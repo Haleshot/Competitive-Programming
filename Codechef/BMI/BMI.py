@@ -2,7 +2,7 @@ T = int(input())
 while T:
     T -= 1
     M, H = map(int, input().split())
-    result = M/H**2
+    result = M / H**2
     if result <= 18:
         print(1)
     elif result >= 19 and result <= 24:

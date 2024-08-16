@@ -11,9 +11,9 @@ while T:
             c1 += A
         else:
             c2 += B
-    if (c1 > c2):
+    if c1 > c2:
         print("SARTHAK")
-    elif (c1 < c2):
+    elif c1 < c2:
         print("ANURADHA")
     else:
         print("DRAW")

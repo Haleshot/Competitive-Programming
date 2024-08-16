@@ -1,4 +1,4 @@
-T  = int(input())
+T = int(input())
 while T:
     T -= 1
     A, B, X = map(int, input().split())
@@ -6,6 +6,6 @@ while T:
     while True:
         A += X
         c += 1
-        if (A == B):
+        if A == B:
             print(c)
             break

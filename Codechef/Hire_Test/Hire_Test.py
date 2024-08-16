@@ -6,10 +6,10 @@ while T:
     inp = []
     for i in range(N):
         inp.append(input())
-    s = ''
+    s = ""
     for i in inp:
-        if (i.count("F") >= X or (i.count("F") >= (X - 1) and i.count("P") >= Y)):
-            s += '1'
+        if i.count("F") >= X or (i.count("F") >= (X - 1) and i.count("P") >= Y):
+            s += "1"
         else:
-            s += '0'
+            s += "0"
     print(s)

@@ -9,7 +9,7 @@ while T:
     S = []
     B = reversed(A)
     for i in B:
-        P = bisect_left(D ,i)
+        P = bisect_left(D, i)
         if P == len(D):
             D.append(i)
         else:
@@ -24,4 +24,4 @@ while T:
         else:
             D[P] = i
         R = max(R, len(D) + S.pop() - 1)
-    print(R)    
+    print(R)

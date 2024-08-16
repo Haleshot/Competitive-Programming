@@ -1,5 +1,6 @@
 import collections
-T  = int(input())
+
+T = int(input())
 while T:
     T -= 1
     N = int(input())

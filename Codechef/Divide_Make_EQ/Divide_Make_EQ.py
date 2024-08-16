@@ -1,4 +1,5 @@
 from math import gcd
+
 T = int(input())
 while T:
     T -= 1

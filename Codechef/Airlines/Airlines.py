@@ -3,7 +3,7 @@ while T:
     T -= 1
     X, Y, Z = map(int, input().split())
     limit = 10 * X
-    if (limit < Y):
+    if limit < Y:
         print(limit * Z)
     else:
         print(Y * Z)

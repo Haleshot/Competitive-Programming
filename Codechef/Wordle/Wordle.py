@@ -6,6 +6,6 @@ while Test:
     T = input()
     for i in range(5):
         if S[i] == T[i]:
-            print("G", end = '')
+            print("G", end="")
         else:
-            print("B", end = '')
+            print("B", end="")

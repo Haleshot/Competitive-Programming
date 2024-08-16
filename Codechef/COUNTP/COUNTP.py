@@ -5,9 +5,9 @@ while T:
     A = list(map(int, input().split()))
     F, C = 0, 0
     for i in A:
-        if(i % 2 == 1):
+        if i % 2 == 1:
             C += 1
-    if(C % 2 == 1 or C == 0):
-        print('NO')
+    if C % 2 == 1 or C == 0:
+        print("NO")
     else:
-        print('YES')
+        print("YES")

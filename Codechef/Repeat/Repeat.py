@@ -18,6 +18,6 @@ while T:
     N, K, S = map(int, input().split())
     c = 0
     for i in range(2 * N + 1):
-        if (i % 2 == 1):
+        if i % 2 == 1:
             c += i
-    print(int((S - c)/(K - 1)))
+    print(int((S - c) / (K - 1)))

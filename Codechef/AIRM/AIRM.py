@@ -11,7 +11,7 @@ while T:
             d[i] = 1
         else:
             d[i] += 1
-    
+
     c = 0
     for i in d:
         if d[i] > c:

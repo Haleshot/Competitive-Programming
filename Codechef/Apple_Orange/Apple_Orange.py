@@ -1,8 +1,9 @@
 def hcf(a, b):
-    if (b == 0):
+    if b == 0:
         return abs(a)
     else:
         return hcf(b, a % b)
+
 
 T = int(input())
 while T:

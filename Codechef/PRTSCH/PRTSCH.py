@@ -5,8 +5,8 @@ while T:
     A = set(list(map(int, input().split())))
     B = list(map(int, input().split()))
     for i in range(M):
-        if(B[i] in A):
-            print("Yes", end = " ")
+        if B[i] in A:
+            print("Yes", end=" ")
         else:
-            print("No", end = " ")
+            print("No", end=" ")
     print()

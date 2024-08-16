@@ -3,7 +3,7 @@ for _ in range(int(input())):
     S = list(input())
     z_c = S.count("0")
     o_c = S.count("1")
-    
+
     if o_c == z_c:
         print(N)
     else:

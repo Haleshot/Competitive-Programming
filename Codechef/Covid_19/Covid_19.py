@@ -1,6 +1,6 @@
 T = int(input())
 while T:
-    T -= 1 
+    T -= 1
     N = int(input())
     X = list(map(int, input().split()))
     final_worst, final_best = 1, 1

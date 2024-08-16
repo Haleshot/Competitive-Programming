@@ -1,4 +1,5 @@
 from statistics import mode
+
 T = int(input())
 while T:
     T -= 1

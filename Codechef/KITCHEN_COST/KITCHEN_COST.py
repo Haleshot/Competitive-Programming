@@ -6,6 +6,6 @@ while T:
     B = list(map(int, input().split()))
     c = 0
     for i in range(N):
-        if(A[i] >= X):
+        if A[i] >= X:
             c += B[i]
     print(c)

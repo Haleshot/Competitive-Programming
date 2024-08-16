@@ -5,10 +5,10 @@ while T:
     balance = 0
     max_balance = 0
     for i in range(len(A)):
-        if A[i] == '(':
+        if A[i] == "(":
             balance += 1
-        if A[i] == ')':
-                balance -= 1
-	    
+        if A[i] == ")":
+            balance -= 1
+
         max_balance = max(max_balance, balance)
-    print("("*max_balance+")"*max_balance)
+    print("(" * max_balance + ")" * max_balance)

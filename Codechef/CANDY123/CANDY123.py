@@ -6,11 +6,11 @@ while T:
     for i in range(1, 1000):
         if i % 2 == 1:
             A = A - i
-            if(A < 0):
+            if A < 0:
                 print("Bob")
                 break
         else:
             B = B - i
-            if(B < 0):
+            if B < 0:
                 print("Limak")
                 break

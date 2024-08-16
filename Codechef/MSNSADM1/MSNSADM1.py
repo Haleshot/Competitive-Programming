@@ -7,6 +7,6 @@ while T:
     sum = [] * N
     for i in range(N):
         sum.append((20 * A[i]) - (10 * B[i]))
-        if (sum[i] < 0):
+        if sum[i] < 0:
             sum[i] = 0
     print(max(sum))

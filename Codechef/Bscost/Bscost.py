@@ -7,7 +7,7 @@ while T:
     if X < Y:
         l.sort()
     else:
-        l.sort(reverse=True) # Sorting by 1
+        l.sort(reverse=True)  # Sorting by 1
     c1 = 0
     c2 = 0
     for i in range(len(l) - 1):

@@ -14,6 +14,7 @@ def find_starting_position(arr, x):
             right = mid - 1
     return start_pos
 
+
 def find_ending_position(arr, x):
     left, right = 0, len(arr) - 1
     end_pos = -1
@@ -29,6 +30,7 @@ def find_ending_position(arr, x):
         else:
             right = mid - 1
     return end_pos
+
 
 def process_queries(N, Q, arr, queries):
     updated_arr = list(arr)
@@ -47,6 +49,7 @@ def process_queries(N, Q, arr, queries):
                 print("-1")
             else:
                 print(start_pos + 1, end_pos + 1)
+
 
 T = int(input())
 for _ in range(T):

@@ -4,7 +4,7 @@ while T:
     N = int(input())
     A = []
     for j in range(N):
-        M = list(map(int,input().split()))
+        M = list(map(int, input().split()))
         A.append(M)
     for j in range(N - 2, -1, -1):
         for k in range(0, j + 1):

@@ -10,4 +10,3 @@ while T:
         print("Unfilled")
     if total == X:
         print("Filled")
-

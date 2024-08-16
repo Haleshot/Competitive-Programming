@@ -1,5 +1,6 @@
 def calc(n):
-    return round(((0.143 * n)**n))
+    return round(((0.143 * n) ** n))
+
 
 T = int(input())
 while T:

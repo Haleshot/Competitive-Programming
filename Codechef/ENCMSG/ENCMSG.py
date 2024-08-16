@@ -3,11 +3,11 @@ while T:
     T -= 1
     N = int(input())
     S = input()
-    FS = ''
+    FS = ""
     i = 0
     S = list(S)
     while i < N - 1:
-        j = ''
+        j = ""
         j += S[i]
         S[i] = S[i + 1]
         S[i + 1] = j

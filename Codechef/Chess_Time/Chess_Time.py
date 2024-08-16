@@ -3,4 +3,4 @@ while T:
     T -= 1
     N = int(input())
     N *= 60
-    print(int(N/20))
+    print(int(N / 20))

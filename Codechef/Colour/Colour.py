@@ -12,7 +12,7 @@ while T:
 
     if Z > 0:
         c += 1
-    
+
     X_remain = X - 1
     Y_remain = Y - 1
     Z_remain = Z - 1

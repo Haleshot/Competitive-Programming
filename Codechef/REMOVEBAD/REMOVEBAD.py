@@ -1,4 +1,5 @@
 from collections import Counter
+
 T = int(input())
 while T:
     T -= 1
