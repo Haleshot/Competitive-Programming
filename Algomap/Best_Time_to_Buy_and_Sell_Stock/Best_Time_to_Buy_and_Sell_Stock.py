@@ -4,4 +4,3 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        
