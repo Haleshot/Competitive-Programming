@@ -4,27 +4,15 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        # for i in strs:
-        #     c = 0
-        #     long_com_pre = ""
-        #     flag = True
-        #     while flag:
-        #         long_com_pre += i[c]
-        #         other = [j for j in strs[strs.index(i):strs]]
-        #         if long_com_pre in others:
-        #             continue
-        #         else:
-        #             flag = False
-        #             break
-        #         c += 1
-        # return long_com_pre
+        # # Step 1
+        ans = ""
+        strs = sorted(strs)
+        min_len, max_len = strs[0], strs[-1]
+        for i in range(min(len(min_len), len(max_len))):
+            if min_len[i] != max_len[i]:
+                return ans
+            ans += min_len[i]
+        return ans
     
-        log = ["flower", "flight", "flowing", "flight", "floom"]
-        if "f" in log:
-            print("True")
-        else:
-            print("False")
-
-param1 = ["flower","flow","flight"]
-   
-Solution.longestCommonPrefix(param1)
+        # # Step 2:
+        
