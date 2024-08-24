@@ -1,105 +1,126 @@
-# Is Subsequence (Easy)
+# Longest Common Prefix (Easy)
 
 ## Table of Contents
 
 - [Problem Statement](#problem-statement)
 - [Examples](#examples)
 - [Constraints](#constraints)
-- [Follow-up](#follow-up)
 - [Solutions](#solutions)
-  - [Two-Pointer Approach](#two-pointer-approach)
-- [Code Explanation](#code-explanation)
+  - [Solution 1: Sorting Approach](#solution-1-sorting-approach)
+  - [Solution 2: Character-by-Character Comparison](#solution-2-character-by-character-comparison)
 - [Complexity Analysis](#complexity-analysis)
-- [Related Resources](#related-resources)
+- [Code Explanation](#code-explanation)
+- [Additional Resources](#additional-resources)
 
 ## Problem Statement
 
-[Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+[Longest Common Prefix - LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)
 
-Given two strings `s` and `t`, return `true` if `s` is a subsequence of `t`, or `false` otherwise.
+Write a function to find the longest common prefix string amongst an array of strings.
 
-A **subsequence** of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., `"ace"` is a subsequence of `"abcde"` while `"aec"` is not).
+If there is no common prefix, return an empty string "".
 
 ## Examples
 
 ### Example 1:
 
 ```
-Input: s = "abc", t = "ahbgdc"
-Output: true
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
 ```
 
 ### Example 2:
 
 ```
-Input: s = "axc", t = "ahbgdc"
-Output: false
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
 ```
 
 ## Constraints
 
-- 0 ≤ s.length ≤ 100
-- 0 ≤ t.length ≤ 10^4
-- `s` and `t` consist only of lowercase English letters.
-
-## Follow-up
-
-Suppose there are lots of incoming `s`, say $s_1, s_2, ..., s_k$ where $k \geq 10^9$, and you want to check one by one to see if `t` has its subsequence. In this scenario, how would you change your code?
+- $$1 \leq \text{strs.length} \leq 200$$
+- $$0 \leq \text{strs[i].length} \leq 200$$
+- $$\text{strs[i]}$$ consists of only lowercase English letters.
 
 ## Solutions
 
-### Two-Pointer Approach
+### Solution 1: Sorting Approach
 
 ```python
 class Solution(object):
-    def isSubsequence(self, s, t):
+    def longestCommonPrefix(self, strs):
         """
-        :type s: str
-        :type t: str
-        :rtype: bool
+        :type strs: List[str]
+        :rtype: str
         """
-        # Step 1
-        if not s:
-            return True
-
-        i, j = 0, 0
-        while i < len(s) and j < len(t):
-            if s[i] == t[j]:
-                i += 1
-            j += 1
-            
-        return i == len(s)
+        ans = ""
+        strs = sorted(strs)
+        min_len, max_len = strs[0], strs[-1]
+        for i in range(min(len(min_len), len(max_len))):
+            if min_len[i] != max_len[i]:
+                return ans
+            ans += min_len[i]
+        return ans
 ```
 
-## Code Explanation
+### Solution 2: Character-by-Character Comparison
 
-The solution uses a two-pointer approach to solve the problem efficiently:
+```python
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        min_length = float('inf')
 
-1. First, we check if the string `s` is empty. If it is, we return `True` because an empty string is always a subsequence of any string.
-
-2. We initialize two pointers, `i` for string `s` and `j` for string `t`.
-
-3. We iterate through both strings simultaneously:
-   - If the characters at `s[i]` and `t[j]` match, we move the `i` pointer forward.
-   - Regardless of whether there's a match or not, we always move the `j` pointer forward.
-
-4. We continue this process until we reach the end of either `s` or `t`.
-
-5. Finally, we check if `i` has reached the end of `s`. If it has, it means we've found all characters of `s` in `t` in the correct order, so we return `True`. Otherwise, we return `False`.
-
-This approach ensures that we only need to traverse both strings once, making it an efficient solution.
+        for s in strs:
+            if len(s) < min_length:
+                min_length = len(s)
+        
+        i = 0
+        while i < min_length:
+            for s in strs:
+                if s[i] != strs[0][i]:
+                    return s[:i]
+            i += 1
+        
+        return strs[0][:i]
+```
 
 ## Complexity Analysis
 
-- Time Complexity: O(T), where T is the length of string `t`. In the worst case, we might need to iterate through the entire string `t`.
-- Space Complexity: O(1), as we only use two pointers and don't require any additional data structures that grow with input size.
+### Solution 1: Sorting Approach
+- Time Complexity: $$O(N \log N + M)$$, where $$N$$ is the number of strings and $$M$$ is the length of the longest string.
+- Space Complexity: $$O(1)$$ (ignoring the space used for sorting)
 
-## Related Resources
+### Solution 2: Character-by-Character Comparison
+- Time Complexity: $$O(S)$$, where $$S$$ is the sum of all characters in all strings.
+- Space Complexity: $$O(1)$$
 
-- [YouTube Explanation](https://www.youtube.com/watch?v=M_OB20n4hfo)
-- [GitHub Implementation](https://github.com/gahogg/Leetcode-Solutions/blob/main/Is%20Subsequence%20-%20Leetcode%20392)
-- [LeetCode Submission](https://leetcode.com/submissions/detail/1357387663/)
-- [LeetCode Solution Explanation](https://leetcode.com/problems/is-subsequence/solutions/5643649/is-subsequence-solution)
+## Code Explanation
+
+### Solution 1: Sorting Approach
+
+1. Sort the array of strings lexicographically.
+2. Compare the first and last strings in the sorted array.
+3. The longest common prefix will be the common prefix of these two strings.
+
+### Solution 2: Character-by-Character Comparison
+
+1. Find the length of the shortest string in the array.
+2. Iterate through the characters of the first string up to the length of the shortest string.
+3. For each character, compare it with the corresponding character in all other strings.
+4. If a mismatch is found, return the prefix up to that point.
+5. If no mismatch is found, return the entire shortest string as the longest common prefix.
+
+## Additional Resources
+
+- [YouTube Explanation - Algomap](https://www.youtube.com/watch?v=8C6F8_nM0qs)
+- [GitHub - Leetcode Solutions](https://github.com/gahogg/Leetcode-Solutions/blob/main/Longest%20Common%20Prefix%20-%20Leetcode%2014/Longest%20Common%20Prefix%20-%20Leetcode%2014.py)
+- [LeetCode Solution Explanation](https://leetcode.com/problems/longest-common-prefix/solutions/5684830/solution/)
+- [Personal Submission Details](https://leetcode.com/submissions/detail/1366878699/)
 
 > [!NOTE]
 > This problem is part of a larger collection following the roadmap on [algomap.io](https://algomap.io/). For more details and related problems, please refer to the AlgoMap website.
