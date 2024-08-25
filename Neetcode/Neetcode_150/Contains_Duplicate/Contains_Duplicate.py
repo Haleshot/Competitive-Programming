@@ -21,7 +21,7 @@ class Solution:
         result = [i for i in d.values() if i > 1]
         # print(result)
         return len(result) >= 1
-    
+
 
 # Leetcode
 class Solution(object):
