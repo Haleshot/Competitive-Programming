@@ -10,6 +10,7 @@ class Solution:
             countT[t[i]] = countT.get(t[i], 0) + 1
         return countS == countT
 
+
 # Leetcode
 class Solution(object):
     def isAnagram(self, s, t):
@@ -18,5 +19,3 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        
-        
