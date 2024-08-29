@@ -6,7 +6,7 @@
 - [Examples](#examples)
 - [Constraints](#constraints)
 - [Solutions](#solutions)
-  - [Approach 1: Brute Force (Time Limit Exceeded)](#approach-1-brute-force-time-limit-exceeded)
+  - [Approach 1: Brute Force](#approach-1-brute-force)
   - [Approach 2: Hash Map](#approach-2-hash-map)
 - [Complexity Analysis](#complexity-analysis)
 - [Code Explanation](#code-explanation)
@@ -53,7 +53,7 @@ Output: [0,1]
 
 ## Solutions
 
-### Approach 1: Brute Force (Time Limit Exceeded)
+### Approach 1: Brute Force
 
 ```python
 class Solution:
