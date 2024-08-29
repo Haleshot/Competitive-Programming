@@ -113,4 +113,6 @@ This method separates the process into two loops: one for counting the character
 - [LeetCode Solution Discussion](https://leetcode.com/problems/valid-anagram/solutions/5699383/solution)
 - [Personal Submission](https://leetcode.com/submissions/detail/1370348068/)
 
-> **Note:** This problem is part of a collection that helps you understand anagrams and string manipulation techniques. Check out the [Neetcode Roadmap](https://neetcode.io/roadmap) for more problems and detailed solutions.
+> [!NOTE]
+> This problem is part of a larger collection following the roadmap on [Neetcode Roadmap](https://neetcode.io/roadmap). For more details and related problems, please refer to the Neetcode.io website.
+
