@@ -9,7 +9,7 @@ class Solution:
         #         if nums[i] + nums[j] == target:
         #             if nums.index(nums[i]) == nums.index(nums[j]):
         #                 return [nums.index(nums[i]), nums.index(nums[j], i + 1, len(nums))]
-        #             return [nums.index(nums[i]), nums.index(nums[j])]                    
+        #             return [nums.index(nums[i]), nums.index(nums[j])]
 
         # # Step 2
         seenMap = {}
@@ -19,7 +19,7 @@ class Solution:
                 return [seenMap[remain], i]
             seenMap[nums[i]] = i
         return nums
-            
+
 
 # Leetcode:
 class Solution(object):
@@ -37,7 +37,7 @@ class Solution(object):
         #         if nums[i] + nums[j] == target:
         #             if nums.index(nums[i]) == nums.index(nums[j]):
         #                 return [nums.index(nums[i]), nums.index(nums[j], i + 1, len(nums))]
-        #             return [nums.index(nums[i]), nums.index(nums[j])]   
+        #             return [nums.index(nums[i]), nums.index(nums[j])]
 
         # # Step 2
         seenMap = {}
