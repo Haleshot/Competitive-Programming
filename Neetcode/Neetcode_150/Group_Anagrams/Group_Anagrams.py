@@ -4,14 +4,14 @@ class Solution:
 
         # # Step 1
         # anagrams = defaultdict(list)  # Initialize a dictionary to hold lists of anagrams
-        
+
         # # Iterate over each word in the list
         # for word in strs:
         #     # Sort the characters of the word to use as the key
         #     sorted_word = ''.join(sorted(word))
         #     # Group anagrams together using the sorted word as the key
         #     anagrams[sorted_word].append(word)
-        
+
         # # Convert the dictionary values (which are lists of anagrams) to a list of lists
         # return list(anagrams.values())
 
@@ -35,14 +35,14 @@ class Solution(object):
         """
         # # Step 1
         # anagrams = defaultdict(list)  # Initialize a dictionary to hold lists of anagrams
-        
+
         # # Iterate over each word in the list
         # for word in strs:
         #     # Sort the characters of the word to use as the key
         #     sorted_word = ''.join(sorted(word))
         #     # Group anagrams together using the sorted word as the key
         #     anagrams[sorted_word].append(word)
-        
+
         # # Convert the dictionary values (which are lists of anagrams) to a list of lists
         # return list(anagrams.values())
 
@@ -55,4 +55,3 @@ class Solution(object):
                 count[ord(c) - ord("a")] += 1
             ans[tuple(count)].append(s)
         return ans.values()
-
