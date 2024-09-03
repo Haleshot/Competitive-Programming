@@ -12,6 +12,7 @@ class Solution:
                     print(i[j])
         return results
 
+
 # Leetcode
 class Solution(object):
     def groupAnagrams(self, strs):
@@ -19,4 +20,3 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        
