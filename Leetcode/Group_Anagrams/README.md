@@ -1,4 +1,4 @@
-# Group Anagrams (Medium)
+# Anagram Groups (Medium)
 
 ## Table of Contents
 
@@ -6,8 +6,8 @@
 - [Examples](#examples)
 - [Constraints](#constraints)
 - [Solutions](#solutions)
-  - [Approach 1: Using Sorted Strings as Keys](#approach-1-using-sorted-strings-as-keys)
-  - [Approach 2: Hash Map with Character Count as Key](#approach-2-hash-map-with-character-count-as-key)
+  - [Approach 1: Sorting Characters](#approach-1-sorting-characters)
+  - [Approach 2: Character Count](#approach-2-character-count)
 - [Complexity Analysis](#complexity-analysis)
 - [Code Explanation](#code-explanation)
 - [Related Resources](#related-resources)
@@ -49,58 +49,57 @@ Output: [["a"]]
 
 ## Solutions
 
-### Approach 1: Using Sorted Strings as Keys
+### Approach 1: Sorting Characters
 
 ```python
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        if len(nums) == 2:
-            return [0, 1]
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                if nums[i] + nums[j] == target:
-                    if nums.index(nums[i]) == nums.index(nums[j]):
-                        return [nums.index(nums[i]), nums.index(nums[j], i + 1, len(nums))]
-                    return [nums.index(nums[i]), nums.index(nums[j])]
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        anagrams = defaultdict(list)
+        for word in strs:
+            sorted_word = ''.join(sorted(word))
+            anagrams[sorted_word].append(word)
+        return list(anagrams.values())
 ```
 
-### Approach 2: Hash Map with Character Count as Key
+### Approach 2: Character Count
 
 ```python
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        seenMap = {}
-        for i in range(len(nums)):
-            remain = target - nums[i]
-            if remain in seenMap:
-                return [seenMap[remain], i]
-            seenMap[nums[i]] = i
-        return nums
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        ans = collections.defaultdict(list)
+        for s in strs:
+            count = [0] * 26
+            for c in s:
+                count[ord(c) - ord("a")] += 1
+            ans[tuple(count)].append(s)
+        return ans.values()
 ```
 
 ## Complexity Analysis
 
-### Approach 1:
-- Time Complexity: $O(N * M * \log(M))$, where N is the number of strings and M is the maximum length of a string.
+### Approach 1: Sorting Characters
+- Time Complexity: $O(N * M * log(M))$, where N is the number of strings and M is the maximum length of a string.
 - Space Complexity: $O(N * M)$
 
-### Approach 2:
+### Approach 2: Character Count
 - Time Complexity: $O(N * M)$, where N is the number of strings and M is the maximum length of a string.
 - Space Complexity: $O(N * M)$
 
 ## Code Explanation
 
-### Approach 1: Using Sorted Strings as Keys
-This approach involves sorting each string and using the sorted string as a key in a dictionary. 
+### Approach 1: Sorting Characters
+1. We use a defaultdict to group anagrams.
+2. For each word, we sort its characters to create a key.
+3. We append the original word to the list associated with its sorted key.
+4. Finally, we return the values of the dictionary as a list of lists.
 
-### Approach 2: Hash Map with Character Count as Key
-This solution uses a hash map to group anagrams:
-1. We iterate through each string in the input array.
-2. For each string, we create a key by counting the occurrences of each character.
-3. We use this count as a key in our hash map. The value is a list of all strings that have the same character count.
-4. Finally, we return the values of the hash map, which are the grouped anagrams.
-
-This approach is efficient and passes on both Neetcode.io and LeetCode.
+### Approach 2: Character Count
+1. We use a defaultdict to group anagrams.
+2. For each word, we create a count array of length 26 (for lowercase English letters).
+3. We count the occurrences of each character in the word.
+4. We use the tuple of this count array as a key to group anagrams.
+5. We append the original word to the list associated with its count key.
+6. Finally, we return the values of the dictionary.
 
 ## Related Resources
 
