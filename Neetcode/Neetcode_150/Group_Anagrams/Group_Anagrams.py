@@ -11,3 +11,12 @@ class Solution:
                 if i[j] == i[j + 1]:
                     print(i[j])
         return results
+
+# Leetcode
+class Solution(object):
+    def groupAnagrams(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: List[List[str]]
+        """
+        
