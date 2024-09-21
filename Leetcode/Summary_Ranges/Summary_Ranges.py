@@ -4,6 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[str]
         """
+        # # Step 1
         result, i = [], 0
         while i < len(nums):
             start = nums[i]
