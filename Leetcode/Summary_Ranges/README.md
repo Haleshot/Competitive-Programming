@@ -7,6 +7,7 @@
 - [Constraints](#constraints)
 - [Solutions](#solutions)
   - [Approach 1: Iterative Range Building](#approach-1-iterative-range-building)
+  - [Approach 2: Grouping Consecutive Numbers](#approach-2-grouping-consecutive-numbers)
 - [Code Explanation](#code-explanation)
 - [Complexity Analysis](#complexity-analysis)
 - [Related Resources](#related-resources)
