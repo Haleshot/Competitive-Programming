@@ -4,7 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[str]
         """
-        # # Step 1
         result, i = [], 0
         while i < len(nums):
             start = nums[i]
@@ -16,3 +15,12 @@ class Solution(object):
                 result.append(str(nums[i]))
             i += 1
         return result
+
+        # # Step 2
+        # ranges, r = [], []
+        # for num in nums:
+        #     if num - 1 not in r:
+        #         r = []
+        #         ranges.append(r),
+        #     r[1 :] = num,
+        # return ["->".join(map(str, r)) for r in ranges]
