@@ -94,7 +94,7 @@ class Solution(object):
         for num in nums:
             if num - 1 not in r:
                 r = []
-                ranges.append(r)
+                ranges.append(r),
             r[1:] = num,
         return ["->".join(map(str, r)) for r in ranges]
 ```
