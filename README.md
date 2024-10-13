@@ -37,4 +37,5 @@ If you would like to contribute to this repository, follow these steps:
 2. Make the desired changes (add/delete/modify)
 3. Create a pull request
 
-Feel free to explore the problem solutions and contribute to make this repository more comprehensive.
+> [!NOTE]
+> Feel free to explore the problem solutions and contribute to make this repository more comprehensive.
