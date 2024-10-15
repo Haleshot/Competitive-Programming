@@ -27,6 +27,6 @@ If you're interested in contributing to this repository by adding more problems,
 
 ## Acknowledgements
 
-A big thank you to Codechef for the intriguing problemset that hones our competitive programming skills.
+A big thank you to [Codechef](https://www.codechef.com/dashboard) for the intriguing problemset that hones our competitive programming skills.
 
 Happy Coding!
