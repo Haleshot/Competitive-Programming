@@ -16,7 +16,7 @@ The repository is organized with the following table, showcasing the problem sol
 | 1             | [Codechef](https://codechef.com/)                 | Python, Java, C++ | [Link to Codechef Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Codechef)   |
 | 2             | [Hackerrank](https://hackerrank.com/)             | Python, Java, C++ | [Link to Hackerrank Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Hackerrank) |
 | 3             | [Leetcode](https://leetcode.com/)                 | Python, Java, C++ | [Link to Leetcode Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Leet_Code) |
-| 3             | [Neetcode](https://neetcode.io/)                 | Python, Java, C++ | [Link to Leetcode Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Neetcode) |
+| 3             | [Neetcode](https://neetcode.io/)                 | Python, Java, C++ | [Link to Neetcode Repository](https://github.com/Haleshot/Competitive-Programming/tree/master/Neetcode) |
 
 
 ## Platforms for CP Training
